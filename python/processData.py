@@ -5,12 +5,16 @@ import json
 allDrivers = {}
 allKarts = {}
 allGliders = {}
+allCourses = { 'courses': []}
 
 # Load data
 df = pd.read_csv("MKT-DATA.csv")
 dfDrivers = pd.read_csv("MKT-Drivers.csv")
 dfKarts = pd.read_csv("MKT-Karts.csv")
 dfGliders = pd.read_csv("MKT-Gliders.csv")
+dfCourses = pd.read_csv("MKT-Courses.csv")
+print(dfCourses.head(5))
+print(allCourses['courses'])
 
 # Populate drivers dictionary
 for _, row in dfDrivers.iterrows():
@@ -23,6 +27,11 @@ for _, row in dfKarts.iterrows():
 # Populate gliders dictionary
 for _, row in dfGliders.iterrows():
     allGliders[row["glider"]] = {'skill': row["skill"], 'rarity': row['rarity']}
+
+# Populate courses dictionary
+for _, row in dfCourses.iterrows():
+    if row['course'] not in allCourses['courses']:
+        allCourses['courses'].append(row['course'])
 
 # Filter rows with non-null 'Top Shelf'
 df_filtered = df.dropna(subset=['Top Shelf'])
@@ -52,3 +61,6 @@ with open("karts_data.json", "w") as outfile:
 
 with open("gliders_data.json", "w") as outfile:
     json.dump(allGliders, outfile, indent=4)
+
+with open("courses_data.json", "w") as outfile:
+    json.dump(allCourses, outfile, indent=4)
