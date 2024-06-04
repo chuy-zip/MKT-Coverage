@@ -8,6 +8,15 @@ def addFavoriteCourseToItem(itemName, itemList, favorite_course):
             item.setdefault('favorite_courses', []).append(favorite_course)
             return True
         
+def markItemOwnership(itemName, itemList, myData, index, type, owned):
+    for item in itemList:
+        if item["name"] == itemName:
+            Ntype = type[:-1]
+            myData[type].append( {'id': index + 1, 'name': itemName, 'type': Ntype, 'owned': owned} )
+            return True
+    
+    return False
+        
 # Initialize dictionaries
 allDrivers = []
 allKarts = []
@@ -77,40 +86,37 @@ with open("gliders_data.json", "w") as outfile:
 with open("courses_data.json", "w") as outfile:
     json.dump(allCourses, outfile, indent=4)
 
+###############
+#The next code is for processing Data of an account
 
-# ###############
-# #The next code is for processingData of an account
+output_directory = "example"
+os.makedirs(output_directory, exist_ok=True)
 
-# output_directory = "example"
-# os.makedirs(output_directory, exist_ok=True)
+myData = {
+    'drivers' : [],
+    'karts': [],
+    'gliders': []
+}
 
-# myData = {
-#     'drivers' : {},
-#     'karts': {},
-#     'gliders': {}
-# }
+dfMydata = pd.read_csv("example/MKT-MyData.csv")
 
-# dfMydata = pd.read_csv("example/MKT-MyData.csv")
+for index, row in dfMydata.iterrows():
 
-# for _, row in dfMydata.iterrows():
+    itemName = row["item"]
+    owned= row['owned']
 
-#     itemName = row["item"]
+    if not markItemOwnership(itemName, allDrivers, myData, index, 'drivers', owned):
 
-#     if itemName in allDrivers:
-#         myData['drivers'][itemName] = row["owned"]
+        if not markItemOwnership(itemName, allKarts, myData, index, 'karts', owned):
 
-#     elif itemName in allKarts:
-#         myData['karts'][itemName] = row['owned']
+            markItemOwnership(itemName, allGliders, myData, index, 'gliders', owned)
+        
 
-#     else:
-#         myData['gliders'][itemName] = row['owned']
+with open(os.path.join(output_directory, "MyDrivers.json"), "w") as outfile:
+    json.dump(myData['drivers'], outfile, indent=4)
 
+with open(os.path.join(output_directory, "MyKarts.json"), "w") as outfile:
+    json.dump(myData['karts'], outfile, indent=4)
 
-# with open(os.path.join(output_directory, "MyDrivers.json"), "w") as outfile:
-#     json.dump(myData['drivers'], outfile, indent=4)
-
-# with open(os.path.join(output_directory, "MyKarts.json"), "w") as outfile:
-#     json.dump(myData['karts'], outfile, indent=4)
-
-# with open(os.path.join(output_directory, "MyGliders.json"), "w") as outfile:
-#     json.dump(myData['gliders'], outfile, indent=4)
+with open(os.path.join(output_directory, "MyGliders.json"), "w") as outfile:
+    json.dump(myData['gliders'], outfile, indent=4)

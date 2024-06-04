@@ -1,267 +1,1592 @@
-{
-    "Baby Mario": true,
-    "Baby Peach": true,
-    "Baby Daisy": true,
-    "Baby Rosalina": true,
-    "Baby Luigi": true,
-    "Koopa Troopa": true,
-    "Shy Guy": true,
-    "Dry Bones": true,
-    "Iggy": true,
-    "Larry": true,
-    "Lemmy": true,
-    "Ludwig": true,
-    "Morton": true,
-    "Roy": true,
-    "Wendy": true,
-    "Mario": true,
-    "Peach": true,
-    "Yoshi": true,
-    "Daisy": true,
-    "Toad": true,
-    "Toadette": true,
-    "Rosalina": true,
-    "Luigi": true,
-    "Toad (Pit Crew)": true,
-    "Red Yoshi": true,
-    "Blue Yoshi": false,
-    "Pink Yoshi": false,
-    "Yellow Toad (Pit Crew)": true,
-    "Light-blue Toad (Pit Crew)": false,
-    "Red Toad (Pit Crew)": false,
-    "Orange Yoshi": false,
-    "Green Toad (Pit Crew)": false,
-    "Pink Toad (Pit Crew)": false,
-    "Light-blue Yoshi": false,
-    "Yellow Yoshi": true,
-    "Purple Toad (Pit Crew)": true,
-    "Bowser": true,
-    "Donkey Kong": true,
-    "Diddy Kong": true,
-    "Lakitu": true,
-    "Bowser Jr.": true,
-    "Wario": true,
-    "Waluigi": true,
-    "King Boo": true,
-    "Black Shy Guy": true,
-    "Red Koopa (Freerunning)": true,
-    "Birdo": true,
-    "Pink Shy Guy": true,
-    "Birdo (Light Blue)": true,
-    "Hammer Bro": true,
-    "Boomerang Bro": true,
-    "Ice Bro": true,
-    "Fire Bro": true,
-    "Birdo (Yellow)": true,
-    "Monty Mole": true,
-    "Green Shy Guy": false,
-    "Blue Koopa (Freerunning)": false,
-    "Birdo (Blue)": false,
-    "Purple Koopa (Freerunning)": false,
-    "Light-blue Shy Guy": false,
-    "Blue Shy Guy": false,
-    "Birdo (Orange)": false,
-    "White Shy Guy": false,
-    "Koopa (Freerunning)": false,
-    "Orange Shy Guy": false,
-    "Birdo (Red)": false,
-    "Yellow Shy Guy": false,
-    "Birdo (Green)": true,
-    "Metal Mario": true,
-    "Peachette": true,
-    "Pauline": true,
-    "Mario (Musician)": false,
-    "Peach (Kimono)": false,
-    "Mario (Hakama)": false,
-    "Rosalina (Halloween)": false,
-    "Peach (Vacation)": false,
-    "Mario (Santa)": false,
-    "Pink Gold Peach": true,
-    "Daisy (Holiday Cheer)": false,
-    "Yoshi (Reindeer)": false,
-    "Pauline (Party Time)": false,
-    "Mario (Happi)": false,
-    "Toad (Party Time)": true,
-    "Peach (Wintertime)": true,
-    "Penguin Luigi": false,
-    "Ice Mario": true,
-    "Baby Peach (Cherub)": false,
-    "Rosalina (Aurora)": false,
-    "Mario (Classic)": true,
-    "Luigi (Classic)": true,
-    "Baby Rosalina (Detective)": false,
-    "Yoshi (Egg Hunt)": false,
-    "Black Yoshi": true,
-    "Builder Mario": false,
-    "Builder Toad": false,
-    "Daisy (Fairy)": false,
-    "Mario (Chef)": false,
-    "Peach (Wedding)": false,
-    "Rosalina (Swimwear)": false,
-    "Mario (Swimwear)": false,
-    "Captain Toad": false,
-    "Toadette (Explorer)": false,
-    "Daisy (Yukata)": false,
-    "Mario (SNES)": false,
-    "Mario (Sunshine)": false,
-    "Mario (Halloween)": false,
-    "Peach (Halloween)": false,
-    "Peach (Explorer)": false,
-    "Builder Luigi": false,
-    "Fire Rosalina": false,
-    "Luigi (Lederhosen)": false,
-    "Cat Peach": false,
-    "Cat Toad": false,
-    "Pauline (Rose)": true,
-    "Penguin Toad": false,
-    "Mario (Racing)": false,
-    "White Yoshi": false,
-    "Baby Mario (Koala)": false,
-    "Builder Toadette": false,
-    "Mario (Tuxedo)": false,
-    "Luigi (Painter)": false,
-    "Daisy (Swimwear)": false,
-    "Mario (Baseball)": false,
-    "Peach (Happi)": false,
-    "Penguin Mario": false,
-    "Yoshi (Kangaroo)": false,
-    "Tanooki Mario": false,
-    "Tanooki Rosalina": true,
-    "Mario (Satellaview)": false,
-    "Penguin Toadette": false,
-    "Cat Rosalina": false,
-    "Luigi (Vacation)": false,
-    "Mario (Golf)": false,
-    "Luigi (Golf)": false,
-    "Mario (Aviator)": true,
-    "Mario (Samurai)": false,
-    "Peach (Yukata)": false,
-    "Yoshi (Gold Egg)": false,
-    "Rosalina (Volendam)": false,
-    "Daisy (Farmer)": true,
-    "Dr. Mario": false,
-    "Dr. Luigi": false,
-    "Dr. Peach": false,
-    "Cat Mario": false,
-    "Cat Luigi": false,
-    "Rosalina (Chef)": false,
-    "Daisy (Thai Dress)": false,
-    "Daisy (Sailor)": false,
-    "Toadette (Sailor)": false,
-    "White Tanooki Mario": false,
-    "Luigi (Knight)": false,
-    "Mario (King)": false,
-    "Luigi (Chef)": false,
-    "Kitsune Luigi": false,
-    "Toad (Astronaut)": false,
-    "Toadette (Astronaut)": false,
-    "Poochy": false,
-    "Toad (Tourist)": false,
-    "Luigi (Gold Knight)": false,
-    "Pauline (Cowgirl)": false,
-    "Mario (Black Suit)": false,
-    "Gold Mario": true,
-    "Dry Bowser": true,
-    "King Boo (Luigi's Mansion)": false,
-    "Shy Guy (Pastry Chef)": false,
-    "Waluigi (Bus Driver)": true,
-    "Gold Koopa (Freerunning)": true,
-    "Wario (Hiker)": false,
-    "Dry Bones (Gold)": false,
-    "Funky Kong": true,
-    "Dixie Kong": true,
-    "Dry Bowser (Gold)": false,
-    "Wario (Cowboy)": false,
-    "Nabbit": false,
-    "Bowser Jr. (Pirate)": false,
-    "King Bob-omb": false,
-    "Donkey Kong Jr. (SNES)": false,
-    "Shy Guy (Gold)": false,
-    "King Boo (Gold)": false,
-    "Bowser (Santa)": false,
-    "Lakitu (Party Time)": false,
-    "Birdo (Black)": false,
-    "Shy Guy (Ninja)": false,
-    "King Bob-omb (Gold)": false,
-    "Kamek": false,
-    "Waluigi (Vampire)": false,
-    "Meowser": false,
-    "Chargin' Chuck": true,
-    "Pink Shy Guy (Ninja)": true,
-    "Birdo (White)": false,
-    "Dr. Bowser": false,
-    "Petey Piranha": true,
-    "Chargin' Chuck (Gold)": false,
-    "Petey Piranha (Gold)": false,
-    "Larry (Wintertime)": false,
-    "Light-blue Shy Guy (Explorer)": false,
-    "Yellow Shy Guy (Explorer)": false,
-    "Donkey Kong (Gladiator)": false,
-    "Wiggler": true,
-    "Wiggler (Gold)": true,
-    "Red Mii Racing Suit": true,
-    "Mario Mii Racing Suit": false,
-    "Peach Mii Racing Suit": false,
-    "Toad Mii Racing Suit": false,
-    "Luigi Mii Racing Suit": false,
-    "Rosalina Mii Racing Suit": false,
-    "Donkey Kong Mii Racing Suit": false,
-    "Bronze Mii Racing Suit": true,
-    "Silver Mii Racing Suit": false,
-    "Gold Mii Racing Suit": false,
-    "King Boo Mii Racing Suit": false,
-    "King Bob-omb Mii Racing Suit": false,
-    "Yoshi Mii Racing Suit": false,
-    "Birdo Mii Racing Suit": false,
-    "Nabbit Mii Racing Suit": false,
-    "Wario Mii Racing Suit": false,
-    "? Block Mii Racing Suit": true,
-    "Cat Mii Racing Suit": true,
-    "Pastry Chef Mii Racing Suit": false,
-    "Chain Chomp Mii Racing Suit": false,
-    "Petey Piranha Mii Racing Suit": false,
-    "Dolphin Mii Racing Suit": false,
-    "Cheep Cheep Mii Racing Suit": false,
-    "Ice-Cream Mii Racing Suit": false,
-    "Bowser Mii Racing Suit": false,
-    "Dry Bowser Mii Racing Suit": false,
-    "Goomba Mii Racing Suit": true,
-    "Hammer Bro Mii Racing Suit": false,
-    "Castle Mii Racing Suit": false,
-    "White Mii Racing Suit": false,
-    "Green Mii Racing Suit": true,
-    "Dry Bones Mii Racing Suit": false,
-    "Yellow Mii Racing Suit": false,
-    "Moo Moo Mii Racing Suit": false,
-    "Rocky Wrench Mii Racing Suit": false,
-    "Santa Mii Racing Suit": false,
-    "Reindeer Mii Racing Suit": false,
-    "Black Mii Racing Suit": false,
-    "Purple Mii Racing Suit": false,
-    "Roaring Racer Mii Racing Suit": false,
-    "Brown Mii Racing Suit": false,
-    "Para-Biddybud Mii Racing Suit": false,
-    "Spike Mii Racing Suit": false,
-    "Pokey Mii Racing Suit": false,
-    "Piranha Plant Mii Racing Suit": true,
-    "Blue Mii Racing Suit": false,
-    "Iggy Mii Racing Suit": false,
-    "Larry Mii Racing Suit": false,
-    "Lemmy Mii Racing Suit": false,
-    "Ludwig Mii Racing Suit": false,
-    "Morton Mii Racing Suit": false,
-    "Roy Mii Racing Suit": false,
-    "Wendy Mii Racing Suit": false,
-    "Daisy Mii Racing Suit": false,
-    "Pink Mii Racing Suit": false,
-    "Monty Mole Mii Racing Suit": false,
-    "Waluigi Mii Racing Suit": false,
-    "Fish Bone Mii Racing Suit": false,
-    "Light Green Mii Racing Suit": false,
-    "Wiggler Mii Racing Suit": false,
-    "Toadette Mii Racing Suit": true,
-    "Blooper Mii Racing Suit": false,
-    "Orange Mii Racing Suit": true,
-    "Light Blue Mii Racing Suit": false,
-    "Koopa Clown Mii Racing Suit": true
-}
+[
+    {
+        "id": 1,
+        "name": "Baby Mario",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 2,
+        "name": "Baby Peach",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 3,
+        "name": "Baby Daisy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 4,
+        "name": "Baby Rosalina",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 5,
+        "name": "Baby Luigi",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 6,
+        "name": "Koopa Troopa",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 7,
+        "name": "Shy Guy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 8,
+        "name": "Dry Bones",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 9,
+        "name": "Iggy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 10,
+        "name": "Larry",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 11,
+        "name": "Lemmy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 12,
+        "name": "Ludwig",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 13,
+        "name": "Morton",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 14,
+        "name": "Roy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 15,
+        "name": "Wendy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 16,
+        "name": "Mario",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 17,
+        "name": "Peach",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 18,
+        "name": "Yoshi",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 19,
+        "name": "Daisy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 20,
+        "name": "Toad",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 21,
+        "name": "Toadette",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 22,
+        "name": "Rosalina",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 23,
+        "name": "Luigi",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 24,
+        "name": "Toad (Pit Crew)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 25,
+        "name": "Red Yoshi",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 26,
+        "name": "Blue Yoshi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 27,
+        "name": "Pink Yoshi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 28,
+        "name": "Yellow Toad (Pit Crew)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 29,
+        "name": "Light-blue Toad (Pit Crew)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 30,
+        "name": "Red Toad (Pit Crew)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 31,
+        "name": "Orange Yoshi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 32,
+        "name": "Green Toad (Pit Crew)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 33,
+        "name": "Pink Toad (Pit Crew)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 34,
+        "name": "Light-blue Yoshi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 35,
+        "name": "Yellow Yoshi",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 36,
+        "name": "Purple Toad (Pit Crew)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 37,
+        "name": "Bowser",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 38,
+        "name": "Donkey Kong",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 39,
+        "name": "Diddy Kong",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 40,
+        "name": "Lakitu",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 41,
+        "name": "Bowser Jr.",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 42,
+        "name": "Wario",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 43,
+        "name": "Waluigi",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 44,
+        "name": "King Boo",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 45,
+        "name": "Black Shy Guy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 46,
+        "name": "Red Koopa (Freerunning)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 47,
+        "name": "Birdo",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 48,
+        "name": "Pink Shy Guy",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 49,
+        "name": "Birdo (Light Blue)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 50,
+        "name": "Hammer Bro",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 51,
+        "name": "Boomerang Bro",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 52,
+        "name": "Ice Bro",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 53,
+        "name": "Fire Bro",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 54,
+        "name": "Birdo (Yellow)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 55,
+        "name": "Monty Mole",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 56,
+        "name": "Green Shy Guy",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 57,
+        "name": "Blue Koopa (Freerunning)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 58,
+        "name": "Birdo (Blue)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 59,
+        "name": "Purple Koopa (Freerunning)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 60,
+        "name": "Light-blue Shy Guy",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 61,
+        "name": "Blue Shy Guy",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 62,
+        "name": "Birdo (Orange)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 63,
+        "name": "White Shy Guy",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 64,
+        "name": "Koopa (Freerunning)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 65,
+        "name": "Orange Shy Guy",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 66,
+        "name": "Birdo (Red)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 67,
+        "name": "Yellow Shy Guy",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 68,
+        "name": "Birdo (Green)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 69,
+        "name": "Metal Mario",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 70,
+        "name": "Peachette",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 71,
+        "name": "Pauline",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 72,
+        "name": "Mario (Musician)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 73,
+        "name": "Peach (Kimono)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 74,
+        "name": "Mario (Hakama)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 75,
+        "name": "Rosalina (Halloween)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 76,
+        "name": "Peach (Vacation)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 77,
+        "name": "Mario (Santa)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 78,
+        "name": "Pink Gold Peach",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 79,
+        "name": "Daisy (Holiday Cheer)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 80,
+        "name": "Yoshi (Reindeer)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 81,
+        "name": "Pauline (Party Time)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 82,
+        "name": "Mario (Happi)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 83,
+        "name": "Toad (Party Time)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 84,
+        "name": "Peach (Wintertime)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 85,
+        "name": "Penguin Luigi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 86,
+        "name": "Ice Mario",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 87,
+        "name": "Baby Peach (Cherub)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 88,
+        "name": "Rosalina (Aurora)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 89,
+        "name": "Mario (Classic)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 90,
+        "name": "Luigi (Classic)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 91,
+        "name": "Baby Rosalina (Detective)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 92,
+        "name": "Yoshi (Egg Hunt)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 93,
+        "name": "Black Yoshi",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 94,
+        "name": "Builder Mario",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 95,
+        "name": "Builder Toad",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 96,
+        "name": "Daisy (Fairy)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 97,
+        "name": "Mario (Chef)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 98,
+        "name": "Peach (Wedding)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 99,
+        "name": "Rosalina (Swimwear)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 100,
+        "name": "Mario (Swimwear)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 101,
+        "name": "Captain Toad",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 102,
+        "name": "Toadette (Explorer)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 103,
+        "name": "Daisy (Yukata)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 104,
+        "name": "Mario (SNES)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 105,
+        "name": "Mario (Sunshine)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 106,
+        "name": "Mario (Halloween)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 107,
+        "name": "Peach (Halloween)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 108,
+        "name": "Peach (Explorer)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 109,
+        "name": "Builder Luigi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 110,
+        "name": "Fire Rosalina",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 111,
+        "name": "Luigi (Lederhosen)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 112,
+        "name": "Cat Peach",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 113,
+        "name": "Cat Toad",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 114,
+        "name": "Pauline (Rose)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 115,
+        "name": "Penguin Toad",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 116,
+        "name": "Mario (Racing)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 117,
+        "name": "White Yoshi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 118,
+        "name": "Baby Mario (Koala)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 119,
+        "name": "Builder Toadette",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 120,
+        "name": "Mario (Tuxedo)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 121,
+        "name": "Luigi (Painter)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 122,
+        "name": "Daisy (Swimwear)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 123,
+        "name": "Mario (Baseball)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 124,
+        "name": "Peach (Happi)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 125,
+        "name": "Penguin Mario",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 126,
+        "name": "Yoshi (Kangaroo)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 127,
+        "name": "Tanooki Mario",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 128,
+        "name": "Tanooki Rosalina",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 129,
+        "name": "Mario (Satellaview)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 130,
+        "name": "Penguin Toadette",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 131,
+        "name": "Cat Rosalina",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 132,
+        "name": "Luigi (Vacation)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 133,
+        "name": "Mario (Golf)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 134,
+        "name": "Luigi (Golf)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 135,
+        "name": "Mario (Aviator)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 136,
+        "name": "Mario (Samurai)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 137,
+        "name": "Peach (Yukata)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 138,
+        "name": "Yoshi (Gold Egg)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 139,
+        "name": "Rosalina (Volendam)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 140,
+        "name": "Daisy (Farmer)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 141,
+        "name": "Dr. Mario",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 142,
+        "name": "Dr. Luigi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 143,
+        "name": "Dr. Peach",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 144,
+        "name": "Cat Mario",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 145,
+        "name": "Cat Luigi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 146,
+        "name": "Rosalina (Chef)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 147,
+        "name": "Daisy (Thai Dress)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 148,
+        "name": "Daisy (Sailor)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 149,
+        "name": "Toadette (Sailor)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 150,
+        "name": "White Tanooki Mario",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 151,
+        "name": "Luigi (Knight)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 152,
+        "name": "Mario (King)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 153,
+        "name": "Luigi (Chef)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 154,
+        "name": "Kitsune Luigi",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 155,
+        "name": "Toad (Astronaut)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 156,
+        "name": "Toadette (Astronaut)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 157,
+        "name": "Poochy",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 158,
+        "name": "Toad (Tourist)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 159,
+        "name": "Luigi (Gold Knight)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 160,
+        "name": "Pauline (Cowgirl)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 161,
+        "name": "Mario (Black Suit)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 162,
+        "name": "Gold Mario",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 163,
+        "name": "Dry Bowser",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 164,
+        "name": "King Boo (Luigi's Mansion)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 165,
+        "name": "Shy Guy (Pastry Chef)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 166,
+        "name": "Waluigi (Bus Driver)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 167,
+        "name": "Gold Koopa (Freerunning)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 168,
+        "name": "Wario (Hiker)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 169,
+        "name": "Dry Bones (Gold)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 170,
+        "name": "Funky Kong",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 171,
+        "name": "Dixie Kong",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 172,
+        "name": "Dry Bowser (Gold)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 173,
+        "name": "Wario (Cowboy)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 174,
+        "name": "Nabbit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 175,
+        "name": "Bowser Jr. (Pirate)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 176,
+        "name": "King Bob-omb",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 177,
+        "name": "Donkey Kong Jr. (SNES)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 178,
+        "name": "Shy Guy (Gold)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 179,
+        "name": "King Boo (Gold)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 180,
+        "name": "Bowser (Santa)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 181,
+        "name": "Lakitu (Party Time)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 182,
+        "name": "Birdo (Black)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 183,
+        "name": "Shy Guy (Ninja)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 184,
+        "name": "King Bob-omb (Gold)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 185,
+        "name": "Kamek",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 186,
+        "name": "Waluigi (Vampire)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 187,
+        "name": "Meowser",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 188,
+        "name": "Chargin' Chuck",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 189,
+        "name": "Pink Shy Guy (Ninja)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 190,
+        "name": "Birdo (White)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 191,
+        "name": "Dr. Bowser",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 192,
+        "name": "Petey Piranha",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 193,
+        "name": "Chargin' Chuck (Gold)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 194,
+        "name": "Petey Piranha (Gold)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 195,
+        "name": "Larry (Wintertime)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 196,
+        "name": "Light-blue Shy Guy (Explorer)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 197,
+        "name": "Yellow Shy Guy (Explorer)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 198,
+        "name": "Donkey Kong (Gladiator)",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 199,
+        "name": "Wiggler",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 200,
+        "name": "Wiggler (Gold)",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 201,
+        "name": "Red Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 202,
+        "name": "Mario Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 203,
+        "name": "Peach Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 204,
+        "name": "Toad Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 205,
+        "name": "Luigi Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 206,
+        "name": "Rosalina Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 207,
+        "name": "Donkey Kong Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 208,
+        "name": "Bronze Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 209,
+        "name": "Silver Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 210,
+        "name": "Gold Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 211,
+        "name": "King Boo Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 212,
+        "name": "King Bob-omb Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 213,
+        "name": "Yoshi Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 214,
+        "name": "Birdo Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 215,
+        "name": "Nabbit Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 216,
+        "name": "Wario Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 217,
+        "name": "? Block Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 218,
+        "name": "Cat Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 219,
+        "name": "Pastry Chef Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 220,
+        "name": "Chain Chomp Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 221,
+        "name": "Petey Piranha Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 222,
+        "name": "Dolphin Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 223,
+        "name": "Cheep Cheep Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 224,
+        "name": "Ice-Cream Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 225,
+        "name": "Bowser Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 226,
+        "name": "Dry Bowser Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 227,
+        "name": "Goomba Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 228,
+        "name": "Hammer Bro Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 229,
+        "name": "Castle Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 230,
+        "name": "White Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 231,
+        "name": "Green Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 232,
+        "name": "Dry Bones Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 233,
+        "name": "Yellow Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 234,
+        "name": "Moo Moo Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 235,
+        "name": "Rocky Wrench Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 236,
+        "name": "Santa Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 237,
+        "name": "Reindeer Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 238,
+        "name": "Black Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 239,
+        "name": "Purple Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 240,
+        "name": "Roaring Racer Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 241,
+        "name": "Brown Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 242,
+        "name": "Para-Biddybud Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 243,
+        "name": "Spike Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 244,
+        "name": "Pokey Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 245,
+        "name": "Piranha Plant Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 246,
+        "name": "Blue Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 247,
+        "name": "Iggy Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 248,
+        "name": "Larry Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 249,
+        "name": "Lemmy Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 250,
+        "name": "Ludwig Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 251,
+        "name": "Morton Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 252,
+        "name": "Roy Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 253,
+        "name": "Wendy Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 254,
+        "name": "Daisy Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 255,
+        "name": "Pink Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 256,
+        "name": "Monty Mole Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 257,
+        "name": "Waluigi Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 258,
+        "name": "Fish Bone Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 259,
+        "name": "Light Green Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 260,
+        "name": "Wiggler Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 261,
+        "name": "Toadette Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 262,
+        "name": "Blooper Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 263,
+        "name": "Orange Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    },
+    {
+        "id": 264,
+        "name": "Light Blue Mii Racing Suit",
+        "type": "driver",
+        "owned": false
+    },
+    {
+        "id": 265,
+        "name": "Koopa Clown Mii Racing Suit",
+        "type": "driver",
+        "owned": true
+    }
+]

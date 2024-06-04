@@ -1,338 +1,2018 @@
-{
-    "Pipe Frame": true,
-    "Birthday Girl": true,
-    "Mushmellow": true,
-    "Koopa Dasher": true,
-    "Biddybuggy": true,
-    "Blue Biddybuggy": true,
-    "Cheep Charger": true,
-    "Pink Mushmellow": true,
-    "Birthday Girl Rosalina": true,
-    "Green Kiddie Kart": true,
-    "Red Kiddie Kart": true,
-    "Bullet Blaster": true,
-    "Bull's-Eye Banzai": true,
-    "Landship": true,
-    "Pipe Buggy": true,
-    "Warship": true,
-    "Green Cheep Charger": true,
-    "Mach 8": true,
-    "Daytripper": true,
-    "Turbo Yoshi": true,
-    "Soda Jet": true,
-    "Super Blooper": true,
-    "Gold Blooper": true,
-    "Royale": true,
-    "Cloud 9": true,
-    "Poltergust 4000": true,
-    "Streamliner": true,
-    "White Royale": true,
-    "Zucchini": true,
-    "Red Streamliner": true,
-    "Red Turbo Yoshi": true,
-    "Blue Seven": true,
-    "Super 1": true,
-    "Dasher II": true,
-    "Tea Coupe": true,
-    "Yellow Turbo Birdo": true,
-    "Egg 1": true,
-    "Birthday Girl Daisy": true,
-    "Red Standard 8": false,
-    "Green Standard 8": false,
-    "Cucumber": true,
-    "Blue Royale": false,
-    "Blue Turbo Yoshi": false,
-    "Orange Turbo Yoshi": false,
-    "Pink Turbo Yoshi": false,
-    "Light-blue Turbo Yoshi": false,
-    "Yellow Turbo Yoshi": true,
-    "Flame Flyer": true,
-    "Barrel Train": true,
-    "DK Jumbo": true,
-    "Chrome DK Jumbo": true,
-    "Koopa Clown": true,
-    "Dark Clown": true,
-    "Para-Wing": true,
-    "Turbo Birdo": true,
-    "Light-blue Turbo Birdo": true,
-    "Bolt Buggy": true,
-    "Rambi Rider": false,
-    "Blue Turbo Birdo": false,
-    "Orange Turbo Birdo": false,
-    "Red Turbo Birdo": false,
-    "Green Turbo Birdo": true,
-    "B Dasher": true,
-    "Black B Dasher": true,
-    "Yellow Taxi": true,
-    "Quickshaw": false,
-    "Kabuki Dasher": false,
-    "Circuit Special": false,
-    "Black Circuit": false,
-    "Bumble V": false,
-    "Queen Bee": true,
-    "Trickster": false,
-    "Ghost Ride": false,
-    "Macharon": true,
-    "Carrot Kart": false,
-    "Cheermellow": false,
-    "Wild Wing": true,
-    "Radish Rider": true,
-    "Wildfire Flyer": false,
-    "Ribbon Rider": false,
-    "Double-Decker": false,
-    "Swift Jack": false,
-    "Red B Dasher": true,
-    "Jingle Bells": false,
-    "Platinum Taxi": false,
-    "Glam Bruiser": true,
-    "Gilded Prancer": false,
-    "Ice-blue Poltergust": false,
-    "P-Wing": true,
-    "Apple Kart": true,
-    "Comet Tail": false,
-    "Bright Bunny": false,
-    "Dozer Dasher": true,
-    "Clanky Kart": false,
-    "Wild Black": false,
-    "Karp Kart": false,
-    "Prancer": false,
-    "Rose Queen": true,
-    "Green Apple Kart": false,
-    "Choco Macharon": false,
-    "Gold Egg": false,
-    "Sweet Daytripper": false,
-    "Red Taxi": false,
-    "Pink Wing": false,
-    "Happy Ride": false,
-    "Blue Soda": false,
-    "Clackety Kart": false,
-    "Gold Clanky Kart": false,
-    "Festival Girl": true,
-    "Black Kabuki Dasher": false,
-    "8-Bit Pipe Frame": true,
-    "Gold Pipe Frame": true,
-    "Surf Sailer": true,
-    "Star-Spangled Flyer": false,
-    "Green Circuit": false,
-    "Sports Coupe": false,
-    "Pumpkin Kart": true,
-    "Dark Trickster": false,
-    "Sunset Cloud": true,
-    "Steel Driver": true,
-    "Holiday King": false,
-    "Gold Snow Skimmer": false,
-    "Dreamy Egg": false,
-    "Fast Frank": false,
-    "Iron Cucumber": true,
-    "Cat Cruiser": false,
-    "Wild Pink": true,
-    "Rose Taxi": false,
-    "B Dasher Mk. 2": false,
-    "Decal Streamliner": false,
-    "Orange Streamliner": false,
-    "White Turbo Yoshi": false,
-    "Sakura Quickshaw": false,
-    "Jet Cruiser": true,
-    "Inferno Flyer": false,
-    "Rambi Runner": false,
-    "Pink Dozer": false,
-    "Grand Badwagon": false,
-    "Paintster": false,
-    "Lime Tea Coupe": true,
-    "Sunny Surf Sailer": false,
-    "Pinch Hitter": false,
-    "Cleanup Hitter": false,
-    "Ice Dozer": false,
-    "Green Double-Decker": false,
-    "Black Cat Cruiser": true,
-    "Red B Dasher Mk. 2": false,
-    "Pink B Dasher Mk. 2": false,
-    "Classic B Dasher Mk. 2": false,
-    "Sky-Blue B Dasher Mk. 2": false,
-    "Metal B Dasher Mk. 2": false,
-    "Cream B Dasher Mk. 2": false,
-    "Green B Dasher Mk. 2": false,
-    "Tanooki Kart": false,
-    "Gold Pumpkin Kart": false,
-    "Lunar Cruiser": false,
-    "Sleigh Rider": false,
-    "White Snow Skimmer": false,
-    "Frosty Bells": false,
-    "Frost Wing": false,
-    "Gray Cat Cruiser": false,
-    "Sports Coupe 2022": false,
-    "Roaring Racer": false,
-    "Jukebox Buggy": true,
-    "Sneeker": true,
-    "Green Lightning": false,
-    "Cupid's Arrow": false,
-    "Wild Slugger": false,
-    "Prop Kart": true,
-    "Magma Broom": false,
-    "Star Broom": false,
-    "Yellow 8-Bit Pipe Frame": false,
-    "Warrior Wagon": false,
-    "Armored Rider": false,
-    "Black Turbo Yoshi": false,
-    "Gold Bunny": false,
-    "Flower Kart": false,
-    "Dragonfly": false,
-    "Firefly": false,
-    "Daikon Rocket": false,
-    "Capsule Kart": false,
-    "Blue-Green Capsule Kart": false,
-    "White Bruiser": false,
-    "Coconut 1": true,
-    "Pink Capsule Kart": false,
-    "Cream Cat Cruiser": false,
-    "Green Cat Cruiser": false,
-    "Goo-Goo Buggy": true,
-    "Goo-Goo Pink": false,
-    "Gold Kiddie Kart": false,
-    "Sweet Ride": false,
-    "White Fast Frank": false,
-    "Tuk-Tuk Kart": false,
-    "Tropical Truck": true,
-    "Gold Zucchini": false,
-    "Lightning Streamliner": false,
-    "Flowery Badwagon": false,
-    "Coral Jet Cruiser": false,
-    "Watermelon Kart": false,
-    "Ice-Cream Minibus": false,
-    "Chocolate Banana Minibus": false,
-    "Strawberry Soft Swerve": false,
-    "Shielded Speedster": false,
-    "Gold Standard": true,
-    "Gold Double-Decker": false,
-    "Black Carriage": false,
-    "Green Speeder": false,
-    "Flaming Speeder": false,
-    "Gold Sweet Ride": false,
-    "Streetle": false,
-    "Blue Speeder": false,
-    "Swift Talon": false,
-    "Gold Eagle": false,
-    "Blazing Eagle": false,
-    "Camo Tanooki Kart": false,
-    "Gold Rambi Rider": false,
-    "Moo Moo Offroader": false,
-    "Pink Speeder": false,
-    "Pink Sneeker": false,
-    "Gold Jingle Bell": false,
-    "Holiday Speeder": false,
-    "Wild Gold": false,
-    "Rainbow Taxi": false,
-    "Blooper Shuttle": false,
-    "Gold Lunar Cruiser": false,
-    "Gold Quickshaw": false,
-    "Pineapple 1": true,
-    "Hot Pot Hot Rod": false,
-    "Rainbow Streetle": false,
-    "Gold Capsule Kart": false,
-    "Gold 8-Bit Pipe Frame": false,
-    "Taiko Drum Dasher": false,
-    "Sakura Sports Coupe": false,
-    "Bright Girl": false,
-    "Huffin Puffin Egg": false,
-    "Jumbo Jetter": false,
-    "Gold Paintster": false,
-    "Silver Flower Kart": false,
-    "Bronze Cucumber": false,
-    "Cream Classic": false,
-    "Red Comet": false,
-    "Pink Comet": false,
-    "Green Comet": false,
-    "Gold Comet": false,
-    "Mach 8-R": false,
-    "Gold Cupid's Arrow": false,
-    "Silver Cupid's Arrow": false,
-    "Silver Warrior Wagon": false,
-    "Gold Warrior Wagon": false,
-    "Black Shielded Speedster": false,
-    "Gold Shielded Speedster": false,
-    "Yeehaw Wagon": false,
-    "Desert Rose Wagon": false,
-    "Yellow Sub Scooter": false,
-    "Blue Sub Scooter": false,
-    "Gold Driver": false,
-    "Dolphin Drifter": false,
-    "Purple Rattle Buggy": false,
-    "Goo-Goo Gold": false,
-    "Gold Wild Slugger": true,
-    "Spicy Zucchini": false,
-    "Chocolate Mint Soft Swerve": false,
-    "Gold Soft Swerve": false,
-    "Monarch Kart": true,
-    "Gold Monarch Kart": false,
-    "Black B Dasher Mk. 2": false,
-    "Gold B Dasher": false,
-    "Badwagon": false,
-    "Blue Badwagon": false,
-    "Gold Train": true,
-    "Bruiser": true,
-    "Snow Skimmer": false,
-    "Offroader": false,
-    "Banana Master": false,
-    "Poison Apple Kart": true,
-    "Cheep Snorkel": false,
-    "Gold Cheep Snorkel": false,
-    "Gold Cheep Charger": true,
-    "Dark Buggy": true,
-    "Koopa King": false,
-    "Brown Offroader": false,
-    "Cact-X": false,
-    "Pirate Sushi Racer": false,
-    "Silver Bullet Blaster": false,
-    "Head Honcho": false,
-    "DK Maximum": false,
-    "Sushi Racer": true,
-    "Gilded King": true,
-    "Crawly Kart": true,
-    "Black Dozer": true,
-    "Party-Wing": false,
-    "Penguin Slider": false,
-    "Black Penguin Slider": false,
-    "Cact-Ice": false,
-    "Black Turbo Birdo": true,
-    "Purple Bunny": false,
-    "Jade Hop Rod": false,
-    "Crimson Hop Rod": false,
-    "Dark Hop Rod": false,
-    "Kamek's Zoom Broom": false,
-    "Silver King": false,
-    "Vampire Flyer": false,
-    "Red Crawly Kart": false,
-    "Yellow Offroader": false,
-    "Cact-R": false,
-    "Cheership": false,
-    "Candy Clown": false,
-    "Tiger Bruiser": false,
-    "Combo Cruiser": false,
-    "Sakura Hop Rod": false,
-    "White Turbo Birdo": false,
-    "Green-Yellow Capsule Kart": false,
-    "Piranha Pipes": false,
-    "Red Offroader": false,
-    "Goo-Goo Black": false,
-    "Cact-B": false,
-    "Gold Bullet Blaster": false,
-    "Red Vampire Flyer": true,
-    "Gold Trickster": false,
-    "Gold Bruiser": false,
-    "Black Sneeker": false,
-    "Purple Dozer": false,
-    "Blue Crawly Kart": false,
-    "Rainbow Pipe Buggy": false,
-    "Gold Hop Rod": false,
-    "Black Jingle Bell": false,
-    "Gold Sushi Racer": false,
-    "Dry Bones Dasher": false,
-    "Waluigi Racer Mk. 2": false,
-    "Chain Chomp Chariot": false,
-    "Fish Bone Ferry": false,
-    "Gold Fish Bone Ferry": false,
-    "Wiggler Egg": true,
-    "Boo Pipes": false,
-    "Gold Pipes": false,
-    "Wild Wiggler": true
-}
+[
+    {
+        "id": 266,
+        "name": "Pipe Frame",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 267,
+        "name": "Birthday Girl",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 268,
+        "name": "Mushmellow",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 269,
+        "name": "Koopa Dasher",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 270,
+        "name": "Biddybuggy",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 271,
+        "name": "Blue Biddybuggy",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 272,
+        "name": "Cheep Charger",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 273,
+        "name": "Pink Mushmellow",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 274,
+        "name": "Birthday Girl Rosalina",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 275,
+        "name": "Green Kiddie Kart",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 276,
+        "name": "Red Kiddie Kart",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 277,
+        "name": "Bullet Blaster",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 278,
+        "name": "Bull's-Eye Banzai",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 279,
+        "name": "Landship",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 280,
+        "name": "Pipe Buggy",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 281,
+        "name": "Warship",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 282,
+        "name": "Green Cheep Charger",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 283,
+        "name": "Mach 8",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 284,
+        "name": "Daytripper",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 285,
+        "name": "Turbo Yoshi",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 286,
+        "name": "Soda Jet",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 287,
+        "name": "Super Blooper",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 288,
+        "name": "Gold Blooper",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 289,
+        "name": "Royale",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 290,
+        "name": "Cloud 9",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 291,
+        "name": "Poltergust 4000",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 292,
+        "name": "Streamliner",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 293,
+        "name": "White Royale",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 294,
+        "name": "Zucchini",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 295,
+        "name": "Red Streamliner",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 296,
+        "name": "Red Turbo Yoshi",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 297,
+        "name": "Blue Seven",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 298,
+        "name": "Super 1",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 299,
+        "name": "Dasher II",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 300,
+        "name": "Tea Coupe",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 301,
+        "name": "Yellow Turbo Birdo",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 302,
+        "name": "Egg 1",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 303,
+        "name": "Birthday Girl Daisy",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 304,
+        "name": "Red Standard 8",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 305,
+        "name": "Green Standard 8",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 306,
+        "name": "Cucumber",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 307,
+        "name": "Blue Royale",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 308,
+        "name": "Blue Turbo Yoshi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 309,
+        "name": "Orange Turbo Yoshi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 310,
+        "name": "Pink Turbo Yoshi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 311,
+        "name": "Light-blue Turbo Yoshi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 312,
+        "name": "Yellow Turbo Yoshi",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 313,
+        "name": "Flame Flyer",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 314,
+        "name": "Barrel Train",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 315,
+        "name": "DK Jumbo",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 316,
+        "name": "Chrome DK Jumbo",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 317,
+        "name": "Koopa Clown",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 318,
+        "name": "Dark Clown",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 319,
+        "name": "Para-Wing",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 320,
+        "name": "Turbo Birdo",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 321,
+        "name": "Light-blue Turbo Birdo",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 322,
+        "name": "Bolt Buggy",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 323,
+        "name": "Rambi Rider",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 324,
+        "name": "Blue Turbo Birdo",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 325,
+        "name": "Orange Turbo Birdo",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 326,
+        "name": "Red Turbo Birdo",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 327,
+        "name": "Green Turbo Birdo",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 328,
+        "name": "B Dasher",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 329,
+        "name": "Black B Dasher",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 330,
+        "name": "Yellow Taxi",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 331,
+        "name": "Quickshaw",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 332,
+        "name": "Kabuki Dasher",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 333,
+        "name": "Circuit Special",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 334,
+        "name": "Black Circuit",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 335,
+        "name": "Bumble V",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 336,
+        "name": "Queen Bee",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 337,
+        "name": "Trickster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 338,
+        "name": "Ghost Ride",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 339,
+        "name": "Macharon",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 340,
+        "name": "Carrot Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 341,
+        "name": "Cheermellow",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 342,
+        "name": "Wild Wing",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 343,
+        "name": "Radish Rider",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 344,
+        "name": "Wildfire Flyer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 345,
+        "name": "Ribbon Rider",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 346,
+        "name": "Double-Decker",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 347,
+        "name": "Swift Jack",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 348,
+        "name": "Red B Dasher",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 349,
+        "name": "Jingle Bells",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 350,
+        "name": "Platinum Taxi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 351,
+        "name": "Glam Bruiser",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 352,
+        "name": "Gilded Prancer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 353,
+        "name": "Ice-blue Poltergust",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 354,
+        "name": "P-Wing",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 355,
+        "name": "Apple Kart",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 356,
+        "name": "Comet Tail",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 357,
+        "name": "Bright Bunny",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 358,
+        "name": "Dozer Dasher",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 359,
+        "name": "Clanky Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 360,
+        "name": "Wild Black",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 361,
+        "name": "Karp Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 362,
+        "name": "Prancer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 363,
+        "name": "Rose Queen",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 364,
+        "name": "Green Apple Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 365,
+        "name": "Choco Macharon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 366,
+        "name": "Gold Egg",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 367,
+        "name": "Sweet Daytripper",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 368,
+        "name": "Red Taxi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 369,
+        "name": "Pink Wing",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 370,
+        "name": "Happy Ride",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 371,
+        "name": "Blue Soda",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 372,
+        "name": "Clackety Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 373,
+        "name": "Gold Clanky Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 374,
+        "name": "Festival Girl",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 375,
+        "name": "Black Kabuki Dasher",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 376,
+        "name": "8-Bit Pipe Frame",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 377,
+        "name": "Gold Pipe Frame",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 378,
+        "name": "Surf Sailer",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 379,
+        "name": "Star-Spangled Flyer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 380,
+        "name": "Green Circuit",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 381,
+        "name": "Sports Coupe",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 382,
+        "name": "Pumpkin Kart",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 383,
+        "name": "Dark Trickster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 384,
+        "name": "Sunset Cloud",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 385,
+        "name": "Steel Driver",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 386,
+        "name": "Holiday King",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 387,
+        "name": "Gold Snow Skimmer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 388,
+        "name": "Dreamy Egg",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 389,
+        "name": "Fast Frank",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 390,
+        "name": "Iron Cucumber",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 391,
+        "name": "Cat Cruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 392,
+        "name": "Wild Pink",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 393,
+        "name": "Rose Taxi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 394,
+        "name": "B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 395,
+        "name": "Decal Streamliner",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 396,
+        "name": "Orange Streamliner",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 397,
+        "name": "White Turbo Yoshi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 398,
+        "name": "Sakura Quickshaw",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 399,
+        "name": "Jet Cruiser",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 400,
+        "name": "Inferno Flyer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 401,
+        "name": "Rambi Runner",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 402,
+        "name": "Pink Dozer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 403,
+        "name": "Grand Badwagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 404,
+        "name": "Paintster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 405,
+        "name": "Lime Tea Coupe",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 406,
+        "name": "Sunny Surf Sailer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 407,
+        "name": "Pinch Hitter",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 408,
+        "name": "Cleanup Hitter",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 409,
+        "name": "Ice Dozer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 410,
+        "name": "Green Double-Decker",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 411,
+        "name": "Black Cat Cruiser",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 412,
+        "name": "Red B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 413,
+        "name": "Pink B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 414,
+        "name": "Classic B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 415,
+        "name": "Sky-Blue B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 416,
+        "name": "Metal B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 417,
+        "name": "Cream B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 418,
+        "name": "Green B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 419,
+        "name": "Tanooki Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 420,
+        "name": "Gold Pumpkin Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 421,
+        "name": "Lunar Cruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 422,
+        "name": "Sleigh Rider",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 423,
+        "name": "White Snow Skimmer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 424,
+        "name": "Frosty Bells",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 425,
+        "name": "Frost Wing",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 426,
+        "name": "Gray Cat Cruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 427,
+        "name": "Sports Coupe 2022",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 428,
+        "name": "Roaring Racer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 429,
+        "name": "Jukebox Buggy",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 430,
+        "name": "Sneeker",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 431,
+        "name": "Green Lightning",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 432,
+        "name": "Cupid's Arrow",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 433,
+        "name": "Wild Slugger",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 434,
+        "name": "Prop Kart",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 435,
+        "name": "Magma Broom",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 436,
+        "name": "Star Broom",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 437,
+        "name": "Yellow 8-Bit Pipe Frame",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 438,
+        "name": "Warrior Wagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 439,
+        "name": "Armored Rider",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 440,
+        "name": "Black Turbo Yoshi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 441,
+        "name": "Gold Bunny",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 442,
+        "name": "Flower Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 443,
+        "name": "Dragonfly",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 444,
+        "name": "Firefly",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 445,
+        "name": "Daikon Rocket",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 446,
+        "name": "Capsule Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 447,
+        "name": "Blue-Green Capsule Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 448,
+        "name": "White Bruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 449,
+        "name": "Coconut 1",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 450,
+        "name": "Pink Capsule Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 451,
+        "name": "Cream Cat Cruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 452,
+        "name": "Green Cat Cruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 453,
+        "name": "Goo-Goo Buggy",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 454,
+        "name": "Goo-Goo Pink",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 455,
+        "name": "Gold Kiddie Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 456,
+        "name": "Sweet Ride",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 457,
+        "name": "White Fast Frank",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 458,
+        "name": "Tuk-Tuk Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 459,
+        "name": "Tropical Truck",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 460,
+        "name": "Gold Zucchini",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 461,
+        "name": "Lightning Streamliner",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 462,
+        "name": "Flowery Badwagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 463,
+        "name": "Coral Jet Cruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 464,
+        "name": "Watermelon Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 465,
+        "name": "Ice-Cream Minibus",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 466,
+        "name": "Chocolate Banana Minibus",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 467,
+        "name": "Strawberry Soft Swerve",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 468,
+        "name": "Shielded Speedster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 469,
+        "name": "Gold Standard",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 470,
+        "name": "Gold Double-Decker",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 471,
+        "name": "Black Carriage",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 472,
+        "name": "Green Speeder",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 473,
+        "name": "Flaming Speeder",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 474,
+        "name": "Gold Sweet Ride",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 475,
+        "name": "Streetle",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 476,
+        "name": "Blue Speeder",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 477,
+        "name": "Swift Talon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 478,
+        "name": "Gold Eagle",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 479,
+        "name": "Blazing Eagle",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 480,
+        "name": "Camo Tanooki Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 481,
+        "name": "Gold Rambi Rider",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 482,
+        "name": "Moo Moo Offroader",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 483,
+        "name": "Pink Speeder",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 484,
+        "name": "Pink Sneeker",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 485,
+        "name": "Gold Jingle Bell",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 486,
+        "name": "Holiday Speeder",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 487,
+        "name": "Wild Gold",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 488,
+        "name": "Rainbow Taxi",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 489,
+        "name": "Blooper Shuttle",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 490,
+        "name": "Gold Lunar Cruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 491,
+        "name": "Gold Quickshaw",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 492,
+        "name": "Pineapple 1",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 493,
+        "name": "Hot Pot Hot Rod",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 494,
+        "name": "Rainbow Streetle",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 495,
+        "name": "Gold Capsule Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 496,
+        "name": "Gold 8-Bit Pipe Frame",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 497,
+        "name": "Taiko Drum Dasher",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 498,
+        "name": "Sakura Sports Coupe",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 499,
+        "name": "Bright Girl",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 500,
+        "name": "Huffin Puffin Egg",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 501,
+        "name": "Jumbo Jetter",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 502,
+        "name": "Gold Paintster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 503,
+        "name": "Silver Flower Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 504,
+        "name": "Bronze Cucumber",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 505,
+        "name": "Cream Classic",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 506,
+        "name": "Red Comet",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 507,
+        "name": "Pink Comet",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 508,
+        "name": "Green Comet",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 509,
+        "name": "Gold Comet",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 510,
+        "name": "Mach 8-R",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 511,
+        "name": "Gold Cupid's Arrow",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 512,
+        "name": "Silver Cupid's Arrow",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 513,
+        "name": "Silver Warrior Wagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 514,
+        "name": "Gold Warrior Wagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 515,
+        "name": "Black Shielded Speedster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 516,
+        "name": "Gold Shielded Speedster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 517,
+        "name": "Yeehaw Wagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 518,
+        "name": "Desert Rose Wagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 519,
+        "name": "Yellow Sub Scooter",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 520,
+        "name": "Blue Sub Scooter",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 521,
+        "name": "Gold Driver",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 522,
+        "name": "Dolphin Drifter",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 523,
+        "name": "Purple Rattle Buggy",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 524,
+        "name": "Goo-Goo Gold",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 525,
+        "name": "Gold Wild Slugger",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 526,
+        "name": "Spicy Zucchini",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 527,
+        "name": "Chocolate Mint Soft Swerve",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 528,
+        "name": "Gold Soft Swerve",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 529,
+        "name": "Monarch Kart",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 530,
+        "name": "Gold Monarch Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 531,
+        "name": "Black B Dasher Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 532,
+        "name": "Gold B Dasher",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 533,
+        "name": "Badwagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 534,
+        "name": "Blue Badwagon",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 535,
+        "name": "Gold Train",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 536,
+        "name": "Bruiser",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 537,
+        "name": "Snow Skimmer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 538,
+        "name": "Offroader",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 539,
+        "name": "Banana Master",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 540,
+        "name": "Poison Apple Kart",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 541,
+        "name": "Cheep Snorkel",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 542,
+        "name": "Gold Cheep Snorkel",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 543,
+        "name": "Gold Cheep Charger",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 544,
+        "name": "Dark Buggy",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 545,
+        "name": "Koopa King",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 546,
+        "name": "Brown Offroader",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 547,
+        "name": "Cact-X",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 548,
+        "name": "Pirate Sushi Racer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 549,
+        "name": "Silver Bullet Blaster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 550,
+        "name": "Head Honcho",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 551,
+        "name": "DK Maximum",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 552,
+        "name": "Sushi Racer",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 553,
+        "name": "Gilded King",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 554,
+        "name": "Crawly Kart",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 555,
+        "name": "Black Dozer",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 556,
+        "name": "Party-Wing",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 557,
+        "name": "Penguin Slider",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 558,
+        "name": "Black Penguin Slider",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 559,
+        "name": "Cact-Ice",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 560,
+        "name": "Black Turbo Birdo",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 561,
+        "name": "Purple Bunny",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 562,
+        "name": "Jade Hop Rod",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 563,
+        "name": "Crimson Hop Rod",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 564,
+        "name": "Dark Hop Rod",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 565,
+        "name": "Kamek's Zoom Broom",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 566,
+        "name": "Silver King",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 567,
+        "name": "Vampire Flyer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 568,
+        "name": "Red Crawly Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 569,
+        "name": "Yellow Offroader",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 570,
+        "name": "Cact-R",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 571,
+        "name": "Cheership",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 572,
+        "name": "Candy Clown",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 573,
+        "name": "Tiger Bruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 574,
+        "name": "Combo Cruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 575,
+        "name": "Sakura Hop Rod",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 576,
+        "name": "White Turbo Birdo",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 577,
+        "name": "Green-Yellow Capsule Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 578,
+        "name": "Piranha Pipes",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 579,
+        "name": "Red Offroader",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 580,
+        "name": "Goo-Goo Black",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 581,
+        "name": "Cact-B",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 582,
+        "name": "Gold Bullet Blaster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 583,
+        "name": "Red Vampire Flyer",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 584,
+        "name": "Gold Trickster",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 585,
+        "name": "Gold Bruiser",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 586,
+        "name": "Black Sneeker",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 587,
+        "name": "Purple Dozer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 588,
+        "name": "Blue Crawly Kart",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 589,
+        "name": "Rainbow Pipe Buggy",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 590,
+        "name": "Gold Hop Rod",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 591,
+        "name": "Black Jingle Bell",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 592,
+        "name": "Gold Sushi Racer",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 593,
+        "name": "Dry Bones Dasher",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 594,
+        "name": "Waluigi Racer Mk. 2",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 595,
+        "name": "Chain Chomp Chariot",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 596,
+        "name": "Fish Bone Ferry",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 597,
+        "name": "Gold Fish Bone Ferry",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 598,
+        "name": "Wiggler Egg",
+        "type": "kart",
+        "owned": true
+    },
+    {
+        "id": 599,
+        "name": "Boo Pipes",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 600,
+        "name": "Gold Pipes",
+        "type": "kart",
+        "owned": false
+    },
+    {
+        "id": 601,
+        "name": "Wild Wiggler",
+        "type": "kart",
+        "owned": true
+    }
+]

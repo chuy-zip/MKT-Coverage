@@ -1,240 +1,1430 @@
-{
-    "Super Glider": true,
-    "Parachute": true,
-    "Parafoil": true,
-    "Paper Glider": true,
-    "Droplet Glider": true,
-    "BBIA Parafoil": true,
-    "Minion Paper Glider": true,
-    "Piston Glider": true,
-    "Piranha Plant Parafoil": true,
-    "Peach Parasol": true,
-    "Flower Glider": true,
-    "Oilpaper Umbrella": true,
-    "Lightning Oilpaper": true,
-    "Pink Flower Glider": true,
-    "8-Bit Jumping Mario": true,
-    "? Block": true,
-    "Plaid Ribbon": true,
-    "Eggshell Glider": true,
-    "8-Bit Jumping Luigi": true,
-    "Mushroom Glider": true,
-    "Bob-omb Parafoil": true,
-    "Shell Parachute": true,
-    "Wario Wing": true,
-    "Waluigi Wing": true,
-    "BaNaNa Parafoil": true,
-    "Blue Flower Glider": true,
-    "Gold Glider": true,
-    "Fare Flier": false,
-    "Purple Oilpaper Umbrella": false,
-    "Full Flight": true,
-    "Strawberry Crepe": true,
-    "Le Tricolore": false,
-    "Starchute": false,
-    "Royal Parachute": true,
-    "Glitter Glider": false,
-    "Soaring Jack": false,
-    "Gift Glider": false,
-    "New Year's 2020": false,
-    "New Year's Kite": false,
-    "Fireworks Parachute": true,
-    "Crimson Crane": false,
-    "Blizzard Parasol": false,
-    "Blizzard Balloons": true,
-    "Sweetheart Glider": false,
-    "Heart Balloons": true,
-    "Luma Parafoil": false,
-    "Rainbow Starchute": true,
-    "Bright Glider": false,
-    "Safety Glider": false,
-    "Daisy Glider": true,
-    "Pink Gold Paper Glider": true,
-    "Butterfly Sunset": false,
-    "Chocolate Donut": true,
-    "Gold Crane": false,
-    "Chocolate Banana Crepe": false,
-    "Strawberry Donut": false,
-    "Silver Bells": false,
-    "Silver-and-Gold Hearts": false,
-    "Manta Glider": false,
-    "Treasure Map": false,
-    "Butterfly Wings": false,
-    "Great Sail": false,
-    "Festival Wings": false,
-    "8-Bit Star": false,
-    "Super Mario Kart Glider": false,
-    "Star-Spangled Glider": false,
-    "Spider Glider": false,
-    "Sunset Balloons": true,
-    "Jolly Bells": false,
-    "Silver Starchute": false,
-    "Butterfly Prism": false,
-    "Planet Glider": false,
-    "New Year's 2021": false,
-    "Gold New Year's Kite": false,
-    "Toe-Bean Balloons": false,
-    "Calico Parafoil": false,
-    "Black Great Sail": false,
-    "Silver Manta Glider": false,
-    "Rose Parasol": false,
-    "Snow Crystals": false,
-    "8-Bit Fire Flower": false,
-    "Surf Master": false,
-    "Starry Great Sail": false,
-    "Black Toe-Bean Balloons": true,
-    "8-Bit Bullet Bill": false,
-    "Glinting Glider": false,
-    "Flying Easel": false,
-    "Sunny Surf Master": false,
-    "Polka-Dot Manta Glider": false,
-    "Home-Field Glider": false,
-    "Gold Home-Field Glider": false,
-    "Springtime Crane": false,
-    "Yukata Ribbon": false,
-    "Silver Surf Master": true,
-    "Ship's Wheel": false,
-    "Tanooki Parafoil": false,
-    "Gold Tanooki Parafoil": false,
-    "Magic Parasol": false,
-    "8-Bit Super Mushroom": false,
-    "Meteor Balloons": false,
-    "Pink Gold Meteors": false,
-    "Galaxy Glider": false,
-    "Candlelight Flight": false,
-    "Gold Penguin Wingtip": false,
-    "Aurora Balloons": false,
-    "New Year's 2022": false,
-    "Black Cat Parafoil": false,
-    "Cat Parafoil": false,
-    "Gold Toe-Bean Balloons": false,
-    "Glittering Parasol": false,
-    "Luigi Parafoil": false,
-    "Sky-High Flyer": false,
-    "Record Setter": false,
-    "Mario's Mustache": false,
-    "Luigi's Mustache": true,
-    "Origami Glider": false,
-    "Sakura Origami Glider": false,
-    "Gold Eggshell Glider": false,
-    "Green Sprout": false,
-    "Magniflying Glass": false,
-    "Flybrary Book": false,
-    "Pink Magniflying Glass": false,
-    "Cream Toe-Bean Balloons": false,
-    "Green Cat Parafoil": false,
-    "Candlelight Flight Cake": true,
-    "Pretzel Glider": false,
-    "Tulip Corsage": false,
-    "Red and Gold Umbrella": false,
-    "8-Bit 1-Up Mushroom": false,
-    "Tropical Balloons": false,
-    "Fire Manta Glider": false,
-    "Mint & Berry Balloons": false,
-    "Vanilla & Chocolate Balloons": false,
-    "Icy Mario's Mustache": false,
-    "Flying Flappers": false,
-    "Silver Luigi's Mustache": false,
-    "Mario's Hat Balloon": false,
-    "Luigi's Hat Balloon": false,
-    "Gold Cloud Balloons": false,
-    "White Waves Origami Glider": false,
-    "Chocolate Pretzel": false,
-    "Para-Panini": false,
-    "Silver Candlelight Flight": true,
-    "Autumn Leaves": false,
-    "Calico Toe-Bean Balloons": false,
-    "Wonderful Garnet": false,
-    "Festive Holly": false,
-    "Yellow Hard Hat Balloon": false,
-    "Fuzzy Kite": false,
-    "Gold Hard Hat Balloon": false,
-    "New Year's 2023": false,
-    "Gold Meteors": false,
-    "Rainbow Fare Flier": false,
-    "Stealth Glider": false,
-    "Gold Umbrella": false,
-    "Wonderful Diamond": false,
-    "Gold Candlelight Flight": false,
-    "8-Bit Super Glider": false,
-    "Gold 8-Bit Glider": false,
-    "8-Bit Block Glider": false,
-    "8-Bit Goomba": false,
-    "Bright Ribbon": false,
-    "Yoshi's Cookies": true,
-    "Smiley Flower Glider": false,
-    "Golden Glider": false,
-    "Gold Tulips": false,
-    "Gold Manta Glider": false,
-    "Red Checkered Glider": false,
-    "Pink Checkered Glider": false,
-    "Green Checkered Glider": false,
-    "Gold Checkered Glider": false,
-    "Gold Origami Glider": false,
-    "Gold Bells": false,
-    "Glittering Glider": false,
-    "Red Emblem": false,
-    "Green Emblem": false,
-    "Mario Bros. Parafoil": false,
-    "Mosaic Starchute": false,
-    "Jellychute": false,
-    "Wavy Great Sail": false,
-    "Dolphin Great Sail": false,
-    "Pink Bubble Balloon": false,
-    "Mario Golf Cap": false,
-    "Luigi Golf Cap": false,
-    "Gold Mario Golf Cap": false,
-    "Melon & Banana Balloons": false,
-    "Spooky Sprinkle Balloons": false,
-    "Gold Chocolate Balloons": true,
-    "Royal Flush": false,
-    "Rainbow Bells": false,
-    "Gold Mario's Hat Balloon": true,
-    "Swooper": true,
-    "Bullet Bill Parachute": false,
-    "Cloud Glider": true,
-    "Rainy Balloons": false,
-    "Wicked Wings": false,
-    "Gold Swooper": false,
-    "Banana Wingtip": true,
-    "Tropical Glider": true,
-    "Dragon Wings": false,
-    "Blooper Wingtip": false,
-    "Nabbit Oilpaper Umbrella": false,
-    "Cheep Cheep Masks": true,
-    "Dry Bowser Umbrella": false,
-    "Penguin Wingtip": false,
-    "Bright Balloons": false,
-    "Ninja Scroll": false,
-    "Dream Glider": false,
-    "Vampire Wings": true,
-    "Golden Wings": false,
-    "Wario's Mustache": false,
-    "Waluigi's Mustache": false,
-    "Wonderful Wings": false,
-    "Wicked Topaz": false,
-    "Piranha Plant Balloons": false,
-    "Secret Scroll": false,
-    "Lava Rocks": false,
-    "Black Starchute": false,
-    "Boo Masks": false,
-    "Nabbit Parachute": false,
-    "Gold Boo Masks": false,
-    "Roy Oilpaper": false,
-    "Rainbow Flappy Wings": false,
-    "Gold Flappy Wings": true,
-    "Wiggler Parachute": false,
-    "Gold Piranha Plant Balloons": false,
-    "Baby Mario Hanafuda": false,
-    "Yoshi's Egg Hanafuda": false,
-    "Peach Hanafuda": false,
-    "Barrel Hanafuda": false,
-    "Blooper Hanafuda": false,
-    "Cape Mario Hanafuda": false,
-    "Bullet Bill Hanafuda": false,
-    "Boo Hanafuda": false,
-    "Piranha Plant Hanafuda": false,
-    "Goomba Hanafuda": false,
-    "Jumping Mario Hanafuda": false,
-    "Bowser Hanafuda": false
-}
+[
+    {
+        "id": 602,
+        "name": "Super Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 603,
+        "name": "Parachute",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 604,
+        "name": "Parafoil",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 605,
+        "name": "Paper Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 606,
+        "name": "Droplet Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 607,
+        "name": "BBIA Parafoil",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 608,
+        "name": "Minion Paper Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 609,
+        "name": "Piston Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 610,
+        "name": "Piranha Plant Parafoil",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 611,
+        "name": "Peach Parasol",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 612,
+        "name": "Flower Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 613,
+        "name": "Oilpaper Umbrella",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 614,
+        "name": "Lightning Oilpaper",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 615,
+        "name": "Pink Flower Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 616,
+        "name": "8-Bit Jumping Mario",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 617,
+        "name": "? Block",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 618,
+        "name": "Plaid Ribbon",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 619,
+        "name": "Eggshell Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 620,
+        "name": "8-Bit Jumping Luigi",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 621,
+        "name": "Mushroom Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 622,
+        "name": "Bob-omb Parafoil",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 623,
+        "name": "Shell Parachute",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 624,
+        "name": "Wario Wing",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 625,
+        "name": "Waluigi Wing",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 626,
+        "name": "BaNaNa Parafoil",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 627,
+        "name": "Blue Flower Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 628,
+        "name": "Gold Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 629,
+        "name": "Fare Flier",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 630,
+        "name": "Purple Oilpaper Umbrella",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 631,
+        "name": "Full Flight",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 632,
+        "name": "Strawberry Crepe",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 633,
+        "name": "Le Tricolore",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 634,
+        "name": "Starchute",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 635,
+        "name": "Royal Parachute",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 636,
+        "name": "Glitter Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 637,
+        "name": "Soaring Jack",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 638,
+        "name": "Gift Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 639,
+        "name": "New Year's 2020",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 640,
+        "name": "New Year's Kite",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 641,
+        "name": "Fireworks Parachute",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 642,
+        "name": "Crimson Crane",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 643,
+        "name": "Blizzard Parasol",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 644,
+        "name": "Blizzard Balloons",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 645,
+        "name": "Sweetheart Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 646,
+        "name": "Heart Balloons",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 647,
+        "name": "Luma Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 648,
+        "name": "Rainbow Starchute",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 649,
+        "name": "Bright Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 650,
+        "name": "Safety Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 651,
+        "name": "Daisy Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 652,
+        "name": "Pink Gold Paper Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 653,
+        "name": "Butterfly Sunset",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 654,
+        "name": "Chocolate Donut",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 655,
+        "name": "Gold Crane",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 656,
+        "name": "Chocolate Banana Crepe",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 657,
+        "name": "Strawberry Donut",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 658,
+        "name": "Silver Bells",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 659,
+        "name": "Silver-and-Gold Hearts",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 660,
+        "name": "Manta Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 661,
+        "name": "Treasure Map",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 662,
+        "name": "Butterfly Wings",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 663,
+        "name": "Great Sail",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 664,
+        "name": "Festival Wings",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 665,
+        "name": "8-Bit Star",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 666,
+        "name": "Super Mario Kart Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 667,
+        "name": "Star-Spangled Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 668,
+        "name": "Spider Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 669,
+        "name": "Sunset Balloons",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 670,
+        "name": "Jolly Bells",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 671,
+        "name": "Silver Starchute",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 672,
+        "name": "Butterfly Prism",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 673,
+        "name": "Planet Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 674,
+        "name": "New Year's 2021",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 675,
+        "name": "Gold New Year's Kite",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 676,
+        "name": "Toe-Bean Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 677,
+        "name": "Calico Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 678,
+        "name": "Black Great Sail",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 679,
+        "name": "Silver Manta Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 680,
+        "name": "Rose Parasol",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 681,
+        "name": "Snow Crystals",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 682,
+        "name": "8-Bit Fire Flower",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 683,
+        "name": "Surf Master",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 684,
+        "name": "Starry Great Sail",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 685,
+        "name": "Black Toe-Bean Balloons",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 686,
+        "name": "8-Bit Bullet Bill",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 687,
+        "name": "Glinting Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 688,
+        "name": "Flying Easel",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 689,
+        "name": "Sunny Surf Master",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 690,
+        "name": "Polka-Dot Manta Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 691,
+        "name": "Home-Field Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 692,
+        "name": "Gold Home-Field Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 693,
+        "name": "Springtime Crane",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 694,
+        "name": "Yukata Ribbon",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 695,
+        "name": "Silver Surf Master",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 696,
+        "name": "Ship's Wheel",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 697,
+        "name": "Tanooki Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 698,
+        "name": "Gold Tanooki Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 699,
+        "name": "Magic Parasol",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 700,
+        "name": "8-Bit Super Mushroom",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 701,
+        "name": "Meteor Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 702,
+        "name": "Pink Gold Meteors",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 703,
+        "name": "Galaxy Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 704,
+        "name": "Candlelight Flight",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 705,
+        "name": "Gold Penguin Wingtip",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 706,
+        "name": "Aurora Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 707,
+        "name": "New Year's 2022",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 708,
+        "name": "Black Cat Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 709,
+        "name": "Cat Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 710,
+        "name": "Gold Toe-Bean Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 711,
+        "name": "Glittering Parasol",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 712,
+        "name": "Luigi Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 713,
+        "name": "Sky-High Flyer",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 714,
+        "name": "Record Setter",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 715,
+        "name": "Mario's Mustache",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 716,
+        "name": "Luigi's Mustache",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 717,
+        "name": "Origami Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 718,
+        "name": "Sakura Origami Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 719,
+        "name": "Gold Eggshell Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 720,
+        "name": "Green Sprout",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 721,
+        "name": "Magniflying Glass",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 722,
+        "name": "Flybrary Book",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 723,
+        "name": "Pink Magniflying Glass",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 724,
+        "name": "Cream Toe-Bean Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 725,
+        "name": "Green Cat Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 726,
+        "name": "Candlelight Flight Cake",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 727,
+        "name": "Pretzel Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 728,
+        "name": "Tulip Corsage",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 729,
+        "name": "Red and Gold Umbrella",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 730,
+        "name": "8-Bit 1-Up Mushroom",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 731,
+        "name": "Tropical Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 732,
+        "name": "Fire Manta Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 733,
+        "name": "Mint & Berry Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 734,
+        "name": "Vanilla & Chocolate Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 735,
+        "name": "Icy Mario's Mustache",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 736,
+        "name": "Flying Flappers",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 737,
+        "name": "Silver Luigi's Mustache",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 738,
+        "name": "Mario's Hat Balloon",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 739,
+        "name": "Luigi's Hat Balloon",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 740,
+        "name": "Gold Cloud Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 741,
+        "name": "White Waves Origami Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 742,
+        "name": "Chocolate Pretzel",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 743,
+        "name": "Para-Panini",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 744,
+        "name": "Silver Candlelight Flight",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 745,
+        "name": "Autumn Leaves",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 746,
+        "name": "Calico Toe-Bean Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 747,
+        "name": "Wonderful Garnet",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 748,
+        "name": "Festive Holly",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 749,
+        "name": "Yellow Hard Hat Balloon",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 750,
+        "name": "Fuzzy Kite",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 751,
+        "name": "Gold Hard Hat Balloon",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 752,
+        "name": "New Year's 2023",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 753,
+        "name": "Gold Meteors",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 754,
+        "name": "Rainbow Fare Flier",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 755,
+        "name": "Stealth Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 756,
+        "name": "Gold Umbrella",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 757,
+        "name": "Wonderful Diamond",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 758,
+        "name": "Gold Candlelight Flight",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 759,
+        "name": "8-Bit Super Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 760,
+        "name": "Gold 8-Bit Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 761,
+        "name": "8-Bit Block Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 762,
+        "name": "8-Bit Goomba",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 763,
+        "name": "Bright Ribbon",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 764,
+        "name": "Yoshi's Cookies",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 765,
+        "name": "Smiley Flower Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 766,
+        "name": "Golden Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 767,
+        "name": "Gold Tulips",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 768,
+        "name": "Gold Manta Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 769,
+        "name": "Red Checkered Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 770,
+        "name": "Pink Checkered Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 771,
+        "name": "Green Checkered Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 772,
+        "name": "Gold Checkered Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 773,
+        "name": "Gold Origami Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 774,
+        "name": "Gold Bells",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 775,
+        "name": "Glittering Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 776,
+        "name": "Red Emblem",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 777,
+        "name": "Green Emblem",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 778,
+        "name": "Mario Bros. Parafoil",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 779,
+        "name": "Mosaic Starchute",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 780,
+        "name": "Jellychute",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 781,
+        "name": "Wavy Great Sail",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 782,
+        "name": "Dolphin Great Sail",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 783,
+        "name": "Pink Bubble Balloon",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 784,
+        "name": "Mario Golf Cap",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 785,
+        "name": "Luigi Golf Cap",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 786,
+        "name": "Gold Mario Golf Cap",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 787,
+        "name": "Melon & Banana Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 788,
+        "name": "Spooky Sprinkle Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 789,
+        "name": "Gold Chocolate Balloons",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 790,
+        "name": "Royal Flush",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 791,
+        "name": "Rainbow Bells",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 792,
+        "name": "Gold Mario's Hat Balloon",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 793,
+        "name": "Swooper",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 794,
+        "name": "Bullet Bill Parachute",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 795,
+        "name": "Cloud Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 796,
+        "name": "Rainy Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 797,
+        "name": "Wicked Wings",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 798,
+        "name": "Gold Swooper",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 799,
+        "name": "Banana Wingtip",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 800,
+        "name": "Tropical Glider",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 801,
+        "name": "Dragon Wings",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 802,
+        "name": "Blooper Wingtip",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 803,
+        "name": "Nabbit Oilpaper Umbrella",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 804,
+        "name": "Cheep Cheep Masks",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 805,
+        "name": "Dry Bowser Umbrella",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 806,
+        "name": "Penguin Wingtip",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 807,
+        "name": "Bright Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 808,
+        "name": "Ninja Scroll",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 809,
+        "name": "Dream Glider",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 810,
+        "name": "Vampire Wings",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 811,
+        "name": "Golden Wings",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 812,
+        "name": "Wario's Mustache",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 813,
+        "name": "Waluigi's Mustache",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 814,
+        "name": "Wonderful Wings",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 815,
+        "name": "Wicked Topaz",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 816,
+        "name": "Piranha Plant Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 817,
+        "name": "Secret Scroll",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 818,
+        "name": "Lava Rocks",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 819,
+        "name": "Black Starchute",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 820,
+        "name": "Boo Masks",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 821,
+        "name": "Nabbit Parachute",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 822,
+        "name": "Gold Boo Masks",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 823,
+        "name": "Roy Oilpaper",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 824,
+        "name": "Rainbow Flappy Wings",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 825,
+        "name": "Gold Flappy Wings",
+        "type": "glider",
+        "owned": true
+    },
+    {
+        "id": 826,
+        "name": "Wiggler Parachute",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 827,
+        "name": "Gold Piranha Plant Balloons",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 828,
+        "name": "Baby Mario Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 829,
+        "name": "Yoshi's Egg Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 830,
+        "name": "Peach Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 831,
+        "name": "Barrel Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 832,
+        "name": "Blooper Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 833,
+        "name": "Cape Mario Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 834,
+        "name": "Bullet Bill Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 835,
+        "name": "Boo Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 836,
+        "name": "Piranha Plant Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 837,
+        "name": "Goomba Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 838,
+        "name": "Jumping Mario Hanafuda",
+        "type": "glider",
+        "owned": false
+    },
+    {
+        "id": 839,
+        "name": "Bowser Hanafuda",
+        "type": "glider",
+        "owned": false
+    }
+]
