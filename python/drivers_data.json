@@ -1,5 +1,8 @@
-{
-    "Baby Mario": {
+[
+    {
+        "id": 1,
+        "name": "Baby Mario",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "Normal",
         "favorite_courses": [
@@ -8,14 +11,20 @@
             "Waluigi Pinball"
         ]
     },
-    "Baby Peach": {
+    {
+        "id": 2,
+        "name": "Baby Peach",
+        "type": "driver",
         "skill": "Bubble",
         "rarity": "Normal",
         "favorite_courses": [
             "Cheep Cheep Lagoon"
         ]
     },
-    "Baby Daisy": {
+    {
+        "id": 3,
+        "name": "Baby Daisy",
+        "type": "driver",
         "skill": "Bubble",
         "rarity": "Normal",
         "favorite_courses": [
@@ -23,7 +32,10 @@
             "Daisy Hills T"
         ]
     },
-    "Baby Rosalina": {
+    {
+        "id": 4,
+        "name": "Baby Rosalina",
+        "type": "driver",
         "skill": "Bubble",
         "rarity": "Normal",
         "favorite_courses": [
@@ -31,7 +43,10 @@
             "SNES Rainbow Road T"
         ]
     },
-    "Baby Luigi": {
+    {
+        "id": 5,
+        "name": "Baby Luigi",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "Normal",
         "favorite_courses": [
@@ -40,7 +55,10 @@
             "Paris Promenade 2R"
         ]
     },
-    "Koopa Troopa": {
+    {
+        "id": 6,
+        "name": "Koopa Troopa",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "Normal",
         "favorite_courses": [
@@ -50,14 +68,20 @@
             "Sydney Sprint 3R"
         ]
     },
-    "Shy Guy": {
+    {
+        "id": 7,
+        "name": "Shy Guy",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "Normal",
         "favorite_courses": [
             "Shy Guy Bazaar"
         ]
     },
-    "Dry Bones": {
+    {
+        "id": 8,
+        "name": "Dry Bones",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "Normal",
         "favorite_courses": [
@@ -65,7 +89,10 @@
             "Shy Guy Bazaar T"
         ]
     },
-    "Iggy": {
+    {
+        "id": 9,
+        "name": "Iggy",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "Normal",
         "favorite_courses": [
@@ -73,7 +100,10 @@
             "Choco Island 2R"
         ]
     },
-    "Larry": {
+    {
+        "id": 10,
+        "name": "Larry",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "Normal",
         "favorite_courses": [
@@ -82,7 +112,10 @@
             "Piranha Plant Cove 3R/T"
         ]
     },
-    "Lemmy": {
+    {
+        "id": 11,
+        "name": "Lemmy",
+        "type": "driver",
         "skill": "Bubble",
         "rarity": "Normal",
         "favorite_courses": [
@@ -94,7 +127,10 @@
             "Vanilla Lake 1"
         ]
     },
-    "Ludwig": {
+    {
+        "id": 12,
+        "name": "Ludwig",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "Normal",
         "favorite_courses": [
@@ -104,14 +140,20 @@
             "Neo Bowser City R/T"
         ]
     },
-    "Morton": {
+    {
+        "id": 13,
+        "name": "Morton",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "Normal",
         "favorite_courses": [
             "Kalimari Desert"
         ]
     },
-    "Roy": {
+    {
+        "id": 14,
+        "name": "Roy",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "Normal",
         "favorite_courses": [
@@ -119,14 +161,20 @@
             "Kalimari Desert T"
         ]
     },
-    "Wendy": {
+    {
+        "id": 15,
+        "name": "Wendy",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "Normal",
         "favorite_courses": [
             "Choco Island 2"
         ]
     },
-    "Mario": {
+    {
+        "id": 16,
+        "name": "Mario",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -140,7 +188,10 @@
             "Sky Garden R/T"
         ]
     },
-    "Peach": {
+    {
+        "id": 17,
+        "name": "Peach",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "Super",
         "favorite_courses": [
@@ -155,7 +206,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Yoshi": {
+    {
+        "id": 18,
+        "name": "Yoshi",
+        "type": "driver",
         "skill": "Yoshi's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -167,7 +221,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Daisy": {
+    {
+        "id": 19,
+        "name": "Daisy",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "Super",
         "favorite_courses": [
@@ -181,7 +238,10 @@
             "Squeaky Clean Sprint R"
         ]
     },
-    "Toad": {
+    {
+        "id": 20,
+        "name": "Toad",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "Super",
         "favorite_courses": [
@@ -193,7 +253,10 @@
             "Toad Circuit R/T"
         ]
     },
-    "Toadette": {
+    {
+        "id": 21,
+        "name": "Toadette",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "Super",
         "favorite_courses": [
@@ -202,7 +265,10 @@
             "Toad Circuit"
         ]
     },
-    "Rosalina": {
+    {
+        "id": 22,
+        "name": "Rosalina",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "Super",
         "favorite_courses": [
@@ -217,7 +283,10 @@
             "Sydney Sprint R/T"
         ]
     },
-    "Luigi": {
+    {
+        "id": 23,
+        "name": "Luigi",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -232,7 +301,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Toad (Pit Crew)": {
+    {
+        "id": 24,
+        "name": "Toad (Pit Crew)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "Super",
         "favorite_courses": [
@@ -245,7 +317,10 @@
             "Tokyo Blur"
         ]
     },
-    "Red Yoshi": {
+    {
+        "id": 25,
+        "name": "Red Yoshi",
+        "type": "driver",
         "skill": "Yoshi's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -263,7 +338,10 @@
             "Yoshi's Island"
         ]
     },
-    "Blue Yoshi": {
+    {
+        "id": 26,
+        "name": "Blue Yoshi",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "Super",
         "favorite_courses": [
@@ -283,7 +361,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Pink Yoshi": {
+    {
+        "id": 27,
+        "name": "Pink Yoshi",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "Super",
         "favorite_courses": [
@@ -307,7 +388,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Yellow Toad (Pit Crew)": {
+    {
+        "id": 28,
+        "name": "Yellow Toad (Pit Crew)",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "Super",
         "favorite_courses": [
@@ -332,7 +416,10 @@
             "Toad Circuit R/T"
         ]
     },
-    "Light-blue Toad (Pit Crew)": {
+    {
+        "id": 29,
+        "name": "Light-blue Toad (Pit Crew)",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -354,7 +441,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Red Toad (Pit Crew)": {
+    {
+        "id": 30,
+        "name": "Red Toad (Pit Crew)",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -391,7 +481,10 @@
             "Vanilla Lake 2R/T"
         ]
     },
-    "Orange Yoshi": {
+    {
+        "id": 31,
+        "name": "Orange Yoshi",
+        "type": "driver",
         "skill": "Yoshi's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -428,7 +521,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Green Toad (Pit Crew)": {
+    {
+        "id": 32,
+        "name": "Green Toad (Pit Crew)",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "Super",
         "favorite_courses": [
@@ -461,7 +557,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Pink Toad (Pit Crew)": {
+    {
+        "id": 33,
+        "name": "Pink Toad (Pit Crew)",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "Super",
         "favorite_courses": [
@@ -497,7 +596,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Light-blue Yoshi": {
+    {
+        "id": 34,
+        "name": "Light-blue Yoshi",
+        "type": "driver",
         "skill": "Yoshi's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -540,7 +642,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Yellow Yoshi": {
+    {
+        "id": 35,
+        "name": "Yellow Yoshi",
+        "type": "driver",
         "skill": "Yoshi's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -582,7 +687,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Purple Toad (Pit Crew)": {
+    {
+        "id": 36,
+        "name": "Purple Toad (Pit Crew)",
+        "type": "driver",
         "skill": "Giga Bob-omb",
         "rarity": "Super",
         "favorite_courses": [
@@ -620,7 +728,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Bowser": {
+    {
+        "id": 37,
+        "name": "Bowser",
+        "type": "driver",
         "skill": "Bowser's Shell",
         "rarity": "Super",
         "favorite_courses": [
@@ -636,7 +747,10 @@
             "New York Minute 4T"
         ]
     },
-    "Donkey Kong": {
+    {
+        "id": 38,
+        "name": "Donkey Kong",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "Super",
         "favorite_courses": [
@@ -650,7 +764,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Diddy Kong": {
+    {
+        "id": 39,
+        "name": "Diddy Kong",
+        "type": "driver",
         "skill": "Banana Barrel",
         "rarity": "Super",
         "favorite_courses": [
@@ -661,7 +778,10 @@
             "Toad Circuit R"
         ]
     },
-    "Lakitu": {
+    {
+        "id": 40,
+        "name": "Lakitu",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "Super",
         "favorite_courses": [
@@ -679,7 +799,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Bowser Jr.": {
+    {
+        "id": 41,
+        "name": "Bowser Jr.",
+        "type": "driver",
         "skill": "Bowser's Shell",
         "rarity": "Super",
         "favorite_courses": [
@@ -694,7 +817,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Wario": {
+    {
+        "id": 42,
+        "name": "Wario",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "Super",
         "favorite_courses": [
@@ -708,7 +834,10 @@
             "Twilight House"
         ]
     },
-    "Waluigi": {
+    {
+        "id": 43,
+        "name": "Waluigi",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "Super",
         "favorite_courses": [
@@ -723,7 +852,10 @@
             "Waluigi Stadium R"
         ]
     },
-    "King Boo": {
+    {
+        "id": 44,
+        "name": "King Boo",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "Super",
         "favorite_courses": [
@@ -735,7 +867,10 @@
             "Tokyo Blur 2R"
         ]
     },
-    "Black Shy Guy": {
+    {
+        "id": 45,
+        "name": "Black Shy Guy",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "Super",
         "favorite_courses": [
@@ -748,7 +883,10 @@
             "Sunset Wilds R"
         ]
     },
-    "Red Koopa (Freerunning)": {
+    {
+        "id": 46,
+        "name": "Red Koopa (Freerunning)",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -765,7 +903,10 @@
             "Toad Circuit T"
         ]
     },
-    "Birdo": {
+    {
+        "id": 47,
+        "name": "Birdo",
+        "type": "driver",
         "skill": "Birdo's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -780,7 +921,10 @@
             "Vancouver Velocity T"
         ]
     },
-    "Pink Shy Guy": {
+    {
+        "id": 48,
+        "name": "Pink Shy Guy",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "Super",
         "favorite_courses": [
@@ -795,7 +939,10 @@
             "Tokyo Blur 2"
         ]
     },
-    "Birdo (Light Blue)": {
+    {
+        "id": 49,
+        "name": "Birdo (Light Blue)",
+        "type": "driver",
         "skill": "Birdo's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -810,7 +957,10 @@
             "Vancouver Velocity R/T"
         ]
     },
-    "Hammer Bro": {
+    {
+        "id": 50,
+        "name": "Hammer Bro",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "Super",
         "favorite_courses": [
@@ -825,7 +975,10 @@
             "Toad Circuit"
         ]
     },
-    "Boomerang Bro": {
+    {
+        "id": 51,
+        "name": "Boomerang Bro",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "Super",
         "favorite_courses": [
@@ -837,7 +990,10 @@
             "Rock Rock Mountain T"
         ]
     },
-    "Ice Bro": {
+    {
+        "id": 52,
+        "name": "Ice Bro",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -853,7 +1009,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Fire Bro": {
+    {
+        "id": 53,
+        "name": "Fire Bro",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -867,7 +1026,10 @@
             "Shy Guy Bazaar R"
         ]
     },
-    "Birdo (Yellow)": {
+    {
+        "id": 54,
+        "name": "Birdo (Yellow)",
+        "type": "driver",
         "skill": "Birdo's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -880,7 +1042,10 @@
             "Shy Guy Bazaar R/T"
         ]
     },
-    "Monty Mole": {
+    {
+        "id": 55,
+        "name": "Monty Mole",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "Super",
         "favorite_courses": [
@@ -895,7 +1060,10 @@
             "RMX Choco Island 1T"
         ]
     },
-    "Green Shy Guy": {
+    {
+        "id": 56,
+        "name": "Green Shy Guy",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "Super",
         "favorite_courses": [
@@ -918,7 +1086,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Blue Koopa (Freerunning)": {
+    {
+        "id": 57,
+        "name": "Blue Koopa (Freerunning)",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -945,7 +1116,10 @@
             "Vanilla Lake 2"
         ]
     },
-    "Birdo (Blue)": {
+    {
+        "id": 58,
+        "name": "Birdo (Blue)",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "Super",
         "favorite_courses": [
@@ -966,7 +1140,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Purple Koopa (Freerunning)": {
+    {
+        "id": 59,
+        "name": "Purple Koopa (Freerunning)",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "Super",
         "favorite_courses": [
@@ -986,7 +1163,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Light-blue Shy Guy": {
+    {
+        "id": 60,
+        "name": "Light-blue Shy Guy",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -1006,7 +1186,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Blue Shy Guy": {
+    {
+        "id": 61,
+        "name": "Blue Shy Guy",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "Super",
         "favorite_courses": [
@@ -1042,7 +1225,10 @@
             "Yoshi Valley"
         ]
     },
-    "Birdo (Orange)": {
+    {
+        "id": 62,
+        "name": "Birdo (Orange)",
+        "type": "driver",
         "skill": "Birdo's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -1080,7 +1266,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "White Shy Guy": {
+    {
+        "id": 63,
+        "name": "White Shy Guy",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "Super",
         "favorite_courses": [
@@ -1117,7 +1306,10 @@
             "Vanilla Lake 2R/T"
         ]
     },
-    "Koopa (Freerunning)": {
+    {
+        "id": 64,
+        "name": "Koopa (Freerunning)",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "Super",
         "favorite_courses": [
@@ -1155,7 +1347,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Orange Shy Guy": {
+    {
+        "id": 65,
+        "name": "Orange Shy Guy",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "Super",
         "favorite_courses": [
@@ -1198,7 +1393,10 @@
             "Yoshi's Island"
         ]
     },
-    "Birdo (Red)": {
+    {
+        "id": 66,
+        "name": "Birdo (Red)",
+        "type": "driver",
         "skill": "Birdo's Egg",
         "rarity": "Super",
         "favorite_courses": [
@@ -1239,7 +1437,10 @@
             "Yoshi Desert"
         ]
     },
-    "Yellow Shy Guy": {
+    {
+        "id": 67,
+        "name": "Yellow Shy Guy",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "Super",
         "favorite_courses": [
@@ -1277,7 +1478,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Birdo (Green)": {
+    {
+        "id": 68,
+        "name": "Birdo (Green)",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "Super",
         "favorite_courses": [
@@ -1315,7 +1519,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Metal Mario": {
+    {
+        "id": 69,
+        "name": "Metal Mario",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1334,7 +1541,10 @@
             "Tokyo Blur 4R"
         ]
     },
-    "Peachette": {
+    {
+        "id": 70,
+        "name": "Peachette",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1352,7 +1562,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Pauline": {
+    {
+        "id": 71,
+        "name": "Pauline",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1373,7 +1586,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Mario (Musician)": {
+    {
+        "id": 72,
+        "name": "Mario (Musician)",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1400,7 +1616,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Peach (Kimono)": {
+    {
+        "id": 73,
+        "name": "Peach (Kimono)",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1422,7 +1641,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Mario (Hakama)": {
+    {
+        "id": 74,
+        "name": "Mario (Hakama)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1443,7 +1665,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Rosalina (Halloween)": {
+    {
+        "id": 75,
+        "name": "Rosalina (Halloween)",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1469,7 +1694,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "Peach (Vacation)": {
+    {
+        "id": 76,
+        "name": "Peach (Vacation)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1495,7 +1723,10 @@
             "Toad Circuit R"
         ]
     },
-    "Mario (Santa)": {
+    {
+        "id": 77,
+        "name": "Mario (Santa)",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1521,7 +1752,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "Pink Gold Peach": {
+    {
+        "id": 78,
+        "name": "Pink Gold Peach",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1542,7 +1776,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Daisy (Holiday Cheer)": {
+    {
+        "id": 79,
+        "name": "Daisy (Holiday Cheer)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1575,7 +1812,10 @@
             "Vanilla Lake 2"
         ]
     },
-    "Yoshi (Reindeer)": {
+    {
+        "id": 80,
+        "name": "Yoshi (Reindeer)",
+        "type": "driver",
         "skill": "Yoshi's Egg",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1606,7 +1846,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Pauline (Party Time)": {
+    {
+        "id": 81,
+        "name": "Pauline (Party Time)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1636,7 +1879,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Mario (Happi)": {
+    {
+        "id": 82,
+        "name": "Mario (Happi)",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1660,7 +1906,10 @@
             "Tokyo Blur R"
         ]
     },
-    "Toad (Party Time)": {
+    {
+        "id": 83,
+        "name": "Toad (Party Time)",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1682,7 +1931,10 @@
             "Tokyo Blur 2R"
         ]
     },
-    "Peach (Wintertime)": {
+    {
+        "id": 84,
+        "name": "Peach (Wintertime)",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1706,7 +1958,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Penguin Luigi": {
+    {
+        "id": 85,
+        "name": "Penguin Luigi",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1738,7 +1993,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Ice Mario": {
+    {
+        "id": 86,
+        "name": "Ice Mario",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1763,7 +2021,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Baby Peach (Cherub)": {
+    {
+        "id": 87,
+        "name": "Baby Peach (Cherub)",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1794,7 +2055,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Rosalina (Aurora)": {
+    {
+        "id": 88,
+        "name": "Rosalina (Aurora)",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1820,7 +2084,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Mario (Classic)": {
+    {
+        "id": 89,
+        "name": "Mario (Classic)",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1841,7 +2108,10 @@
             "Tokyo Blur 4T"
         ]
     },
-    "Luigi (Classic)": {
+    {
+        "id": 90,
+        "name": "Luigi (Classic)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1865,7 +2135,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Baby Rosalina (Detective)": {
+    {
+        "id": 91,
+        "name": "Baby Rosalina (Detective)",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1900,7 +2173,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Yoshi (Egg Hunt)": {
+    {
+        "id": 92,
+        "name": "Yoshi (Egg Hunt)",
+        "type": "driver",
         "skill": "Yoshi's Egg",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1928,7 +2204,10 @@
             "Yoshi's Island"
         ]
     },
-    "Black Yoshi": {
+    {
+        "id": 93,
+        "name": "Black Yoshi",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1954,7 +2233,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Builder Mario": {
+    {
+        "id": 94,
+        "name": "Builder Mario",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1984,7 +2266,10 @@
             "Wii Rainbow Road T"
         ]
     },
-    "Builder Toad": {
+    {
+        "id": 95,
+        "name": "Builder Toad",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2022,7 +2307,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Daisy (Fairy)": {
+    {
+        "id": 96,
+        "name": "Daisy (Fairy)",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2051,7 +2339,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Mario (Chef)": {
+    {
+        "id": 97,
+        "name": "Mario (Chef)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2081,7 +2372,10 @@
             "Tokyo Blur 3"
         ]
     },
-    "Peach (Wedding)": {
+    {
+        "id": 98,
+        "name": "Peach (Wedding)",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2114,7 +2408,10 @@
             "Toad Circuit R"
         ]
     },
-    "Rosalina (Swimwear)": {
+    {
+        "id": 99,
+        "name": "Rosalina (Swimwear)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2140,7 +2437,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Mario (Swimwear)": {
+    {
+        "id": 100,
+        "name": "Mario (Swimwear)",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2171,7 +2471,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Captain Toad": {
+    {
+        "id": 101,
+        "name": "Captain Toad",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2201,7 +2504,10 @@
             "Toad Circuit T"
         ]
     },
-    "Toadette (Explorer)": {
+    {
+        "id": 102,
+        "name": "Toadette (Explorer)",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2236,7 +2542,10 @@
             "Vancouver Velocity 2R"
         ]
     },
-    "Daisy (Yukata)": {
+    {
+        "id": 103,
+        "name": "Daisy (Yukata)",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2267,7 +2576,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Mario (SNES)": {
+    {
+        "id": 104,
+        "name": "Mario (SNES)",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2298,7 +2610,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Mario (Sunshine)": {
+    {
+        "id": 105,
+        "name": "Mario (Sunshine)",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2334,7 +2649,10 @@
             "Vancouver Velocity T"
         ]
     },
-    "Mario (Halloween)": {
+    {
+        "id": 106,
+        "name": "Mario (Halloween)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2361,7 +2679,10 @@
             "Wario Shipyard"
         ]
     },
-    "Peach (Halloween)": {
+    {
+        "id": 107,
+        "name": "Peach (Halloween)",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2398,7 +2719,10 @@
             "Vancouver Velocity 2R/T"
         ]
     },
-    "Peach (Explorer)": {
+    {
+        "id": 108,
+        "name": "Peach (Explorer)",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2439,7 +2763,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Builder Luigi": {
+    {
+        "id": 109,
+        "name": "Builder Luigi",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2473,7 +2800,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Fire Rosalina": {
+    {
+        "id": 110,
+        "name": "Fire Rosalina",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2514,7 +2844,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Luigi (Lederhosen)": {
+    {
+        "id": 111,
+        "name": "Luigi (Lederhosen)",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2549,7 +2882,10 @@
             "Shy Guy Bazaar"
         ]
     },
-    "Cat Peach": {
+    {
+        "id": 112,
+        "name": "Cat Peach",
+        "type": "driver",
         "skill": "Super Bell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2581,7 +2917,10 @@
             "Waluigi Stadium R"
         ]
     },
-    "Cat Toad": {
+    {
+        "id": 113,
+        "name": "Cat Toad",
+        "type": "driver",
         "skill": "Super Bell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2617,7 +2956,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Pauline (Rose)": {
+    {
+        "id": 114,
+        "name": "Pauline (Rose)",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2657,7 +2999,10 @@
             "Tokyo Blur 4T"
         ]
     },
-    "Penguin Toad": {
+    {
+        "id": 115,
+        "name": "Penguin Toad",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2690,7 +3035,10 @@
             "Vanilla Lake 2T"
         ]
     },
-    "Mario (Racing)": {
+    {
+        "id": 116,
+        "name": "Mario (Racing)",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2721,7 +3069,10 @@
             "Tokyo Blur R/T"
         ]
     },
-    "White Yoshi": {
+    {
+        "id": 117,
+        "name": "White Yoshi",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2757,7 +3108,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "Baby Mario (Koala)": {
+    {
+        "id": 118,
+        "name": "Baby Mario (Koala)",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2792,7 +3146,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Builder Toadette": {
+    {
+        "id": 119,
+        "name": "Builder Toadette",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2834,7 +3191,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Mario (Tuxedo)": {
+    {
+        "id": 120,
+        "name": "Mario (Tuxedo)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2868,7 +3228,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "Luigi (Painter)": {
+    {
+        "id": 121,
+        "name": "Luigi (Painter)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2912,7 +3275,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Daisy (Swimwear)": {
+    {
+        "id": 122,
+        "name": "Daisy (Swimwear)",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2953,7 +3319,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Mario (Baseball)": {
+    {
+        "id": 123,
+        "name": "Mario (Baseball)",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2995,7 +3364,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Peach (Happi)": {
+    {
+        "id": 124,
+        "name": "Peach (Happi)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3037,7 +3409,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Penguin Mario": {
+    {
+        "id": 125,
+        "name": "Penguin Mario",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3082,7 +3457,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Yoshi (Kangaroo)": {
+    {
+        "id": 126,
+        "name": "Yoshi (Kangaroo)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3130,7 +3508,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Tanooki Mario": {
+    {
+        "id": 127,
+        "name": "Tanooki Mario",
+        "type": "driver",
         "skill": "Super Leaf",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3165,7 +3546,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Tanooki Rosalina": {
+    {
+        "id": 128,
+        "name": "Tanooki Rosalina",
+        "type": "driver",
         "skill": "Super Leaf",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3204,7 +3588,10 @@
             "Yoshi Valley"
         ]
     },
-    "Mario (Satellaview)": {
+    {
+        "id": 129,
+        "name": "Mario (Satellaview)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3237,7 +3624,10 @@
             "Yoshi Desert"
         ]
     },
-    "Penguin Toadette": {
+    {
+        "id": 130,
+        "name": "Penguin Toadette",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3288,7 +3678,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Cat Rosalina": {
+    {
+        "id": 131,
+        "name": "Cat Rosalina",
+        "type": "driver",
         "skill": "Super Bell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3325,7 +3718,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Luigi (Vacation)": {
+    {
+        "id": 132,
+        "name": "Luigi (Vacation)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3366,7 +3762,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Mario (Golf)": {
+    {
+        "id": 133,
+        "name": "Mario (Golf)",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3411,7 +3810,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Luigi (Golf)": {
+    {
+        "id": 134,
+        "name": "Luigi (Golf)",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3464,7 +3866,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Mario (Aviator)": {
+    {
+        "id": 135,
+        "name": "Mario (Aviator)",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3499,7 +3904,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Mario (Samurai)": {
+    {
+        "id": 136,
+        "name": "Mario (Samurai)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3545,7 +3953,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Peach (Yukata)": {
+    {
+        "id": 137,
+        "name": "Peach (Yukata)",
+        "type": "driver",
         "skill": "Giga Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3600,7 +4011,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Yoshi (Gold Egg)": {
+    {
+        "id": 138,
+        "name": "Yoshi (Gold Egg)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3648,7 +4062,10 @@
             "Yoshi Valley"
         ]
     },
-    "Rosalina (Volendam)": {
+    {
+        "id": 139,
+        "name": "Rosalina (Volendam)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3695,7 +4112,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Daisy (Farmer)": {
+    {
+        "id": 140,
+        "name": "Daisy (Farmer)",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3742,7 +4162,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Dr. Mario": {
+    {
+        "id": 141,
+        "name": "Dr. Mario",
+        "type": "driver",
         "skill": "Capsule",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3786,7 +4209,10 @@
             "Yoshi's Island"
         ]
     },
-    "Dr. Luigi": {
+    {
+        "id": 142,
+        "name": "Dr. Luigi",
+        "type": "driver",
         "skill": "Capsule",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3838,7 +4264,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Dr. Peach": {
+    {
+        "id": 143,
+        "name": "Dr. Peach",
+        "type": "driver",
         "skill": "Capsule",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3892,7 +4321,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Cat Mario": {
+    {
+        "id": 144,
+        "name": "Cat Mario",
+        "type": "driver",
         "skill": "Super Bell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3948,7 +4380,10 @@
             "Tokyo Blur"
         ]
     },
-    "Cat Luigi": {
+    {
+        "id": 145,
+        "name": "Cat Luigi",
+        "type": "driver",
         "skill": "Giga Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4003,7 +4438,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Rosalina (Chef)": {
+    {
+        "id": 146,
+        "name": "Rosalina (Chef)",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4054,7 +4492,10 @@
             "Wii Rainbow Road"
         ]
     },
-    "Daisy (Thai Dress)": {
+    {
+        "id": 147,
+        "name": "Daisy (Thai Dress)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4114,7 +4555,10 @@
             "Yoshi Desert"
         ]
     },
-    "Daisy (Sailor)": {
+    {
+        "id": 148,
+        "name": "Daisy (Sailor)",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4174,7 +4618,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Toadette (Sailor)": {
+    {
+        "id": 149,
+        "name": "Toadette (Sailor)",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4237,7 +4684,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "White Tanooki Mario": {
+    {
+        "id": 150,
+        "name": "White Tanooki Mario",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4293,7 +4743,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Luigi (Knight)": {
+    {
+        "id": 151,
+        "name": "Luigi (Knight)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4340,7 +4793,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Mario (King)": {
+    {
+        "id": 152,
+        "name": "Mario (King)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4393,7 +4849,10 @@
             "Wii Rainbow Road R/T"
         ]
     },
-    "Luigi (Chef)": {
+    {
+        "id": 153,
+        "name": "Luigi (Chef)",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4446,7 +4905,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Kitsune Luigi": {
+    {
+        "id": 154,
+        "name": "Kitsune Luigi",
+        "type": "driver",
         "skill": "Super Leaf",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4502,7 +4964,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Toad (Astronaut)": {
+    {
+        "id": 155,
+        "name": "Toad (Astronaut)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4558,7 +5023,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Toadette (Astronaut)": {
+    {
+        "id": 156,
+        "name": "Toadette (Astronaut)",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4613,7 +5081,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Poochy": {
+    {
+        "id": 157,
+        "name": "Poochy",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4674,7 +5145,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Toad (Tourist)": {
+    {
+        "id": 158,
+        "name": "Toad (Tourist)",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4738,7 +5212,10 @@
             "Yoshi Valley"
         ]
     },
-    "Luigi (Gold Knight)": {
+    {
+        "id": 159,
+        "name": "Luigi (Gold Knight)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4789,7 +5266,10 @@
             "Yoshi Valley"
         ]
     },
-    "Pauline (Cowgirl)": {
+    {
+        "id": 160,
+        "name": "Pauline (Cowgirl)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4848,7 +5328,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Mario (Black Suit)": {
+    {
+        "id": 161,
+        "name": "Mario (Black Suit)",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4911,7 +5394,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Gold Mario": {
+    {
+        "id": 162,
+        "name": "Gold Mario",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4969,7 +5455,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Dry Bowser": {
+    {
+        "id": 163,
+        "name": "Dry Bowser",
+        "type": "driver",
         "skill": "Bowser's Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4987,7 +5476,10 @@
             "Shy Guy Bazaar R"
         ]
     },
-    "King Boo (Luigi's Mansion)": {
+    {
+        "id": 164,
+        "name": "King Boo (Luigi's Mansion)",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5010,7 +5502,10 @@
             "Twilight House"
         ]
     },
-    "Shy Guy (Pastry Chef)": {
+    {
+        "id": 165,
+        "name": "Shy Guy (Pastry Chef)",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5038,7 +5533,10 @@
             "Tokyo Blur 2R/T"
         ]
     },
-    "Waluigi (Bus Driver)": {
+    {
+        "id": 166,
+        "name": "Waluigi (Bus Driver)",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5062,7 +5560,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Gold Koopa (Freerunning)": {
+    {
+        "id": 167,
+        "name": "Gold Koopa (Freerunning)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5085,7 +5586,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "Wario (Hiker)": {
+    {
+        "id": 168,
+        "name": "Wario (Hiker)",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5113,7 +5617,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Dry Bones (Gold)": {
+    {
+        "id": 169,
+        "name": "Dry Bones (Gold)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5140,7 +5647,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Funky Kong": {
+    {
+        "id": 170,
+        "name": "Funky Kong",
+        "type": "driver",
         "skill": "Banana Barrel",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5166,7 +5676,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Dixie Kong": {
+    {
+        "id": 171,
+        "name": "Dixie Kong",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5190,7 +5703,10 @@
             "Vanilla Lake 1"
         ]
     },
-    "Dry Bowser (Gold)": {
+    {
+        "id": 172,
+        "name": "Dry Bowser (Gold)",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5220,7 +5736,10 @@
             "Waluigi Stadium"
         ]
     },
-    "Wario (Cowboy)": {
+    {
+        "id": 173,
+        "name": "Wario (Cowboy)",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5249,7 +5768,10 @@
             "Wario Shipyard"
         ]
     },
-    "Nabbit": {
+    {
+        "id": 174,
+        "name": "Nabbit",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5281,7 +5803,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Bowser Jr. (Pirate)": {
+    {
+        "id": 175,
+        "name": "Bowser Jr. (Pirate)",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5311,7 +5836,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "King Bob-omb": {
+    {
+        "id": 176,
+        "name": "King Bob-omb",
+        "type": "driver",
         "skill": "Giga Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5337,7 +5865,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Donkey Kong Jr. (SNES)": {
+    {
+        "id": 177,
+        "name": "Donkey Kong Jr. (SNES)",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5388,7 +5919,10 @@
             "Yoshi Valley"
         ]
     },
-    "Shy Guy (Gold)": {
+    {
+        "id": 178,
+        "name": "Shy Guy (Gold)",
+        "type": "driver",
         "skill": "Giga Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5423,7 +5957,10 @@
             "Waluigi Stadium R/T"
         ]
     },
-    "King Boo (Gold)": {
+    {
+        "id": 179,
+        "name": "King Boo (Gold)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5448,7 +5985,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Bowser (Santa)": {
+    {
+        "id": 180,
+        "name": "Bowser (Santa)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5477,7 +6017,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Lakitu (Party Time)": {
+    {
+        "id": 181,
+        "name": "Lakitu (Party Time)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5509,7 +6052,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Birdo (Black)": {
+    {
+        "id": 182,
+        "name": "Birdo (Black)",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5546,7 +6092,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Shy Guy (Ninja)": {
+    {
+        "id": 183,
+        "name": "Shy Guy (Ninja)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5584,7 +6133,10 @@
             "Yoshi's Island"
         ]
     },
-    "King Bob-omb (Gold)": {
+    {
+        "id": 184,
+        "name": "King Bob-omb (Gold)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5617,7 +6169,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Kamek": {
+    {
+        "id": 185,
+        "name": "Kamek",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5651,7 +6206,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "Waluigi (Vampire)": {
+    {
+        "id": 186,
+        "name": "Waluigi (Vampire)",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5691,7 +6249,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Meowser": {
+    {
+        "id": 187,
+        "name": "Meowser",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5729,7 +6290,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Chargin' Chuck": {
+    {
+        "id": 188,
+        "name": "Chargin' Chuck",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5766,7 +6330,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "Pink Shy Guy (Ninja)": {
+    {
+        "id": 189,
+        "name": "Pink Shy Guy (Ninja)",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5816,7 +6383,10 @@
             "Yoshi Valley"
         ]
     },
-    "Birdo (White)": {
+    {
+        "id": 190,
+        "name": "Birdo (White)",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5860,7 +6430,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Dr. Bowser": {
+    {
+        "id": 191,
+        "name": "Dr. Bowser",
+        "type": "driver",
         "skill": "Capsule",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5910,7 +6483,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Petey Piranha": {
+    {
+        "id": 192,
+        "name": "Petey Piranha",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5961,7 +6537,10 @@
             "Yoshi Valley"
         ]
     },
-    "Chargin' Chuck (Gold)": {
+    {
+        "id": 193,
+        "name": "Chargin' Chuck (Gold)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6018,7 +6597,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Petey Piranha (Gold)": {
+    {
+        "id": 194,
+        "name": "Petey Piranha (Gold)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6073,7 +6655,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "Larry (Wintertime)": {
+    {
+        "id": 195,
+        "name": "Larry (Wintertime)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6131,7 +6716,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Light-blue Shy Guy (Explorer)": {
+    {
+        "id": 196,
+        "name": "Light-blue Shy Guy (Explorer)",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6185,7 +6773,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Yellow Shy Guy (Explorer)": {
+    {
+        "id": 197,
+        "name": "Yellow Shy Guy (Explorer)",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6245,7 +6836,10 @@
             "Yoshi's Island"
         ]
     },
-    "Donkey Kong (Gladiator)": {
+    {
+        "id": 198,
+        "name": "Donkey Kong (Gladiator)",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6309,7 +6903,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Wiggler": {
+    {
+        "id": 199,
+        "name": "Wiggler",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6370,7 +6967,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Wiggler (Gold)": {
+    {
+        "id": 200,
+        "name": "Wiggler (Gold)",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6429,7 +7029,10 @@
             "Yoshi's Island"
         ]
     },
-    "Red Mii Racing Suit": {
+    {
+        "id": 201,
+        "name": "Red Mii Racing Suit",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6444,7 +7047,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Mario Mii Racing Suit": {
+    {
+        "id": 202,
+        "name": "Mario Mii Racing Suit",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6472,7 +7078,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Peach Mii Racing Suit": {
+    {
+        "id": 203,
+        "name": "Peach Mii Racing Suit",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6503,7 +7112,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Toad Mii Racing Suit": {
+    {
+        "id": 204,
+        "name": "Toad Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6523,7 +7135,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Luigi Mii Racing Suit": {
+    {
+        "id": 205,
+        "name": "Luigi Mii Racing Suit",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6546,7 +7161,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Rosalina Mii Racing Suit": {
+    {
+        "id": 206,
+        "name": "Rosalina Mii Racing Suit",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6573,7 +7191,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "Donkey Kong Mii Racing Suit": {
+    {
+        "id": 207,
+        "name": "Donkey Kong Mii Racing Suit",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6603,7 +7224,10 @@
             "Yoshi Desert"
         ]
     },
-    "Bronze Mii Racing Suit": {
+    {
+        "id": 208,
+        "name": "Bronze Mii Racing Suit",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6639,7 +7263,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Silver Mii Racing Suit": {
+    {
+        "id": 209,
+        "name": "Silver Mii Racing Suit",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6673,7 +7300,10 @@
             "Yoshi's Island"
         ]
     },
-    "Gold Mii Racing Suit": {
+    {
+        "id": 210,
+        "name": "Gold Mii Racing Suit",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6729,7 +7359,10 @@
             "Yoshi Valley"
         ]
     },
-    "King Boo Mii Racing Suit": {
+    {
+        "id": 211,
+        "name": "King Boo Mii Racing Suit",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6756,7 +7389,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "King Bob-omb Mii Racing Suit": {
+    {
+        "id": 212,
+        "name": "King Bob-omb Mii Racing Suit",
+        "type": "driver",
         "skill": "Giga Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6792,7 +7428,10 @@
             "Yoshi Desert"
         ]
     },
-    "Yoshi Mii Racing Suit": {
+    {
+        "id": 213,
+        "name": "Yoshi Mii Racing Suit",
+        "type": "driver",
         "skill": "Yoshi's Egg",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6824,7 +7463,10 @@
             "Yoshi's Island"
         ]
     },
-    "Birdo Mii Racing Suit": {
+    {
+        "id": 214,
+        "name": "Birdo Mii Racing Suit",
+        "type": "driver",
         "skill": "Birdo's Egg",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6855,7 +7497,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Nabbit Mii Racing Suit": {
+    {
+        "id": 215,
+        "name": "Nabbit Mii Racing Suit",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6893,7 +7538,10 @@
             "Yoshi Valley"
         ]
     },
-    "Wario Mii Racing Suit": {
+    {
+        "id": 216,
+        "name": "Wario Mii Racing Suit",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6928,7 +7576,10 @@
             "Yoshi Desert R"
         ]
     },
-    "? Block Mii Racing Suit": {
+    {
+        "id": 217,
+        "name": "? Block Mii Racing Suit",
+        "type": "driver",
         "skill": "Coin Box",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6971,7 +7622,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Cat Mii Racing Suit": {
+    {
+        "id": 218,
+        "name": "Cat Mii Racing Suit",
+        "type": "driver",
         "skill": "Super Bell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7009,7 +7663,10 @@
             "Wii Rainbow Road R"
         ]
     },
-    "Pastry Chef Mii Racing Suit": {
+    {
+        "id": 219,
+        "name": "Pastry Chef Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7045,7 +7702,10 @@
             "Wii Rainbow Road R"
         ]
     },
-    "Chain Chomp Mii Racing Suit": {
+    {
+        "id": 220,
+        "name": "Chain Chomp Mii Racing Suit",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7080,7 +7740,10 @@
             "Yoshi Valley"
         ]
     },
-    "Petey Piranha Mii Racing Suit": {
+    {
+        "id": 221,
+        "name": "Petey Piranha Mii Racing Suit",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7118,7 +7781,10 @@
             "Yoshi's Island"
         ]
     },
-    "Dolphin Mii Racing Suit": {
+    {
+        "id": 222,
+        "name": "Dolphin Mii Racing Suit",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7151,7 +7817,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Cheep Cheep Mii Racing Suit": {
+    {
+        "id": 223,
+        "name": "Cheep Cheep Mii Racing Suit",
+        "type": "driver",
         "skill": "Bubble",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7192,7 +7861,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Ice-Cream Mii Racing Suit": {
+    {
+        "id": 224,
+        "name": "Ice-Cream Mii Racing Suit",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7229,7 +7901,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Bowser Mii Racing Suit": {
+    {
+        "id": 225,
+        "name": "Bowser Mii Racing Suit",
+        "type": "driver",
         "skill": "Bowser's Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7266,7 +7941,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Dry Bowser Mii Racing Suit": {
+    {
+        "id": 226,
+        "name": "Dry Bowser Mii Racing Suit",
+        "type": "driver",
         "skill": "Bowser's Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7303,7 +7981,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Goomba Mii Racing Suit": {
+    {
+        "id": 227,
+        "name": "Goomba Mii Racing Suit",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7343,7 +8024,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Hammer Bro Mii Racing Suit": {
+    {
+        "id": 228,
+        "name": "Hammer Bro Mii Racing Suit",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7383,7 +8067,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Castle Mii Racing Suit": {
+    {
+        "id": 229,
+        "name": "Castle Mii Racing Suit",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7423,7 +8110,10 @@
             "Yoshi Desert R"
         ]
     },
-    "White Mii Racing Suit": {
+    {
+        "id": 230,
+        "name": "White Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7456,7 +8146,10 @@
             "Wii Rainbow Road R"
         ]
     },
-    "Green Mii Racing Suit": {
+    {
+        "id": 231,
+        "name": "Green Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7499,7 +8192,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Dry Bones Mii Racing Suit": {
+    {
+        "id": 232,
+        "name": "Dry Bones Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7544,7 +8240,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Yellow Mii Racing Suit": {
+    {
+        "id": 233,
+        "name": "Yellow Mii Racing Suit",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7585,7 +8284,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Moo Moo Mii Racing Suit": {
+    {
+        "id": 234,
+        "name": "Moo Moo Mii Racing Suit",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7623,7 +8325,10 @@
             "Vanilla Lake 2R/T"
         ]
     },
-    "Rocky Wrench Mii Racing Suit": {
+    {
+        "id": 235,
+        "name": "Rocky Wrench Mii Racing Suit",
+        "type": "driver",
         "skill": "Hammer",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7666,7 +8371,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Santa Mii Racing Suit": {
+    {
+        "id": 236,
+        "name": "Santa Mii Racing Suit",
+        "type": "driver",
         "skill": "Lucky Seven",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7709,7 +8417,10 @@
             "Wii Rainbow Road"
         ]
     },
-    "Reindeer Mii Racing Suit": {
+    {
+        "id": 237,
+        "name": "Reindeer Mii Racing Suit",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7752,7 +8463,10 @@
             "Yoshi's Island"
         ]
     },
-    "Black Mii Racing Suit": {
+    {
+        "id": 238,
+        "name": "Black Mii Racing Suit",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7789,7 +8503,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Purple Mii Racing Suit": {
+    {
+        "id": 239,
+        "name": "Purple Mii Racing Suit",
+        "type": "driver",
         "skill": "Giga Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7826,7 +8543,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Roaring Racer Mii Racing Suit": {
+    {
+        "id": 240,
+        "name": "Roaring Racer Mii Racing Suit",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7869,7 +8589,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Brown Mii Racing Suit": {
+    {
+        "id": 241,
+        "name": "Brown Mii Racing Suit",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7903,7 +8626,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Para-Biddybud Mii Racing Suit": {
+    {
+        "id": 242,
+        "name": "Para-Biddybud Mii Racing Suit",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7949,7 +8675,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Spike Mii Racing Suit": {
+    {
+        "id": 243,
+        "name": "Spike Mii Racing Suit",
+        "type": "driver",
         "skill": "Bob-omb Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7985,7 +8714,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Pokey Mii Racing Suit": {
+    {
+        "id": 244,
+        "name": "Pokey Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8031,7 +8763,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Piranha Plant Mii Racing Suit": {
+    {
+        "id": 245,
+        "name": "Piranha Plant Mii Racing Suit",
+        "type": "driver",
         "skill": "Fire Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8080,7 +8815,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Blue Mii Racing Suit": {
+    {
+        "id": 246,
+        "name": "Blue Mii Racing Suit",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8124,7 +8862,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Iggy Mii Racing Suit": {
+    {
+        "id": 247,
+        "name": "Iggy Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Green Shells",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8167,7 +8908,10 @@
             "Yoshi Desert"
         ]
     },
-    "Larry Mii Racing Suit": {
+    {
+        "id": 248,
+        "name": "Larry Mii Racing Suit",
+        "type": "driver",
         "skill": "Boomerang",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8213,7 +8957,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Lemmy Mii Racing Suit": {
+    {
+        "id": 249,
+        "name": "Lemmy Mii Racing Suit",
+        "type": "driver",
         "skill": "Bubble",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8261,7 +9008,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Ludwig Mii Racing Suit": {
+    {
+        "id": 250,
+        "name": "Ludwig Mii Racing Suit",
+        "type": "driver",
         "skill": "Dash Ring",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8308,7 +9058,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Morton Mii Racing Suit": {
+    {
+        "id": 251,
+        "name": "Morton Mii Racing Suit",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8350,7 +9103,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Roy Mii Racing Suit": {
+    {
+        "id": 252,
+        "name": "Roy Mii Racing Suit",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8396,7 +9152,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Wendy Mii Racing Suit": {
+    {
+        "id": 253,
+        "name": "Wendy Mii Racing Suit",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8444,7 +9203,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Daisy Mii Racing Suit": {
+    {
+        "id": 254,
+        "name": "Daisy Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8497,7 +9259,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Pink Mii Racing Suit": {
+    {
+        "id": 255,
+        "name": "Pink Mii Racing Suit",
+        "type": "driver",
         "skill": "Heart",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8550,7 +9315,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Monty Mole Mii Racing Suit": {
+    {
+        "id": 256,
+        "name": "Monty Mole Mii Racing Suit",
+        "type": "driver",
         "skill": "Mushroom Cannon",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8596,7 +9364,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Waluigi Mii Racing Suit": {
+    {
+        "id": 257,
+        "name": "Waluigi Mii Racing Suit",
+        "type": "driver",
         "skill": "Double Bob-ombs",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8642,7 +9413,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Fish Bone Mii Racing Suit": {
+    {
+        "id": 258,
+        "name": "Fish Bone Mii Racing Suit",
+        "type": "driver",
         "skill": "Bubble",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8684,7 +9458,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "Light Green Mii Racing Suit": {
+    {
+        "id": 259,
+        "name": "Light Green Mii Racing Suit",
+        "type": "driver",
         "skill": "Banana Barrel",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8724,7 +9501,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Wiggler Mii Racing Suit": {
+    {
+        "id": 260,
+        "name": "Wiggler Mii Racing Suit",
+        "type": "driver",
         "skill": "Giant Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8777,7 +9557,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Toadette Mii Racing Suit": {
+    {
+        "id": 261,
+        "name": "Toadette Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Mushrooms",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8824,7 +9607,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Blooper Mii Racing Suit": {
+    {
+        "id": 262,
+        "name": "Blooper Mii Racing Suit",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8869,7 +9655,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Orange Mii Racing Suit": {
+    {
+        "id": 263,
+        "name": "Orange Mii Racing Suit",
+        "type": "driver",
         "skill": "Triple Bananas",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8918,7 +9707,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Light Blue Mii Racing Suit": {
+    {
+        "id": 264,
+        "name": "Light Blue Mii Racing Suit",
+        "type": "driver",
         "skill": "Ice Flower",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8966,7 +9758,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Koopa Clown Mii Racing Suit": {
+    {
+        "id": 265,
+        "name": "Koopa Clown Mii Racing Suit",
+        "type": "driver",
         "skill": "Bowser's Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9022,4 +9817,4 @@
             "Yoshi Desert R"
         ]
     }
-}
+]

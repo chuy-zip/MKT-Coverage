@@ -1,12 +1,18 @@
-{
-    "Super Glider": {
+[
+    {
+        "id": 602,
+        "name": "Super Glider",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "Normal",
         "favorite_courses": [
             "Mario Circuit 1"
         ]
     },
-    "Parachute": {
+    {
+        "id": 603,
+        "name": "Parachute",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "Normal",
         "favorite_courses": [
@@ -14,7 +20,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Parafoil": {
+    {
+        "id": 604,
+        "name": "Parafoil",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "Normal",
         "favorite_courses": [
@@ -23,7 +32,10 @@
             "Toad Circuit T"
         ]
     },
-    "Paper Glider": {
+    {
+        "id": 605,
+        "name": "Paper Glider",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "Normal",
         "favorite_courses": [
@@ -32,7 +44,10 @@
             "Mario Circuit 2R"
         ]
     },
-    "Droplet Glider": {
+    {
+        "id": 606,
+        "name": "Droplet Glider",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "Normal",
         "favorite_courses": [
@@ -42,7 +57,10 @@
             "RMX Vanilla Lake 2R"
         ]
     },
-    "BBIA Parafoil": {
+    {
+        "id": 607,
+        "name": "BBIA Parafoil",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "Normal",
         "favorite_courses": [
@@ -52,7 +70,10 @@
             "SNES Rainbow Road T"
         ]
     },
-    "Minion Paper Glider": {
+    {
+        "id": 608,
+        "name": "Minion Paper Glider",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "Normal",
         "favorite_courses": [
@@ -61,7 +82,10 @@
             "Mario Raceway"
         ]
     },
-    "Piston Glider": {
+    {
+        "id": 609,
+        "name": "Piston Glider",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "Normal",
         "favorite_courses": [
@@ -71,7 +95,10 @@
             "Toad Circuit R"
         ]
     },
-    "Piranha Plant Parafoil": {
+    {
+        "id": 610,
+        "name": "Piranha Plant Parafoil",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "Normal",
         "favorite_courses": [
@@ -84,7 +111,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Peach Parasol": {
+    {
+        "id": 611,
+        "name": "Peach Parasol",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "Super",
         "favorite_courses": [
@@ -96,7 +126,10 @@
             "Koopa Troopa Beach"
         ]
     },
-    "Flower Glider": {
+    {
+        "id": 612,
+        "name": "Flower Glider",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "Super",
         "favorite_courses": [
@@ -108,7 +141,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Oilpaper Umbrella": {
+    {
+        "id": 613,
+        "name": "Oilpaper Umbrella",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "Super",
         "favorite_courses": [
@@ -124,7 +160,10 @@
             "SNES Rainbow Road"
         ]
     },
-    "Lightning Oilpaper": {
+    {
+        "id": 614,
+        "name": "Lightning Oilpaper",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "Super",
         "favorite_courses": [
@@ -141,7 +180,10 @@
             "Shy Guy Bazaar"
         ]
     },
-    "Pink Flower Glider": {
+    {
+        "id": 615,
+        "name": "Pink Flower Glider",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "Super",
         "favorite_courses": [
@@ -156,7 +198,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "8-Bit Jumping Mario": {
+    {
+        "id": 616,
+        "name": "8-Bit Jumping Mario",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "Super",
         "favorite_courses": [
@@ -173,7 +218,10 @@
             "RMX Mario Circuit 1T"
         ]
     },
-    "? Block": {
+    {
+        "id": 617,
+        "name": "? Block",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "Super",
         "favorite_courses": [
@@ -190,7 +238,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Plaid Ribbon": {
+    {
+        "id": 618,
+        "name": "Plaid Ribbon",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "Super",
         "favorite_courses": [
@@ -207,7 +258,10 @@
             "Vancouver Velocity T"
         ]
     },
-    "Eggshell Glider": {
+    {
+        "id": 619,
+        "name": "Eggshell Glider",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "Super",
         "favorite_courses": [
@@ -222,7 +276,10 @@
             "Yoshi's Island"
         ]
     },
-    "8-Bit Jumping Luigi": {
+    {
+        "id": 620,
+        "name": "8-Bit Jumping Luigi",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "Super",
         "favorite_courses": [
@@ -239,7 +296,10 @@
             "Singapore Speedway 2T"
         ]
     },
-    "Mushroom Glider": {
+    {
+        "id": 621,
+        "name": "Mushroom Glider",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "Super",
         "favorite_courses": [
@@ -257,7 +317,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Bob-omb Parafoil": {
+    {
+        "id": 622,
+        "name": "Bob-omb Parafoil",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "Super",
         "favorite_courses": [
@@ -269,7 +332,10 @@
             "Toad Circuit R"
         ]
     },
-    "Shell Parachute": {
+    {
+        "id": 623,
+        "name": "Shell Parachute",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "Super",
         "favorite_courses": [
@@ -282,7 +348,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Wario Wing": {
+    {
+        "id": 624,
+        "name": "Wario Wing",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "Super",
         "favorite_courses": [
@@ -297,7 +366,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Waluigi Wing": {
+    {
+        "id": 625,
+        "name": "Waluigi Wing",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "Super",
         "favorite_courses": [
@@ -309,7 +381,10 @@
             "Waluigi Pinball"
         ]
     },
-    "BaNaNa Parafoil": {
+    {
+        "id": 626,
+        "name": "BaNaNa Parafoil",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "Super",
         "favorite_courses": [
@@ -325,7 +400,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Blue Flower Glider": {
+    {
+        "id": 627,
+        "name": "Blue Flower Glider",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "Super",
         "favorite_courses": [
@@ -340,7 +418,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Gold Glider": {
+    {
+        "id": 628,
+        "name": "Gold Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -361,7 +442,10 @@
             "Toad Circuit T"
         ]
     },
-    "Fare Flier": {
+    {
+        "id": 629,
+        "name": "Fare Flier",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -384,7 +468,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Purple Oilpaper Umbrella": {
+    {
+        "id": 630,
+        "name": "Purple Oilpaper Umbrella",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -404,7 +491,10 @@
             "Tokyo Blur T"
         ]
     },
-    "Full Flight": {
+    {
+        "id": 631,
+        "name": "Full Flight",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -427,7 +517,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Strawberry Crepe": {
+    {
+        "id": 632,
+        "name": "Strawberry Crepe",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -447,7 +540,10 @@
             "Vanilla Lake 1"
         ]
     },
-    "Le Tricolore": {
+    {
+        "id": 633,
+        "name": "Le Tricolore",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -471,7 +567,10 @@
             "SNES Rainbow Road T"
         ]
     },
-    "Starchute": {
+    {
+        "id": 634,
+        "name": "Starchute",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -493,7 +592,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Royal Parachute": {
+    {
+        "id": 635,
+        "name": "Royal Parachute",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -516,7 +618,10 @@
             "Sunset Wilds"
         ]
     },
-    "Glitter Glider": {
+    {
+        "id": 636,
+        "name": "Glitter Glider",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -544,7 +649,10 @@
             "Vanilla Lake 2"
         ]
     },
-    "Soaring Jack": {
+    {
+        "id": 637,
+        "name": "Soaring Jack",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -562,7 +670,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Gift Glider": {
+    {
+        "id": 638,
+        "name": "Gift Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -581,7 +692,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "New Year's 2020": {
+    {
+        "id": 639,
+        "name": "New Year's 2020",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -600,7 +714,10 @@
             "Tokyo Blur 3R"
         ]
     },
-    "New Year's Kite": {
+    {
+        "id": 640,
+        "name": "New Year's Kite",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -626,7 +743,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Fireworks Parachute": {
+    {
+        "id": 641,
+        "name": "Fireworks Parachute",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -649,7 +769,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Crimson Crane": {
+    {
+        "id": 642,
+        "name": "Crimson Crane",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -670,7 +793,10 @@
             "Tokyo Blur R/T"
         ]
     },
-    "Blizzard Parasol": {
+    {
+        "id": 643,
+        "name": "Blizzard Parasol",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -693,7 +819,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Blizzard Balloons": {
+    {
+        "id": 644,
+        "name": "Blizzard Balloons",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -712,7 +841,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Sweetheart Glider": {
+    {
+        "id": 645,
+        "name": "Sweetheart Glider",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -737,7 +869,10 @@
             "Sunset Wilds R"
         ]
     },
-    "Heart Balloons": {
+    {
+        "id": 646,
+        "name": "Heart Balloons",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -758,7 +893,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Luma Parafoil": {
+    {
+        "id": 647,
+        "name": "Luma Parafoil",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -780,7 +918,10 @@
             "Vancouver Velocity T"
         ]
     },
-    "Rainbow Starchute": {
+    {
+        "id": 648,
+        "name": "Rainbow Starchute",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -802,7 +943,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Bright Glider": {
+    {
+        "id": 649,
+        "name": "Bright Glider",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -824,7 +968,10 @@
             "Yoshi's Island"
         ]
     },
-    "Safety Glider": {
+    {
+        "id": 650,
+        "name": "Safety Glider",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -847,7 +994,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Daisy Glider": {
+    {
+        "id": 651,
+        "name": "Daisy Glider",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -877,7 +1027,10 @@
             "Yoshi's Island"
         ]
     },
-    "Pink Gold Paper Glider": {
+    {
+        "id": 652,
+        "name": "Pink Gold Paper Glider",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -896,7 +1049,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Butterfly Sunset": {
+    {
+        "id": 653,
+        "name": "Butterfly Sunset",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -917,7 +1073,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Chocolate Donut": {
+    {
+        "id": 654,
+        "name": "Chocolate Donut",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -944,7 +1103,10 @@
             "Sunset Wilds R/T"
         ]
     },
-    "Gold Crane": {
+    {
+        "id": 655,
+        "name": "Gold Crane",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -973,7 +1135,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Chocolate Banana Crepe": {
+    {
+        "id": 656,
+        "name": "Chocolate Banana Crepe",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1003,7 +1168,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Strawberry Donut": {
+    {
+        "id": 657,
+        "name": "Strawberry Donut",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1030,7 +1198,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Silver Bells": {
+    {
+        "id": 658,
+        "name": "Silver Bells",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1056,7 +1227,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Silver-and-Gold Hearts": {
+    {
+        "id": 659,
+        "name": "Silver-and-Gold Hearts",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1083,7 +1257,10 @@
             "SNES Rainbow Road"
         ]
     },
-    "Manta Glider": {
+    {
+        "id": 660,
+        "name": "Manta Glider",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1110,7 +1287,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Treasure Map": {
+    {
+        "id": 661,
+        "name": "Treasure Map",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1135,7 +1315,10 @@
             "Toad Circuit"
         ]
     },
-    "Butterfly Wings": {
+    {
+        "id": 662,
+        "name": "Butterfly Wings",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1162,7 +1345,10 @@
             "Vancouver Velocity R/T"
         ]
     },
-    "Great Sail": {
+    {
+        "id": 663,
+        "name": "Great Sail",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1182,7 +1368,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "Festival Wings": {
+    {
+        "id": 664,
+        "name": "Festival Wings",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1215,7 +1404,10 @@
             "Yoshi's Island R"
         ]
     },
-    "8-Bit Star": {
+    {
+        "id": 665,
+        "name": "8-Bit Star",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1242,7 +1434,10 @@
             "Wario Shipyard"
         ]
     },
-    "Super Mario Kart Glider": {
+    {
+        "id": 666,
+        "name": "Super Mario Kart Glider",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1279,7 +1474,10 @@
             "Tokyo Blur 2"
         ]
     },
-    "Star-Spangled Glider": {
+    {
+        "id": 667,
+        "name": "Star-Spangled Glider",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1311,7 +1509,10 @@
             "Vanilla Lake 2T"
         ]
     },
-    "Spider Glider": {
+    {
+        "id": 668,
+        "name": "Spider Glider",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1348,7 +1549,10 @@
             "Twilight House"
         ]
     },
-    "Sunset Balloons": {
+    {
+        "id": 669,
+        "name": "Sunset Balloons",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1379,7 +1583,10 @@
             "Twilight House"
         ]
     },
-    "Jolly Bells": {
+    {
+        "id": 670,
+        "name": "Jolly Bells",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1405,7 +1612,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "Silver Starchute": {
+    {
+        "id": 671,
+        "name": "Silver Starchute",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1432,7 +1642,10 @@
             "Tokyo Blur 4R/T"
         ]
     },
-    "Butterfly Prism": {
+    {
+        "id": 672,
+        "name": "Butterfly Prism",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1455,7 +1668,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Planet Glider": {
+    {
+        "id": 673,
+        "name": "Planet Glider",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1476,7 +1692,10 @@
             "Wii Rainbow Road R/T"
         ]
     },
-    "New Year's 2021": {
+    {
+        "id": 674,
+        "name": "New Year's 2021",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1499,7 +1718,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Gold New Year's Kite": {
+    {
+        "id": 675,
+        "name": "Gold New Year's Kite",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1522,7 +1744,10 @@
             "Tokyo Blur 2R"
         ]
     },
-    "Toe-Bean Balloons": {
+    {
+        "id": 676,
+        "name": "Toe-Bean Balloons",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1549,7 +1774,10 @@
             "Tokyo Blur 4"
         ]
     },
-    "Calico Parafoil": {
+    {
+        "id": 677,
+        "name": "Calico Parafoil",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1583,7 +1811,10 @@
             "Tokyo Blur 4R/T"
         ]
     },
-    "Black Great Sail": {
+    {
+        "id": 678,
+        "name": "Black Great Sail",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1619,7 +1850,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Silver Manta Glider": {
+    {
+        "id": 679,
+        "name": "Silver Manta Glider",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1653,7 +1887,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Rose Parasol": {
+    {
+        "id": 680,
+        "name": "Rose Parasol",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1690,7 +1927,10 @@
             "Tokyo Blur 4R/T"
         ]
     },
-    "Snow Crystals": {
+    {
+        "id": 681,
+        "name": "Snow Crystals",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1719,7 +1959,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "8-Bit Fire Flower": {
+    {
+        "id": 682,
+        "name": "8-Bit Fire Flower",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1765,7 +2008,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Surf Master": {
+    {
+        "id": 683,
+        "name": "Surf Master",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1795,7 +2041,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Starry Great Sail": {
+    {
+        "id": 684,
+        "name": "Starry Great Sail",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1833,7 +2082,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Black Toe-Bean Balloons": {
+    {
+        "id": 685,
+        "name": "Black Toe-Bean Balloons",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1868,7 +2120,10 @@
             "Vanilla Lake 2"
         ]
     },
-    "8-Bit Bullet Bill": {
+    {
+        "id": 686,
+        "name": "8-Bit Bullet Bill",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1912,7 +2167,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Glinting Glider": {
+    {
+        "id": 687,
+        "name": "Glinting Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1951,7 +2209,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "Flying Easel": {
+    {
+        "id": 688,
+        "name": "Flying Easel",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1988,7 +2249,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Sunny Surf Master": {
+    {
+        "id": 689,
+        "name": "Sunny Surf Master",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2028,7 +2292,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Polka-Dot Manta Glider": {
+    {
+        "id": 690,
+        "name": "Polka-Dot Manta Glider",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2070,7 +2337,10 @@
             "Vanilla Lake 2T"
         ]
     },
-    "Home-Field Glider": {
+    {
+        "id": 691,
+        "name": "Home-Field Glider",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2108,7 +2378,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "Gold Home-Field Glider": {
+    {
+        "id": 692,
+        "name": "Gold Home-Field Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2143,7 +2416,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "Springtime Crane": {
+    {
+        "id": 693,
+        "name": "Springtime Crane",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2182,7 +2458,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Yukata Ribbon": {
+    {
+        "id": 694,
+        "name": "Yukata Ribbon",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2223,7 +2502,10 @@
             "Wii Rainbow Road T"
         ]
     },
-    "Silver Surf Master": {
+    {
+        "id": 695,
+        "name": "Silver Surf Master",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2266,7 +2548,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Ship's Wheel": {
+    {
+        "id": 696,
+        "name": "Ship's Wheel",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2305,7 +2590,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Tanooki Parafoil": {
+    {
+        "id": 697,
+        "name": "Tanooki Parafoil",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2336,7 +2624,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Gold Tanooki Parafoil": {
+    {
+        "id": 698,
+        "name": "Gold Tanooki Parafoil",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2358,7 +2649,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Magic Parasol": {
+    {
+        "id": 699,
+        "name": "Magic Parasol",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2392,7 +2686,10 @@
             "Wario Shipyard R"
         ]
     },
-    "8-Bit Super Mushroom": {
+    {
+        "id": 700,
+        "name": "8-Bit Super Mushroom",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2441,7 +2738,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Meteor Balloons": {
+    {
+        "id": 701,
+        "name": "Meteor Balloons",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2468,7 +2768,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Pink Gold Meteors": {
+    {
+        "id": 702,
+        "name": "Pink Gold Meteors",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2507,7 +2810,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Galaxy Glider": {
+    {
+        "id": 703,
+        "name": "Galaxy Glider",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2540,7 +2846,10 @@
             "Wario Shipyard"
         ]
     },
-    "Candlelight Flight": {
+    {
+        "id": 704,
+        "name": "Candlelight Flight",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2582,7 +2891,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Gold Penguin Wingtip": {
+    {
+        "id": 705,
+        "name": "Gold Penguin Wingtip",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2606,7 +2918,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Aurora Balloons": {
+    {
+        "id": 706,
+        "name": "Aurora Balloons",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2645,7 +2960,10 @@
             "Yoshi Valley"
         ]
     },
-    "New Year's 2022": {
+    {
+        "id": 707,
+        "name": "New Year's 2022",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2673,7 +2991,10 @@
             "Wii Rainbow Road R"
         ]
     },
-    "Black Cat Parafoil": {
+    {
+        "id": 708,
+        "name": "Black Cat Parafoil",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2709,7 +3030,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Cat Parafoil": {
+    {
+        "id": 709,
+        "name": "Cat Parafoil",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2750,7 +3074,10 @@
             "Yoshi Valley"
         ]
     },
-    "Gold Toe-Bean Balloons": {
+    {
+        "id": 710,
+        "name": "Gold Toe-Bean Balloons",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2788,7 +3115,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Glittering Parasol": {
+    {
+        "id": 711,
+        "name": "Glittering Parasol",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2832,7 +3162,10 @@
             "Yoshi's Island"
         ]
     },
-    "Luigi Parafoil": {
+    {
+        "id": 712,
+        "name": "Luigi Parafoil",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2877,7 +3210,10 @@
             "Yoshi Valley"
         ]
     },
-    "Sky-High Flyer": {
+    {
+        "id": 713,
+        "name": "Sky-High Flyer",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2914,7 +3250,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Record Setter": {
+    {
+        "id": 714,
+        "name": "Record Setter",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2964,7 +3303,10 @@
             "Yoshi's Island"
         ]
     },
-    "Mario's Mustache": {
+    {
+        "id": 715,
+        "name": "Mario's Mustache",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3011,7 +3353,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Luigi's Mustache": {
+    {
+        "id": 716,
+        "name": "Luigi's Mustache",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3056,7 +3401,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Origami Glider": {
+    {
+        "id": 717,
+        "name": "Origami Glider",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3101,7 +3449,10 @@
             "Wii Rainbow Road R"
         ]
     },
-    "Sakura Origami Glider": {
+    {
+        "id": 718,
+        "name": "Sakura Origami Glider",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3155,7 +3506,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Gold Eggshell Glider": {
+    {
+        "id": 719,
+        "name": "Gold Eggshell Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3195,7 +3549,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Green Sprout": {
+    {
+        "id": 720,
+        "name": "Green Sprout",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3237,7 +3594,10 @@
             "Yoshi Valley"
         ]
     },
-    "Magniflying Glass": {
+    {
+        "id": 721,
+        "name": "Magniflying Glass",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3279,7 +3639,10 @@
             "Wii Rainbow Road T"
         ]
     },
-    "Flybrary Book": {
+    {
+        "id": 722,
+        "name": "Flybrary Book",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3324,7 +3687,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Pink Magniflying Glass": {
+    {
+        "id": 723,
+        "name": "Pink Magniflying Glass",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3370,7 +3736,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Cream Toe-Bean Balloons": {
+    {
+        "id": 724,
+        "name": "Cream Toe-Bean Balloons",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3417,7 +3786,10 @@
             "Wii Rainbow Road R/T"
         ]
     },
-    "Green Cat Parafoil": {
+    {
+        "id": 725,
+        "name": "Green Cat Parafoil",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3466,7 +3838,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Candlelight Flight Cake": {
+    {
+        "id": 726,
+        "name": "Candlelight Flight Cake",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3513,7 +3888,10 @@
             "Vancouver Velocity 3R/T"
         ]
     },
-    "Pretzel Glider": {
+    {
+        "id": 727,
+        "name": "Pretzel Glider",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3557,7 +3935,10 @@
             "Yoshi's Island"
         ]
     },
-    "Tulip Corsage": {
+    {
+        "id": 728,
+        "name": "Tulip Corsage",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3613,7 +3994,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Red and Gold Umbrella": {
+    {
+        "id": 729,
+        "name": "Red and Gold Umbrella",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3662,7 +4046,10 @@
             "Yoshi Desert T"
         ]
     },
-    "8-Bit 1-Up Mushroom": {
+    {
+        "id": 730,
+        "name": "8-Bit 1-Up Mushroom",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3712,7 +4099,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Tropical Balloons": {
+    {
+        "id": 731,
+        "name": "Tropical Balloons",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3760,7 +4150,10 @@
             "Wii Rainbow Road R"
         ]
     },
-    "Fire Manta Glider": {
+    {
+        "id": 732,
+        "name": "Fire Manta Glider",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3811,7 +4204,10 @@
             "Yoshi Desert"
         ]
     },
-    "Mint & Berry Balloons": {
+    {
+        "id": 733,
+        "name": "Mint & Berry Balloons",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3860,7 +4256,10 @@
             "Yoshi's Island"
         ]
     },
-    "Vanilla & Chocolate Balloons": {
+    {
+        "id": 734,
+        "name": "Vanilla & Chocolate Balloons",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3908,7 +4307,10 @@
             "Vancouver Velocity 3"
         ]
     },
-    "Icy Mario's Mustache": {
+    {
+        "id": 735,
+        "name": "Icy Mario's Mustache",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3961,7 +4363,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Flying Flappers": {
+    {
+        "id": 736,
+        "name": "Flying Flappers",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4009,7 +4414,10 @@
             "Yoshi Desert"
         ]
     },
-    "Silver Luigi's Mustache": {
+    {
+        "id": 737,
+        "name": "Silver Luigi's Mustache",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4053,7 +4461,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Mario's Hat Balloon": {
+    {
+        "id": 738,
+        "name": "Mario's Hat Balloon",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4104,7 +4515,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Luigi's Hat Balloon": {
+    {
+        "id": 739,
+        "name": "Luigi's Hat Balloon",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4151,7 +4565,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Gold Cloud Balloons": {
+    {
+        "id": 740,
+        "name": "Gold Cloud Balloons",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4200,7 +4617,10 @@
             "Yoshi Desert T"
         ]
     },
-    "White Waves Origami Glider": {
+    {
+        "id": 741,
+        "name": "White Waves Origami Glider",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4249,7 +4669,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Chocolate Pretzel": {
+    {
+        "id": 742,
+        "name": "Chocolate Pretzel",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4297,7 +4720,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Para-Panini": {
+    {
+        "id": 743,
+        "name": "Para-Panini",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4346,7 +4772,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Silver Candlelight Flight": {
+    {
+        "id": 744,
+        "name": "Silver Candlelight Flight",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4391,7 +4820,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Autumn Leaves": {
+    {
+        "id": 745,
+        "name": "Autumn Leaves",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4442,7 +4874,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Calico Toe-Bean Balloons": {
+    {
+        "id": 746,
+        "name": "Calico Toe-Bean Balloons",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4493,7 +4928,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Wonderful Garnet": {
+    {
+        "id": 747,
+        "name": "Wonderful Garnet",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4550,7 +4988,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Festive Holly": {
+    {
+        "id": 748,
+        "name": "Festive Holly",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4603,7 +5044,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Yellow Hard Hat Balloon": {
+    {
+        "id": 749,
+        "name": "Yellow Hard Hat Balloon",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4659,7 +5103,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Fuzzy Kite": {
+    {
+        "id": 750,
+        "name": "Fuzzy Kite",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4712,7 +5159,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Gold Hard Hat Balloon": {
+    {
+        "id": 751,
+        "name": "Gold Hard Hat Balloon",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4767,7 +5217,10 @@
             "Yoshi Valley T"
         ]
     },
-    "New Year's 2023": {
+    {
+        "id": 752,
+        "name": "New Year's 2023",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4810,7 +5263,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Gold Meteors": {
+    {
+        "id": 753,
+        "name": "Gold Meteors",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4858,7 +5314,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Rainbow Fare Flier": {
+    {
+        "id": 754,
+        "name": "Rainbow Fare Flier",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4903,7 +5362,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Stealth Glider": {
+    {
+        "id": 755,
+        "name": "Stealth Glider",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4948,7 +5410,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Gold Umbrella": {
+    {
+        "id": 756,
+        "name": "Gold Umbrella",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5001,7 +5466,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Wonderful Diamond": {
+    {
+        "id": 757,
+        "name": "Wonderful Diamond",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5055,7 +5523,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Gold Candlelight Flight": {
+    {
+        "id": 758,
+        "name": "Gold Candlelight Flight",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5107,7 +5578,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "8-Bit Super Glider": {
+    {
+        "id": 759,
+        "name": "8-Bit Super Glider",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5167,7 +5641,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Gold 8-Bit Glider": {
+    {
+        "id": 760,
+        "name": "Gold 8-Bit Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5224,7 +5701,10 @@
             "Yoshi's Island T"
         ]
     },
-    "8-Bit Block Glider": {
+    {
+        "id": 761,
+        "name": "8-Bit Block Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5283,7 +5763,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "8-Bit Goomba": {
+    {
+        "id": 762,
+        "name": "8-Bit Goomba",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5333,7 +5816,10 @@
             "Yoshi Desert"
         ]
     },
-    "Bright Ribbon": {
+    {
+        "id": 763,
+        "name": "Bright Ribbon",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5388,7 +5874,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Yoshi's Cookies": {
+    {
+        "id": 764,
+        "name": "Yoshi's Cookies",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5444,7 +5933,10 @@
             "Yoshi's Island"
         ]
     },
-    "Smiley Flower Glider": {
+    {
+        "id": 765,
+        "name": "Smiley Flower Glider",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5495,7 +5987,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Golden Glider": {
+    {
+        "id": 766,
+        "name": "Golden Glider",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5556,7 +6051,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Gold Tulips": {
+    {
+        "id": 767,
+        "name": "Gold Tulips",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5604,7 +6102,10 @@
             "Yoshi Desert"
         ]
     },
-    "Gold Manta Glider": {
+    {
+        "id": 768,
+        "name": "Gold Manta Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5654,7 +6155,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Red Checkered Glider": {
+    {
+        "id": 769,
+        "name": "Red Checkered Glider",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5711,7 +6215,10 @@
             "Yoshi Valley"
         ]
     },
-    "Pink Checkered Glider": {
+    {
+        "id": 770,
+        "name": "Pink Checkered Glider",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5764,7 +6271,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Green Checkered Glider": {
+    {
+        "id": 771,
+        "name": "Green Checkered Glider",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5808,7 +6318,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Gold Checkered Glider": {
+    {
+        "id": 772,
+        "name": "Gold Checkered Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5855,7 +6368,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Gold Origami Glider": {
+    {
+        "id": 773,
+        "name": "Gold Origami Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5908,7 +6424,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Gold Bells": {
+    {
+        "id": 774,
+        "name": "Gold Bells",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5958,7 +6477,10 @@
             "Yoshi Desert"
         ]
     },
-    "Glittering Glider": {
+    {
+        "id": 775,
+        "name": "Glittering Glider",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6015,7 +6537,10 @@
             "Yoshi Valley"
         ]
     },
-    "Red Emblem": {
+    {
+        "id": 776,
+        "name": "Red Emblem",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6073,7 +6598,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Green Emblem": {
+    {
+        "id": 777,
+        "name": "Green Emblem",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6129,7 +6657,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Mario Bros. Parafoil": {
+    {
+        "id": 778,
+        "name": "Mario Bros. Parafoil",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6190,7 +6721,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Mosaic Starchute": {
+    {
+        "id": 779,
+        "name": "Mosaic Starchute",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6249,7 +6783,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Jellychute": {
+    {
+        "id": 780,
+        "name": "Jellychute",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6303,7 +6840,10 @@
             "Yoshi's Island"
         ]
     },
-    "Wavy Great Sail": {
+    {
+        "id": 781,
+        "name": "Wavy Great Sail",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6353,7 +6893,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Dolphin Great Sail": {
+    {
+        "id": 782,
+        "name": "Dolphin Great Sail",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6400,7 +6943,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Pink Bubble Balloon": {
+    {
+        "id": 783,
+        "name": "Pink Bubble Balloon",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6454,7 +7000,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Mario Golf Cap": {
+    {
+        "id": 784,
+        "name": "Mario Golf Cap",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6503,7 +7052,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Luigi Golf Cap": {
+    {
+        "id": 785,
+        "name": "Luigi Golf Cap",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6559,7 +7111,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Gold Mario Golf Cap": {
+    {
+        "id": 786,
+        "name": "Gold Mario Golf Cap",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6604,7 +7159,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Melon & Banana Balloons": {
+    {
+        "id": 787,
+        "name": "Melon & Banana Balloons",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6650,7 +7208,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Spooky Sprinkle Balloons": {
+    {
+        "id": 788,
+        "name": "Spooky Sprinkle Balloons",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6696,7 +7257,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Gold Chocolate Balloons": {
+    {
+        "id": 789,
+        "name": "Gold Chocolate Balloons",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6736,7 +7300,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Royal Flush": {
+    {
+        "id": 790,
+        "name": "Royal Flush",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6792,7 +7359,10 @@
             "Yoshi's Island"
         ]
     },
-    "Rainbow Bells": {
+    {
+        "id": 791,
+        "name": "Rainbow Bells",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6844,7 +7414,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Gold Mario's Hat Balloon": {
+    {
+        "id": 792,
+        "name": "Gold Mario's Hat Balloon",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6890,7 +7463,10 @@
             "Yoshi Valley"
         ]
     },
-    "Swooper": {
+    {
+        "id": 793,
+        "name": "Swooper",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6907,7 +7483,10 @@
             "Rock Rock Mountain T"
         ]
     },
-    "Bullet Bill Parachute": {
+    {
+        "id": 794,
+        "name": "Bullet Bill Parachute",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6926,7 +7505,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Cloud Glider": {
+    {
+        "id": 795,
+        "name": "Cloud Glider",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6945,7 +7527,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Rainy Balloons": {
+    {
+        "id": 796,
+        "name": "Rainy Balloons",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6964,7 +7549,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Wicked Wings": {
+    {
+        "id": 797,
+        "name": "Wicked Wings",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6985,7 +7573,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Gold Swooper": {
+    {
+        "id": 798,
+        "name": "Gold Swooper",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7006,7 +7597,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Banana Wingtip": {
+    {
+        "id": 799,
+        "name": "Banana Wingtip",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7029,7 +7623,10 @@
             "Tokyo Blur 3T"
         ]
     },
-    "Tropical Glider": {
+    {
+        "id": 800,
+        "name": "Tropical Glider",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7054,7 +7651,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Dragon Wings": {
+    {
+        "id": 801,
+        "name": "Dragon Wings",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7086,7 +7686,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Blooper Wingtip": {
+    {
+        "id": 802,
+        "name": "Blooper Wingtip",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7111,7 +7714,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Nabbit Oilpaper Umbrella": {
+    {
+        "id": 803,
+        "name": "Nabbit Oilpaper Umbrella",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7157,7 +7763,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Cheep Cheep Masks": {
+    {
+        "id": 804,
+        "name": "Cheep Cheep Masks",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7182,7 +7791,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Dry Bowser Umbrella": {
+    {
+        "id": 805,
+        "name": "Dry Bowser Umbrella",
+        "type": "glider",
         "skill": "Green Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7213,7 +7825,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Penguin Wingtip": {
+    {
+        "id": 806,
+        "name": "Penguin Wingtip",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7242,7 +7857,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Bright Balloons": {
+    {
+        "id": 807,
+        "name": "Bright Balloons",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7283,7 +7901,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Ninja Scroll": {
+    {
+        "id": 808,
+        "name": "Ninja Scroll",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7310,7 +7931,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "Dream Glider": {
+    {
+        "id": 809,
+        "name": "Dream Glider",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7346,7 +7970,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Vampire Wings": {
+    {
+        "id": 810,
+        "name": "Vampire Wings",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7377,7 +8004,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Golden Wings": {
+    {
+        "id": 811,
+        "name": "Golden Wings",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7420,7 +8050,10 @@
             "Yoshi Valley"
         ]
     },
-    "Wario's Mustache": {
+    {
+        "id": 812,
+        "name": "Wario's Mustache",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7464,7 +8097,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Waluigi's Mustache": {
+    {
+        "id": 813,
+        "name": "Waluigi's Mustache",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7508,7 +8144,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Wonderful Wings": {
+    {
+        "id": 814,
+        "name": "Wonderful Wings",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7555,7 +8194,10 @@
             "Yoshi Valley"
         ]
     },
-    "Wicked Topaz": {
+    {
+        "id": 815,
+        "name": "Wicked Topaz",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7600,7 +8242,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Piranha Plant Balloons": {
+    {
+        "id": 816,
+        "name": "Piranha Plant Balloons",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7650,7 +8295,10 @@
             "Yoshi Desert"
         ]
     },
-    "Secret Scroll": {
+    {
+        "id": 817,
+        "name": "Secret Scroll",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7697,7 +8345,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Lava Rocks": {
+    {
+        "id": 818,
+        "name": "Lava Rocks",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7744,7 +8395,10 @@
             "Yoshi Valley"
         ]
     },
-    "Black Starchute": {
+    {
+        "id": 819,
+        "name": "Black Starchute",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7794,7 +8448,10 @@
             "Yoshi Desert"
         ]
     },
-    "Boo Masks": {
+    {
+        "id": 820,
+        "name": "Boo Masks",
+        "type": "glider",
         "skill": "Lightning",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7837,7 +8494,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Nabbit Parachute": {
+    {
+        "id": 821,
+        "name": "Nabbit Parachute",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7893,7 +8553,10 @@
             "Yoshi Desert"
         ]
     },
-    "Gold Boo Masks": {
+    {
+        "id": 822,
+        "name": "Gold Boo Masks",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7943,7 +8606,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Roy Oilpaper": {
+    {
+        "id": 823,
+        "name": "Roy Oilpaper",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7987,7 +8653,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Rainbow Flappy Wings": {
+    {
+        "id": 824,
+        "name": "Rainbow Flappy Wings",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8047,7 +8716,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Gold Flappy Wings": {
+    {
+        "id": 825,
+        "name": "Gold Flappy Wings",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8095,7 +8767,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Wiggler Parachute": {
+    {
+        "id": 826,
+        "name": "Wiggler Parachute",
+        "type": "glider",
         "skill": "Banana",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8150,7 +8825,10 @@
             "Yoshi Valley"
         ]
     },
-    "Gold Piranha Plant Balloons": {
+    {
+        "id": 827,
+        "name": "Gold Piranha Plant Balloons",
+        "type": "glider",
         "skill": "Coin",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8196,7 +8874,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Baby Mario Hanafuda": {
+    {
+        "id": 828,
+        "name": "Baby Mario Hanafuda",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8210,7 +8891,10 @@
             "RMX Mario Circuit 1R/T"
         ]
     },
-    "Yoshi's Egg Hanafuda": {
+    {
+        "id": 829,
+        "name": "Yoshi's Egg Hanafuda",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8223,7 +8907,10 @@
             "Toad Circuit R/T"
         ]
     },
-    "Peach Hanafuda": {
+    {
+        "id": 830,
+        "name": "Peach Hanafuda",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8241,7 +8928,10 @@
             "Mario Circuit 3T"
         ]
     },
-    "Barrel Hanafuda": {
+    {
+        "id": 831,
+        "name": "Barrel Hanafuda",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8261,7 +8951,10 @@
             "Rome Avanti 3R/T"
         ]
     },
-    "Blooper Hanafuda": {
+    {
+        "id": 832,
+        "name": "Blooper Hanafuda",
+        "type": "glider",
         "skill": "Blooper",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8280,7 +8973,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Cape Mario Hanafuda": {
+    {
+        "id": 833,
+        "name": "Cape Mario Hanafuda",
+        "type": "glider",
         "skill": "Mega Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8298,7 +8994,10 @@
             "Squeaky Clean Sprint T"
         ]
     },
-    "Bullet Bill Hanafuda": {
+    {
+        "id": 834,
+        "name": "Bullet Bill Hanafuda",
+        "type": "glider",
         "skill": "Bullet Bill",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8314,7 +9013,10 @@
             "Royal Raceway T"
         ]
     },
-    "Boo Hanafuda": {
+    {
+        "id": 835,
+        "name": "Boo Hanafuda",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8329,7 +9031,10 @@
             "Shy Guy Bazaar R/T"
         ]
     },
-    "Piranha Plant Hanafuda": {
+    {
+        "id": 836,
+        "name": "Piranha Plant Hanafuda",
+        "type": "glider",
         "skill": "Super Horn",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8347,7 +9052,10 @@
             "Paris Promenade B"
         ]
     },
-    "Goomba Hanafuda": {
+    {
+        "id": 837,
+        "name": "Goomba Hanafuda",
+        "type": "glider",
         "skill": "Mushroom",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8363,7 +9071,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Jumping Mario Hanafuda": {
+    {
+        "id": 838,
+        "name": "Jumping Mario Hanafuda",
+        "type": "glider",
         "skill": "Red Shell",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8379,7 +9090,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Bowser Hanafuda": {
+    {
+        "id": 839,
+        "name": "Bowser Hanafuda",
+        "type": "glider",
         "skill": "Bob-omb",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8397,4 +9111,4 @@
             "Twilight House"
         ]
     }
-}
+]

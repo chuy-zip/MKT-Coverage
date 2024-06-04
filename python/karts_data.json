@@ -1,12 +1,18 @@
-{
-    "Pipe Frame": {
+[
+    {
+        "id": 266,
+        "name": "Pipe Frame",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Normal",
         "favorite_courses": [
             "Mario Circuit 1R"
         ]
     },
-    "Birthday Girl": {
+    {
+        "id": 267,
+        "name": "Birthday Girl",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -15,7 +21,10 @@
             "Toad Circuit T"
         ]
     },
-    "Mushmellow": {
+    {
+        "id": 268,
+        "name": "Mushmellow",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -23,7 +32,10 @@
             "Toad Circuit T"
         ]
     },
-    "Koopa Dasher": {
+    {
+        "id": 269,
+        "name": "Koopa Dasher",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -31,7 +43,10 @@
             "Squeaky Clean Sprint R"
         ]
     },
-    "Biddybuggy": {
+    {
+        "id": 270,
+        "name": "Biddybuggy",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -39,7 +54,10 @@
             "Koopa Troopa Beach T"
         ]
     },
-    "Blue Biddybuggy": {
+    {
+        "id": 271,
+        "name": "Blue Biddybuggy",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -47,7 +65,10 @@
             "Mario Circuit 2R"
         ]
     },
-    "Cheep Charger": {
+    {
+        "id": 272,
+        "name": "Cheep Charger",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -58,14 +79,20 @@
             "Squeaky Clean Sprint T"
         ]
     },
-    "Pink Mushmellow": {
+    {
+        "id": 273,
+        "name": "Pink Mushmellow",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "Normal",
         "favorite_courses": [
             "Mario Circuit 3R"
         ]
     },
-    "Birthday Girl Rosalina": {
+    {
+        "id": 274,
+        "name": "Birthday Girl Rosalina",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -74,7 +101,10 @@
             "Toad Circuit R/T"
         ]
     },
-    "Green Kiddie Kart": {
+    {
+        "id": 275,
+        "name": "Green Kiddie Kart",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -86,7 +116,10 @@
             "Toad Circuit R/T"
         ]
     },
-    "Red Kiddie Kart": {
+    {
+        "id": 276,
+        "name": "Red Kiddie Kart",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -95,7 +128,10 @@
             "RMX Mario Circuit 1R"
         ]
     },
-    "Bullet Blaster": {
+    {
+        "id": 277,
+        "name": "Bullet Blaster",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -103,7 +139,10 @@
             "Shy Guy Bazaar T"
         ]
     },
-    "Bull's-Eye Banzai": {
+    {
+        "id": 278,
+        "name": "Bull's-Eye Banzai",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -114,7 +153,10 @@
             "Waluigi Stadium R"
         ]
     },
-    "Landship": {
+    {
+        "id": 279,
+        "name": "Landship",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -124,14 +166,20 @@
             "Kalimari Desert T"
         ]
     },
-    "Pipe Buggy": {
+    {
+        "id": 280,
+        "name": "Pipe Buggy",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Normal",
         "favorite_courses": [
             "Waluigi Pinball R"
         ]
     },
-    "Warship": {
+    {
+        "id": 281,
+        "name": "Warship",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -139,7 +187,10 @@
             "Neo Bowser City R"
         ]
     },
-    "Green Cheep Charger": {
+    {
+        "id": 282,
+        "name": "Green Cheep Charger",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Normal",
         "favorite_courses": [
@@ -148,7 +199,10 @@
             "Dino Dino Jungle R/T"
         ]
     },
-    "Mach 8": {
+    {
+        "id": 283,
+        "name": "Mach 8",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -159,7 +213,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Daytripper": {
+    {
+        "id": 284,
+        "name": "Daytripper",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -169,7 +226,10 @@
             "Shy Guy Bazaar R"
         ]
     },
-    "Turbo Yoshi": {
+    {
+        "id": 285,
+        "name": "Turbo Yoshi",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -180,7 +240,10 @@
             "Yoshi's Island"
         ]
     },
-    "Soda Jet": {
+    {
+        "id": 286,
+        "name": "Soda Jet",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -194,7 +257,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Super Blooper": {
+    {
+        "id": 287,
+        "name": "Super Blooper",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -206,7 +272,10 @@
             "Sydney Sprint 3R/T"
         ]
     },
-    "Gold Blooper": {
+    {
+        "id": 288,
+        "name": "Gold Blooper",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -221,7 +290,10 @@
             "Shy Guy Bazaar"
         ]
     },
-    "Royale": {
+    {
+        "id": 289,
+        "name": "Royale",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -230,7 +302,10 @@
             "SNES Rainbow Road T"
         ]
     },
-    "Cloud 9": {
+    {
+        "id": 290,
+        "name": "Cloud 9",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -244,7 +319,10 @@
             "Tokyo Blur T"
         ]
     },
-    "Poltergust 4000": {
+    {
+        "id": 291,
+        "name": "Poltergust 4000",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -256,7 +334,10 @@
             "Squeaky Clean Sprint R"
         ]
     },
-    "Streamliner": {
+    {
+        "id": 292,
+        "name": "Streamliner",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -269,7 +350,10 @@
             "Vancouver Velocity T"
         ]
     },
-    "White Royale": {
+    {
+        "id": 293,
+        "name": "White Royale",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -283,7 +367,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Zucchini": {
+    {
+        "id": 294,
+        "name": "Zucchini",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -296,7 +383,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Red Streamliner": {
+    {
+        "id": 295,
+        "name": "Red Streamliner",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -312,7 +402,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Red Turbo Yoshi": {
+    {
+        "id": 296,
+        "name": "Red Turbo Yoshi",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -325,7 +418,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Blue Seven": {
+    {
+        "id": 297,
+        "name": "Blue Seven",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -341,7 +437,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Super 1": {
+    {
+        "id": 298,
+        "name": "Super 1",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -355,7 +454,10 @@
             "Tokyo Blur T"
         ]
     },
-    "Dasher II": {
+    {
+        "id": 299,
+        "name": "Dasher II",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -367,7 +469,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Tea Coupe": {
+    {
+        "id": 300,
+        "name": "Tea Coupe",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -385,7 +490,10 @@
             "Tokyo Blur R"
         ]
     },
-    "Yellow Turbo Birdo": {
+    {
+        "id": 301,
+        "name": "Yellow Turbo Birdo",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -397,7 +505,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Egg 1": {
+    {
+        "id": 302,
+        "name": "Egg 1",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -413,7 +524,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Birthday Girl Daisy": {
+    {
+        "id": 303,
+        "name": "Birthday Girl Daisy",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -425,7 +539,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Red Standard 8": {
+    {
+        "id": 304,
+        "name": "Red Standard 8",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -444,7 +561,10 @@
             "Royal Raceway"
         ]
     },
-    "Green Standard 8": {
+    {
+        "id": 305,
+        "name": "Green Standard 8",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -462,7 +582,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Cucumber": {
+    {
+        "id": 306,
+        "name": "Cucumber",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -481,7 +604,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Blue Royale": {
+    {
+        "id": 307,
+        "name": "Blue Royale",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -496,7 +622,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Blue Turbo Yoshi": {
+    {
+        "id": 308,
+        "name": "Blue Turbo Yoshi",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -517,7 +646,10 @@
             "Vanilla Lake 2T"
         ]
     },
-    "Orange Turbo Yoshi": {
+    {
+        "id": 309,
+        "name": "Orange Turbo Yoshi",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -552,7 +684,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Pink Turbo Yoshi": {
+    {
+        "id": 310,
+        "name": "Pink Turbo Yoshi",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -586,7 +721,10 @@
             "Yoshi's Island"
         ]
     },
-    "Light-blue Turbo Yoshi": {
+    {
+        "id": 311,
+        "name": "Light-blue Turbo Yoshi",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -623,7 +761,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Yellow Turbo Yoshi": {
+    {
+        "id": 312,
+        "name": "Yellow Turbo Yoshi",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -657,7 +798,10 @@
             "Yoshi Valley"
         ]
     },
-    "Flame Flyer": {
+    {
+        "id": 313,
+        "name": "Flame Flyer",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -667,7 +811,10 @@
             "New York Minute 2R/T"
         ]
     },
-    "Barrel Train": {
+    {
+        "id": 314,
+        "name": "Barrel Train",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -678,7 +825,10 @@
             "Rock Rock Mountain R"
         ]
     },
-    "DK Jumbo": {
+    {
+        "id": 315,
+        "name": "DK Jumbo",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -689,7 +839,10 @@
             "Rock Rock Mountain T"
         ]
     },
-    "Chrome DK Jumbo": {
+    {
+        "id": 316,
+        "name": "Chrome DK Jumbo",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -703,7 +856,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Koopa Clown": {
+    {
+        "id": 317,
+        "name": "Koopa Clown",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -713,7 +869,10 @@
             "SNES Rainbow Road R"
         ]
     },
-    "Dark Clown": {
+    {
+        "id": 318,
+        "name": "Dark Clown",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -729,7 +888,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Para-Wing": {
+    {
+        "id": 319,
+        "name": "Para-Wing",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -743,7 +905,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Turbo Birdo": {
+    {
+        "id": 320,
+        "name": "Turbo Birdo",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -754,7 +919,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Light-blue Turbo Birdo": {
+    {
+        "id": 321,
+        "name": "Light-blue Turbo Birdo",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -769,7 +937,10 @@
             "Vancouver Velocity R"
         ]
     },
-    "Bolt Buggy": {
+    {
+        "id": 322,
+        "name": "Bolt Buggy",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -785,7 +956,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Rambi Rider": {
+    {
+        "id": 323,
+        "name": "Rambi Rider",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -801,7 +975,10 @@
             "Wii Rainbow Road T"
         ]
     },
-    "Blue Turbo Birdo": {
+    {
+        "id": 324,
+        "name": "Blue Turbo Birdo",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -818,7 +995,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Orange Turbo Birdo": {
+    {
+        "id": 325,
+        "name": "Orange Turbo Birdo",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -852,7 +1032,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Red Turbo Birdo": {
+    {
+        "id": 326,
+        "name": "Red Turbo Birdo",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -890,7 +1073,10 @@
             "Yoshi Desert"
         ]
     },
-    "Green Turbo Birdo": {
+    {
+        "id": 327,
+        "name": "Green Turbo Birdo",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "Super",
         "favorite_courses": [
@@ -923,7 +1109,10 @@
             "Vanilla Lake 2R/T"
         ]
     },
-    "B Dasher": {
+    {
+        "id": 328,
+        "name": "B Dasher",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -939,7 +1128,10 @@
             "Tokyo Blur 3R"
         ]
     },
-    "Black B Dasher": {
+    {
+        "id": 329,
+        "name": "Black B Dasher",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -954,7 +1146,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Yellow Taxi": {
+    {
+        "id": 330,
+        "name": "Yellow Taxi",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -975,7 +1170,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Quickshaw": {
+    {
+        "id": 331,
+        "name": "Quickshaw",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -993,7 +1191,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "Kabuki Dasher": {
+    {
+        "id": 332,
+        "name": "Kabuki Dasher",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1015,7 +1216,10 @@
             "Tokyo Blur R/T"
         ]
     },
-    "Circuit Special": {
+    {
+        "id": 333,
+        "name": "Circuit Special",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1032,7 +1236,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Black Circuit": {
+    {
+        "id": 334,
+        "name": "Black Circuit",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1048,7 +1255,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Bumble V": {
+    {
+        "id": 335,
+        "name": "Bumble V",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1065,7 +1275,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Queen Bee": {
+    {
+        "id": 336,
+        "name": "Queen Bee",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1084,7 +1297,10 @@
             "Twilight House"
         ]
     },
-    "Trickster": {
+    {
+        "id": 337,
+        "name": "Trickster",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1106,7 +1322,10 @@
             "Vancouver Velocity 2"
         ]
     },
-    "Ghost Ride": {
+    {
+        "id": 338,
+        "name": "Ghost Ride",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1127,7 +1346,10 @@
             "Singapore Speedway 3T"
         ]
     },
-    "Macharon": {
+    {
+        "id": 339,
+        "name": "Macharon",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1147,7 +1369,10 @@
             "Tokyo Blur"
         ]
     },
-    "Carrot Kart": {
+    {
+        "id": 340,
+        "name": "Carrot Kart",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1174,7 +1399,10 @@
             "Yoshi Valley"
         ]
     },
-    "Cheermellow": {
+    {
+        "id": 341,
+        "name": "Cheermellow",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1198,7 +1426,10 @@
             "Vanilla Lake 2T"
         ]
     },
-    "Wild Wing": {
+    {
+        "id": 342,
+        "name": "Wild Wing",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1220,7 +1451,10 @@
             "Tokyo Blur 2R/T"
         ]
     },
-    "Radish Rider": {
+    {
+        "id": 343,
+        "name": "Radish Rider",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1239,7 +1473,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Wildfire Flyer": {
+    {
+        "id": 344,
+        "name": "Wildfire Flyer",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1259,7 +1496,10 @@
             "Tokyo Blur 2R"
         ]
     },
-    "Ribbon Rider": {
+    {
+        "id": 345,
+        "name": "Ribbon Rider",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1281,7 +1521,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Double-Decker": {
+    {
+        "id": 346,
+        "name": "Double-Decker",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1301,7 +1544,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Swift Jack": {
+    {
+        "id": 347,
+        "name": "Swift Jack",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1325,7 +1571,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Red B Dasher": {
+    {
+        "id": 348,
+        "name": "Red B Dasher",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1345,7 +1594,10 @@
             "Tokyo Blur R"
         ]
     },
-    "Jingle Bells": {
+    {
+        "id": 349,
+        "name": "Jingle Bells",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1364,7 +1616,10 @@
             "Waluigi Stadium"
         ]
     },
-    "Platinum Taxi": {
+    {
+        "id": 350,
+        "name": "Platinum Taxi",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1385,7 +1640,10 @@
             "Vanilla Lake 1"
         ]
     },
-    "Glam Bruiser": {
+    {
+        "id": 351,
+        "name": "Glam Bruiser",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1403,7 +1661,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Gilded Prancer": {
+    {
+        "id": 352,
+        "name": "Gilded Prancer",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1425,7 +1686,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Ice-blue Poltergust": {
+    {
+        "id": 353,
+        "name": "Ice-blue Poltergust",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1447,7 +1711,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "P-Wing": {
+    {
+        "id": 354,
+        "name": "P-Wing",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1463,7 +1730,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Apple Kart": {
+    {
+        "id": 355,
+        "name": "Apple Kart",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1480,7 +1750,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "Comet Tail": {
+    {
+        "id": 356,
+        "name": "Comet Tail",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1503,7 +1776,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Bright Bunny": {
+    {
+        "id": 357,
+        "name": "Bright Bunny",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1529,7 +1805,10 @@
             "Yoshi's Island"
         ]
     },
-    "Dozer Dasher": {
+    {
+        "id": 358,
+        "name": "Dozer Dasher",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1551,7 +1830,10 @@
             "Rock Rock Mountain T"
         ]
     },
-    "Clanky Kart": {
+    {
+        "id": 359,
+        "name": "Clanky Kart",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1572,7 +1854,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Wild Black": {
+    {
+        "id": 360,
+        "name": "Wild Black",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1600,7 +1885,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Karp Kart": {
+    {
+        "id": 361,
+        "name": "Karp Kart",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1633,7 +1921,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Prancer": {
+    {
+        "id": 362,
+        "name": "Prancer",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1658,7 +1949,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Rose Queen": {
+    {
+        "id": 363,
+        "name": "Rose Queen",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1681,7 +1975,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Green Apple Kart": {
+    {
+        "id": 364,
+        "name": "Green Apple Kart",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1699,7 +1996,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Choco Macharon": {
+    {
+        "id": 365,
+        "name": "Choco Macharon",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1720,7 +2020,10 @@
             "Sunset Wilds R/T"
         ]
     },
-    "Gold Egg": {
+    {
+        "id": 366,
+        "name": "Gold Egg",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1747,7 +2050,10 @@
             "Yoshi Valley"
         ]
     },
-    "Sweet Daytripper": {
+    {
+        "id": 367,
+        "name": "Sweet Daytripper",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1769,7 +2075,10 @@
             "SNES Rainbow Road"
         ]
     },
-    "Red Taxi": {
+    {
+        "id": 368,
+        "name": "Red Taxi",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1788,7 +2097,10 @@
             "Tokyo Blur 4R"
         ]
     },
-    "Pink Wing": {
+    {
+        "id": 369,
+        "name": "Pink Wing",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1813,7 +2125,10 @@
             "Tokyo Blur R/T"
         ]
     },
-    "Happy Ride": {
+    {
+        "id": 370,
+        "name": "Happy Ride",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1839,7 +2154,10 @@
             "Toad Circuit T"
         ]
     },
-    "Blue Soda": {
+    {
+        "id": 371,
+        "name": "Blue Soda",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1866,7 +2184,10 @@
             "Vancouver Velocity T"
         ]
     },
-    "Clackety Kart": {
+    {
+        "id": 372,
+        "name": "Clackety Kart",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1887,7 +2208,10 @@
             "Sydney Sprint T"
         ]
     },
-    "Gold Clanky Kart": {
+    {
+        "id": 373,
+        "name": "Gold Clanky Kart",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1907,7 +2231,10 @@
             "Vancouver Velocity R/T"
         ]
     },
-    "Festival Girl": {
+    {
+        "id": 374,
+        "name": "Festival Girl",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1933,7 +2260,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "Black Kabuki Dasher": {
+    {
+        "id": 375,
+        "name": "Black Kabuki Dasher",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1962,7 +2292,10 @@
             "Wario Shipyard R"
         ]
     },
-    "8-Bit Pipe Frame": {
+    {
+        "id": 376,
+        "name": "8-Bit Pipe Frame",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -1988,7 +2321,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Gold Pipe Frame": {
+    {
+        "id": 377,
+        "name": "Gold Pipe Frame",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2008,7 +2344,10 @@
             "SNES Rainbow Road T"
         ]
     },
-    "Surf Sailer": {
+    {
+        "id": 378,
+        "name": "Surf Sailer",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2034,7 +2373,10 @@
             "Tokyo Blur 3T"
         ]
     },
-    "Star-Spangled Flyer": {
+    {
+        "id": 379,
+        "name": "Star-Spangled Flyer",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2061,7 +2403,10 @@
             "Waluigi Stadium T"
         ]
     },
-    "Green Circuit": {
+    {
+        "id": 380,
+        "name": "Green Circuit",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2088,7 +2433,10 @@
             "Yoshi Circuit"
         ]
     },
-    "Sports Coupe": {
+    {
+        "id": 381,
+        "name": "Sports Coupe",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2114,7 +2462,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Pumpkin Kart": {
+    {
+        "id": 382,
+        "name": "Pumpkin Kart",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2141,7 +2492,10 @@
             "Wario Shipyard"
         ]
     },
-    "Dark Trickster": {
+    {
+        "id": 383,
+        "name": "Dark Trickster",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2171,7 +2525,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Sunset Cloud": {
+    {
+        "id": 384,
+        "name": "Sunset Cloud",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2196,7 +2553,10 @@
             "Twilight House"
         ]
     },
-    "Steel Driver": {
+    {
+        "id": 385,
+        "name": "Steel Driver",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2216,7 +2576,10 @@
             "Sunset Wilds T"
         ]
     },
-    "Holiday King": {
+    {
+        "id": 386,
+        "name": "Holiday King",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2239,7 +2602,10 @@
             "Sunset Wilds"
         ]
     },
-    "Gold Snow Skimmer": {
+    {
+        "id": 387,
+        "name": "Gold Snow Skimmer",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2257,7 +2623,10 @@
             "Vancouver Velocity T"
         ]
     },
-    "Dreamy Egg": {
+    {
+        "id": 388,
+        "name": "Dreamy Egg",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2286,7 +2655,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Fast Frank": {
+    {
+        "id": 389,
+        "name": "Fast Frank",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2324,7 +2696,10 @@
             "Tokyo Blur 4R/T"
         ]
     },
-    "Iron Cucumber": {
+    {
+        "id": 390,
+        "name": "Iron Cucumber",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2357,7 +2732,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Cat Cruiser": {
+    {
+        "id": 391,
+        "name": "Cat Cruiser",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2380,7 +2758,10 @@
             "Sydney Sprint R"
         ]
     },
-    "Wild Pink": {
+    {
+        "id": 392,
+        "name": "Wild Pink",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2407,7 +2788,10 @@
             "Tokyo Blur 4"
         ]
     },
-    "Rose Taxi": {
+    {
+        "id": 393,
+        "name": "Rose Taxi",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2442,7 +2826,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "B Dasher Mk. 2": {
+    {
+        "id": 394,
+        "name": "B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2472,7 +2859,10 @@
             "Tokyo Blur 4"
         ]
     },
-    "Decal Streamliner": {
+    {
+        "id": 395,
+        "name": "Decal Streamliner",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2504,7 +2894,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Orange Streamliner": {
+    {
+        "id": 396,
+        "name": "Orange Streamliner",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2546,7 +2939,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "White Turbo Yoshi": {
+    {
+        "id": 397,
+        "name": "White Turbo Yoshi",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2571,7 +2967,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Sakura Quickshaw": {
+    {
+        "id": 398,
+        "name": "Sakura Quickshaw",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2605,7 +3004,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Jet Cruiser": {
+    {
+        "id": 399,
+        "name": "Jet Cruiser",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2638,7 +3040,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Inferno Flyer": {
+    {
+        "id": 400,
+        "name": "Inferno Flyer",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2669,7 +3074,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Rambi Runner": {
+    {
+        "id": 401,
+        "name": "Rambi Runner",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2702,7 +3110,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Pink Dozer": {
+    {
+        "id": 402,
+        "name": "Pink Dozer",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2728,7 +3139,10 @@
             "Vanilla Lake 2T"
         ]
     },
-    "Grand Badwagon": {
+    {
+        "id": 403,
+        "name": "Grand Badwagon",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2757,7 +3171,10 @@
             "Vancouver Velocity 2T"
         ]
     },
-    "Paintster": {
+    {
+        "id": 404,
+        "name": "Paintster",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2790,7 +3207,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Lime Tea Coupe": {
+    {
+        "id": 405,
+        "name": "Lime Tea Coupe",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2826,7 +3246,10 @@
             "Wario Shipyard"
         ]
     },
-    "Sunny Surf Sailer": {
+    {
+        "id": 406,
+        "name": "Sunny Surf Sailer",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2858,7 +3281,10 @@
             "Tokyo Blur 3R/T"
         ]
     },
-    "Pinch Hitter": {
+    {
+        "id": 407,
+        "name": "Pinch Hitter",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2892,7 +3318,10 @@
             "Tokyo Blur T"
         ]
     },
-    "Cleanup Hitter": {
+    {
+        "id": 408,
+        "name": "Cleanup Hitter",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2923,7 +3352,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Ice Dozer": {
+    {
+        "id": 409,
+        "name": "Ice Dozer",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2951,7 +3383,10 @@
             "Vanilla Lake 2R"
         ]
     },
-    "Green Double-Decker": {
+    {
+        "id": 410,
+        "name": "Green Double-Decker",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -2985,7 +3420,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Black Cat Cruiser": {
+    {
+        "id": 411,
+        "name": "Black Cat Cruiser",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3020,7 +3458,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Red B Dasher Mk. 2": {
+    {
+        "id": 412,
+        "name": "Red B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3061,7 +3502,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Pink B Dasher Mk. 2": {
+    {
+        "id": 413,
+        "name": "Pink B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3099,7 +3543,10 @@
             "Vancouver Velocity R/T"
         ]
     },
-    "Classic B Dasher Mk. 2": {
+    {
+        "id": 414,
+        "name": "Classic B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3136,7 +3583,10 @@
             "Wii Rainbow Road T"
         ]
     },
-    "Sky-Blue B Dasher Mk. 2": {
+    {
+        "id": 415,
+        "name": "Sky-Blue B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3183,7 +3633,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Metal B Dasher Mk. 2": {
+    {
+        "id": 416,
+        "name": "Metal B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3225,7 +3678,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Cream B Dasher Mk. 2": {
+    {
+        "id": 417,
+        "name": "Cream B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3270,7 +3726,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Green B Dasher Mk. 2": {
+    {
+        "id": 418,
+        "name": "Green B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3309,7 +3768,10 @@
             "Wii Rainbow Road R"
         ]
     },
-    "Tanooki Kart": {
+    {
+        "id": 419,
+        "name": "Tanooki Kart",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3339,7 +3801,10 @@
             "Yoshi Valley"
         ]
     },
-    "Gold Pumpkin Kart": {
+    {
+        "id": 420,
+        "name": "Gold Pumpkin Kart",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3372,7 +3837,10 @@
             "Vancouver Velocity 2T"
         ]
     },
-    "Lunar Cruiser": {
+    {
+        "id": 421,
+        "name": "Lunar Cruiser",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3397,7 +3865,10 @@
             "Wii Rainbow Road R/T"
         ]
     },
-    "Sleigh Rider": {
+    {
+        "id": 422,
+        "name": "Sleigh Rider",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3431,7 +3902,10 @@
             "Wii Rainbow Road"
         ]
     },
-    "White Snow Skimmer": {
+    {
+        "id": 423,
+        "name": "White Snow Skimmer",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3456,7 +3930,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Frosty Bells": {
+    {
+        "id": 424,
+        "name": "Frosty Bells",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3486,7 +3963,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "Frost Wing": {
+    {
+        "id": 425,
+        "name": "Frost Wing",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3521,7 +4001,10 @@
             "Vanilla Lake 2T"
         ]
     },
-    "Gray Cat Cruiser": {
+    {
+        "id": 426,
+        "name": "Gray Cat Cruiser",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3556,7 +4039,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Sports Coupe 2022": {
+    {
+        "id": 427,
+        "name": "Sports Coupe 2022",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3588,7 +4074,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Roaring Racer": {
+    {
+        "id": 428,
+        "name": "Roaring Racer",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3623,7 +4112,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Jukebox Buggy": {
+    {
+        "id": 429,
+        "name": "Jukebox Buggy",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3666,7 +4158,10 @@
             "Wario Shipyard R/T"
         ]
     },
-    "Sneeker": {
+    {
+        "id": 430,
+        "name": "Sneeker",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3699,7 +4194,10 @@
             "Vanilla Lake 1"
         ]
     },
-    "Green Lightning": {
+    {
+        "id": 431,
+        "name": "Green Lightning",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3728,7 +4226,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Cupid's Arrow": {
+    {
+        "id": 432,
+        "name": "Cupid's Arrow",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3769,7 +4270,10 @@
             "Tokyo Blur T"
         ]
     },
-    "Wild Slugger": {
+    {
+        "id": 433,
+        "name": "Wild Slugger",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3799,7 +4303,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Prop Kart": {
+    {
+        "id": 434,
+        "name": "Prop Kart",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3834,7 +4341,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Magma Broom": {
+    {
+        "id": 435,
+        "name": "Magma Broom",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3868,7 +4378,10 @@
             "Twilight House"
         ]
     },
-    "Star Broom": {
+    {
+        "id": 436,
+        "name": "Star Broom",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3896,7 +4409,10 @@
             "Yoshi Valley"
         ]
     },
-    "Yellow 8-Bit Pipe Frame": {
+    {
+        "id": 437,
+        "name": "Yellow 8-Bit Pipe Frame",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3940,7 +4456,10 @@
             "Yoshi Valley"
         ]
     },
-    "Warrior Wagon": {
+    {
+        "id": 438,
+        "name": "Warrior Wagon",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -3980,7 +4499,10 @@
             "Tokyo Blur R/T"
         ]
     },
-    "Armored Rider": {
+    {
+        "id": 439,
+        "name": "Armored Rider",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4025,7 +4547,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Black Turbo Yoshi": {
+    {
+        "id": 440,
+        "name": "Black Turbo Yoshi",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4054,7 +4579,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Gold Bunny": {
+    {
+        "id": 441,
+        "name": "Gold Bunny",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4085,7 +4613,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Flower Kart": {
+    {
+        "id": 442,
+        "name": "Flower Kart",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4123,7 +4654,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Dragonfly": {
+    {
+        "id": 443,
+        "name": "Dragonfly",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4159,7 +4693,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Firefly": {
+    {
+        "id": 444,
+        "name": "Firefly",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4189,7 +4726,10 @@
             "Toad Circuit R"
         ]
     },
-    "Daikon Rocket": {
+    {
+        "id": 445,
+        "name": "Daikon Rocket",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4227,7 +4767,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Capsule Kart": {
+    {
+        "id": 446,
+        "name": "Capsule Kart",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4267,7 +4810,10 @@
             "Yoshi's Island"
         ]
     },
-    "Blue-Green Capsule Kart": {
+    {
+        "id": 447,
+        "name": "Blue-Green Capsule Kart",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4308,7 +4854,10 @@
             "Yoshi's Island R"
         ]
     },
-    "White Bruiser": {
+    {
+        "id": 448,
+        "name": "White Bruiser",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4345,7 +4894,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Coconut 1": {
+    {
+        "id": 449,
+        "name": "Coconut 1",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4388,7 +4940,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Pink Capsule Kart": {
+    {
+        "id": 450,
+        "name": "Pink Capsule Kart",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4425,7 +4980,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Cream Cat Cruiser": {
+    {
+        "id": 451,
+        "name": "Cream Cat Cruiser",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4464,7 +5022,10 @@
             "Vancouver Velocity 3"
         ]
     },
-    "Green Cat Cruiser": {
+    {
+        "id": 452,
+        "name": "Green Cat Cruiser",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4505,7 +5066,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Goo-Goo Buggy": {
+    {
+        "id": 453,
+        "name": "Goo-Goo Buggy",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4540,7 +5104,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Goo-Goo Pink": {
+    {
+        "id": 454,
+        "name": "Goo-Goo Pink",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4581,7 +5148,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Gold Kiddie Kart": {
+    {
+        "id": 455,
+        "name": "Gold Kiddie Kart",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4615,7 +5185,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "Sweet Ride": {
+    {
+        "id": 456,
+        "name": "Sweet Ride",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4655,7 +5228,10 @@
             "Yoshi's Island T"
         ]
     },
-    "White Fast Frank": {
+    {
+        "id": 457,
+        "name": "White Fast Frank",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4699,7 +5275,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Tuk-Tuk Kart": {
+    {
+        "id": 458,
+        "name": "Tuk-Tuk Kart",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4743,7 +5322,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Tropical Truck": {
+    {
+        "id": 459,
+        "name": "Tropical Truck",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4787,7 +5369,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Gold Zucchini": {
+    {
+        "id": 460,
+        "name": "Gold Zucchini",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4818,7 +5403,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Lightning Streamliner": {
+    {
+        "id": 461,
+        "name": "Lightning Streamliner",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4861,7 +5449,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Flowery Badwagon": {
+    {
+        "id": 462,
+        "name": "Flowery Badwagon",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4905,7 +5496,10 @@
             "Yoshi Desert"
         ]
     },
-    "Coral Jet Cruiser": {
+    {
+        "id": 463,
+        "name": "Coral Jet Cruiser",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4951,7 +5545,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Watermelon Kart": {
+    {
+        "id": 464,
+        "name": "Watermelon Kart",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -4984,7 +5581,10 @@
             "Tokyo Blur R/T"
         ]
     },
-    "Ice-Cream Minibus": {
+    {
+        "id": 465,
+        "name": "Ice-Cream Minibus",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5030,7 +5630,10 @@
             "Yoshi's Island"
         ]
     },
-    "Chocolate Banana Minibus": {
+    {
+        "id": 466,
+        "name": "Chocolate Banana Minibus",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5071,7 +5674,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Strawberry Soft Swerve": {
+    {
+        "id": 467,
+        "name": "Strawberry Soft Swerve",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5113,7 +5719,10 @@
             "Wii Rainbow Road R"
         ]
     },
-    "Shielded Speedster": {
+    {
+        "id": 468,
+        "name": "Shielded Speedster",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5158,7 +5767,10 @@
             "Yoshi Desert"
         ]
     },
-    "Gold Standard": {
+    {
+        "id": 469,
+        "name": "Gold Standard",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5190,7 +5802,10 @@
             "Tokyo Blur 2R/T"
         ]
     },
-    "Gold Double-Decker": {
+    {
+        "id": 470,
+        "name": "Gold Double-Decker",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5237,7 +5852,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Black Carriage": {
+    {
+        "id": 471,
+        "name": "Black Carriage",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5287,7 +5905,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Green Speeder": {
+    {
+        "id": 472,
+        "name": "Green Speeder",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5322,7 +5943,10 @@
             "Tokyo Blur 4R/T"
         ]
     },
-    "Flaming Speeder": {
+    {
+        "id": 473,
+        "name": "Flaming Speeder",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5366,7 +5990,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Gold Sweet Ride": {
+    {
+        "id": 474,
+        "name": "Gold Sweet Ride",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5404,7 +6031,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Streetle": {
+    {
+        "id": 475,
+        "name": "Streetle",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5454,7 +6084,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Blue Speeder": {
+    {
+        "id": 476,
+        "name": "Blue Speeder",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5506,7 +6139,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Swift Talon": {
+    {
+        "id": 477,
+        "name": "Swift Talon",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5557,7 +6193,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Gold Eagle": {
+    {
+        "id": 478,
+        "name": "Gold Eagle",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5602,7 +6241,10 @@
             "Yoshi Valley"
         ]
     },
-    "Blazing Eagle": {
+    {
+        "id": 479,
+        "name": "Blazing Eagle",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5657,7 +6299,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Camo Tanooki Kart": {
+    {
+        "id": 480,
+        "name": "Camo Tanooki Kart",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5702,7 +6347,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Gold Rambi Rider": {
+    {
+        "id": 481,
+        "name": "Gold Rambi Rider",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5745,7 +6393,10 @@
             "Waluigi Stadium R/T"
         ]
     },
-    "Moo Moo Offroader": {
+    {
+        "id": 482,
+        "name": "Moo Moo Offroader",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5794,7 +6445,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Pink Speeder": {
+    {
+        "id": 483,
+        "name": "Pink Speeder",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5846,7 +6500,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Pink Sneeker": {
+    {
+        "id": 484,
+        "name": "Pink Sneeker",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5895,7 +6552,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Gold Jingle Bell": {
+    {
+        "id": 485,
+        "name": "Gold Jingle Bell",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5936,7 +6596,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Holiday Speeder": {
+    {
+        "id": 486,
+        "name": "Holiday Speeder",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -5985,7 +6648,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Wild Gold": {
+    {
+        "id": 487,
+        "name": "Wild Gold",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6033,7 +6699,10 @@
             "Tokyo Blur 2T"
         ]
     },
-    "Rainbow Taxi": {
+    {
+        "id": 488,
+        "name": "Rainbow Taxi",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6087,7 +6756,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Blooper Shuttle": {
+    {
+        "id": 489,
+        "name": "Blooper Shuttle",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6143,7 +6815,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Gold Lunar Cruiser": {
+    {
+        "id": 490,
+        "name": "Gold Lunar Cruiser",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6192,7 +6867,10 @@
             "Yoshi Desert"
         ]
     },
-    "Gold Quickshaw": {
+    {
+        "id": 491,
+        "name": "Gold Quickshaw",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6244,7 +6922,10 @@
             "Vancouver Velocity"
         ]
     },
-    "Pineapple 1": {
+    {
+        "id": 492,
+        "name": "Pineapple 1",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6291,7 +6972,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Hot Pot Hot Rod": {
+    {
+        "id": 493,
+        "name": "Hot Pot Hot Rod",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6337,7 +7021,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Rainbow Streetle": {
+    {
+        "id": 494,
+        "name": "Rainbow Streetle",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6394,7 +7081,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Gold Capsule Kart": {
+    {
+        "id": 495,
+        "name": "Gold Capsule Kart",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6438,7 +7128,10 @@
             "Wii Rainbow Road R/T"
         ]
     },
-    "Gold 8-Bit Pipe Frame": {
+    {
+        "id": 496,
+        "name": "Gold 8-Bit Pipe Frame",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6490,7 +7183,10 @@
             "Yoshi Desert"
         ]
     },
-    "Taiko Drum Dasher": {
+    {
+        "id": 497,
+        "name": "Taiko Drum Dasher",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6546,7 +7242,10 @@
             "Yoshi's Island"
         ]
     },
-    "Sakura Sports Coupe": {
+    {
+        "id": 498,
+        "name": "Sakura Sports Coupe",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6599,7 +7298,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Bright Girl": {
+    {
+        "id": 499,
+        "name": "Bright Girl",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6651,7 +7353,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Huffin Puffin Egg": {
+    {
+        "id": 500,
+        "name": "Huffin Puffin Egg",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6699,7 +7404,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Jumbo Jetter": {
+    {
+        "id": 501,
+        "name": "Jumbo Jetter",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6756,7 +7464,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Gold Paintster": {
+    {
+        "id": 502,
+        "name": "Gold Paintster",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6805,7 +7516,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Silver Flower Kart": {
+    {
+        "id": 503,
+        "name": "Silver Flower Kart",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6854,7 +7568,10 @@
             "Yoshi Valley"
         ]
     },
-    "Bronze Cucumber": {
+    {
+        "id": 504,
+        "name": "Bronze Cucumber",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6903,7 +7620,10 @@
             "Wii Rainbow Road R/T"
         ]
     },
-    "Cream Classic": {
+    {
+        "id": 505,
+        "name": "Cream Classic",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -6957,7 +7677,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Red Comet": {
+    {
+        "id": 506,
+        "name": "Red Comet",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7012,7 +7735,10 @@
             "Yoshi Valley"
         ]
     },
-    "Pink Comet": {
+    {
+        "id": 507,
+        "name": "Pink Comet",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7059,7 +7785,10 @@
             "Yoshi Desert"
         ]
     },
-    "Green Comet": {
+    {
+        "id": 508,
+        "name": "Green Comet",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7104,7 +7833,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Gold Comet": {
+    {
+        "id": 509,
+        "name": "Gold Comet",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7151,7 +7883,10 @@
             "Yoshi Desert"
         ]
     },
-    "Mach 8-R": {
+    {
+        "id": 510,
+        "name": "Mach 8-R",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7204,7 +7939,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Gold Cupid's Arrow": {
+    {
+        "id": 511,
+        "name": "Gold Cupid's Arrow",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7259,7 +7997,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Silver Cupid's Arrow": {
+    {
+        "id": 512,
+        "name": "Silver Cupid's Arrow",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7317,7 +8058,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Silver Warrior Wagon": {
+    {
+        "id": 513,
+        "name": "Silver Warrior Wagon",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7372,7 +8116,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Gold Warrior Wagon": {
+    {
+        "id": 514,
+        "name": "Gold Warrior Wagon",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7420,7 +8167,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Black Shielded Speedster": {
+    {
+        "id": 515,
+        "name": "Black Shielded Speedster",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7472,7 +8222,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Gold Shielded Speedster": {
+    {
+        "id": 516,
+        "name": "Gold Shielded Speedster",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7529,7 +8282,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Yeehaw Wagon": {
+    {
+        "id": 517,
+        "name": "Yeehaw Wagon",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7588,7 +8344,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Desert Rose Wagon": {
+    {
+        "id": 518,
+        "name": "Desert Rose Wagon",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7644,7 +8403,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Yellow Sub Scooter": {
+    {
+        "id": 519,
+        "name": "Yellow Sub Scooter",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7697,7 +8459,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Blue Sub Scooter": {
+    {
+        "id": 520,
+        "name": "Blue Sub Scooter",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7749,7 +8514,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Gold Driver": {
+    {
+        "id": 521,
+        "name": "Gold Driver",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7794,7 +8562,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Dolphin Drifter": {
+    {
+        "id": 522,
+        "name": "Dolphin Drifter",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7846,7 +8617,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Purple Rattle Buggy": {
+    {
+        "id": 523,
+        "name": "Purple Rattle Buggy",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7893,7 +8667,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Goo-Goo Gold": {
+    {
+        "id": 524,
+        "name": "Goo-Goo Gold",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7935,7 +8712,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Gold Wild Slugger": {
+    {
+        "id": 525,
+        "name": "Gold Wild Slugger",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -7988,7 +8768,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Spicy Zucchini": {
+    {
+        "id": 526,
+        "name": "Spicy Zucchini",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8046,7 +8829,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Chocolate Mint Soft Swerve": {
+    {
+        "id": 527,
+        "name": "Chocolate Mint Soft Swerve",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8088,7 +8874,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Gold Soft Swerve": {
+    {
+        "id": 528,
+        "name": "Gold Soft Swerve",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8127,7 +8916,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Monarch Kart": {
+    {
+        "id": 529,
+        "name": "Monarch Kart",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8187,7 +8979,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Gold Monarch Kart": {
+    {
+        "id": 530,
+        "name": "Gold Monarch Kart",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8240,7 +9035,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Black B Dasher Mk. 2": {
+    {
+        "id": 531,
+        "name": "Black B Dasher Mk. 2",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8296,7 +9094,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Gold B Dasher": {
+    {
+        "id": 532,
+        "name": "Gold B Dasher",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8341,7 +9142,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Badwagon": {
+    {
+        "id": 533,
+        "name": "Badwagon",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8359,7 +9163,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Blue Badwagon": {
+    {
+        "id": 534,
+        "name": "Blue Badwagon",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8383,7 +9190,10 @@
             "SNES Rainbow Road T"
         ]
     },
-    "Gold Train": {
+    {
+        "id": 535,
+        "name": "Gold Train",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8402,7 +9212,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Bruiser": {
+    {
+        "id": 536,
+        "name": "Bruiser",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8420,7 +9233,10 @@
             "Yoshi Circuit T"
         ]
     },
-    "Snow Skimmer": {
+    {
+        "id": 537,
+        "name": "Snow Skimmer",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8440,7 +9256,10 @@
             "Vanilla Lake 2"
         ]
     },
-    "Offroader": {
+    {
+        "id": 538,
+        "name": "Offroader",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8464,7 +9283,10 @@
             "Toad Circuit R/T"
         ]
     },
-    "Banana Master": {
+    {
+        "id": 539,
+        "name": "Banana Master",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8482,7 +9304,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Poison Apple Kart": {
+    {
+        "id": 540,
+        "name": "Poison Apple Kart",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8502,7 +9327,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Cheep Snorkel": {
+    {
+        "id": 541,
+        "name": "Cheep Snorkel",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8531,7 +9359,10 @@
             "Vanilla Lake 1R/T"
         ]
     },
-    "Gold Cheep Snorkel": {
+    {
+        "id": 542,
+        "name": "Gold Cheep Snorkel",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8550,7 +9381,10 @@
             "Paris Promenade R/T"
         ]
     },
-    "Gold Cheep Charger": {
+    {
+        "id": 543,
+        "name": "Gold Cheep Charger",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8581,7 +9415,10 @@
             "Vanilla Lake 1R"
         ]
     },
-    "Dark Buggy": {
+    {
+        "id": 544,
+        "name": "Dark Buggy",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8603,7 +9440,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Koopa King": {
+    {
+        "id": 545,
+        "name": "Koopa King",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8623,7 +9463,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Brown Offroader": {
+    {
+        "id": 546,
+        "name": "Brown Offroader",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8650,7 +9493,10 @@
             "Wario Shipyard"
         ]
     },
-    "Cact-X": {
+    {
+        "id": 547,
+        "name": "Cact-X",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8669,7 +9515,10 @@
             "Sydney Sprint 3R/T"
         ]
     },
-    "Pirate Sushi Racer": {
+    {
+        "id": 548,
+        "name": "Pirate Sushi Racer",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8693,7 +9542,10 @@
             "Tokyo Blur R"
         ]
     },
-    "Silver Bullet Blaster": {
+    {
+        "id": 549,
+        "name": "Silver Bullet Blaster",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8719,7 +9571,10 @@
             "Waluigi Pinball R/T"
         ]
     },
-    "Head Honcho": {
+    {
+        "id": 550,
+        "name": "Head Honcho",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8741,7 +9596,10 @@
             "Tokyo Blur R"
         ]
     },
-    "DK Maximum": {
+    {
+        "id": 551,
+        "name": "DK Maximum",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8778,7 +9636,10 @@
             "Waluigi Stadium T"
         ]
     },
-    "Sushi Racer": {
+    {
+        "id": 552,
+        "name": "Sushi Racer",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8801,7 +9662,10 @@
             "Vanilla Lake 1T"
         ]
     },
-    "Gilded King": {
+    {
+        "id": 553,
+        "name": "Gilded King",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8827,7 +9691,10 @@
             "Twilight House"
         ]
     },
-    "Crawly Kart": {
+    {
+        "id": 554,
+        "name": "Crawly Kart",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8853,7 +9720,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Black Dozer": {
+    {
+        "id": 555,
+        "name": "Black Dozer",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8881,7 +9751,10 @@
             "Tokyo Blur 4R/T"
         ]
     },
-    "Party-Wing": {
+    {
+        "id": 556,
+        "name": "Party-Wing",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8908,7 +9781,10 @@
             "Sydney Sprint 3T"
         ]
     },
-    "Penguin Slider": {
+    {
+        "id": 557,
+        "name": "Penguin Slider",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8937,7 +9813,10 @@
             "Waluigi Pinball R"
         ]
     },
-    "Black Penguin Slider": {
+    {
+        "id": 558,
+        "name": "Black Penguin Slider",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8968,7 +9847,10 @@
             "Vanilla Lake 2T"
         ]
     },
-    "Cact-Ice": {
+    {
+        "id": 559,
+        "name": "Cact-Ice",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -8991,7 +9873,10 @@
             "Vanilla Lake 2"
         ]
     },
-    "Black Turbo Birdo": {
+    {
+        "id": 560,
+        "name": "Black Turbo Birdo",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9021,7 +9906,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Purple Bunny": {
+    {
+        "id": 561,
+        "name": "Purple Bunny",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9056,7 +9944,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Jade Hop Rod": {
+    {
+        "id": 562,
+        "name": "Jade Hop Rod",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9086,7 +9977,10 @@
             "Yoshi's Island"
         ]
     },
-    "Crimson Hop Rod": {
+    {
+        "id": 563,
+        "name": "Crimson Hop Rod",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9116,7 +10010,10 @@
             "Tokyo Blur R"
         ]
     },
-    "Dark Hop Rod": {
+    {
+        "id": 564,
+        "name": "Dark Hop Rod",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9145,7 +10042,10 @@
             "Yoshi Valley"
         ]
     },
-    "Kamek's Zoom Broom": {
+    {
+        "id": 565,
+        "name": "Kamek's Zoom Broom",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9177,7 +10077,10 @@
             "Waluigi Pinball T"
         ]
     },
-    "Silver King": {
+    {
+        "id": 566,
+        "name": "Silver King",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9215,7 +10118,10 @@
             "Waluigi Pinball"
         ]
     },
-    "Vampire Flyer": {
+    {
+        "id": 567,
+        "name": "Vampire Flyer",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9239,7 +10145,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Red Crawly Kart": {
+    {
+        "id": 568,
+        "name": "Red Crawly Kart",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9272,7 +10181,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Yellow Offroader": {
+    {
+        "id": 569,
+        "name": "Yellow Offroader",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9311,7 +10223,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Cact-R": {
+    {
+        "id": 570,
+        "name": "Cact-R",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9350,7 +10265,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Cheership": {
+    {
+        "id": 571,
+        "name": "Cheership",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9389,7 +10307,10 @@
             "Yoshi Circuit R/T"
         ]
     },
-    "Candy Clown": {
+    {
+        "id": 572,
+        "name": "Candy Clown",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9422,7 +10343,10 @@
             "Vanilla Lake 2"
         ]
     },
-    "Tiger Bruiser": {
+    {
+        "id": 573,
+        "name": "Tiger Bruiser",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9454,7 +10378,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Combo Cruiser": {
+    {
+        "id": 574,
+        "name": "Combo Cruiser",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9487,7 +10414,10 @@
             "Wario Shipyard R"
         ]
     },
-    "Sakura Hop Rod": {
+    {
+        "id": 575,
+        "name": "Sakura Hop Rod",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9525,7 +10455,10 @@
             "Yoshi Valley R"
         ]
     },
-    "White Turbo Birdo": {
+    {
+        "id": 576,
+        "name": "White Turbo Birdo",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9564,7 +10497,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Green-Yellow Capsule Kart": {
+    {
+        "id": 577,
+        "name": "Green-Yellow Capsule Kart",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9601,7 +10537,10 @@
             "Yoshi Valley"
         ]
     },
-    "Piranha Pipes": {
+    {
+        "id": 578,
+        "name": "Piranha Pipes",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9641,7 +10580,10 @@
             "Yoshi Desert"
         ]
     },
-    "Red Offroader": {
+    {
+        "id": 579,
+        "name": "Red Offroader",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9683,7 +10625,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Goo-Goo Black": {
+    {
+        "id": 580,
+        "name": "Goo-Goo Black",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9730,7 +10675,10 @@
             "Yoshi's Island T"
         ]
     },
-    "Cact-B": {
+    {
+        "id": 581,
+        "name": "Cact-B",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9770,7 +10718,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Gold Bullet Blaster": {
+    {
+        "id": 582,
+        "name": "Gold Bullet Blaster",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9817,7 +10768,10 @@
             "Yoshi Desert R"
         ]
     },
-    "Red Vampire Flyer": {
+    {
+        "id": 583,
+        "name": "Red Vampire Flyer",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9851,7 +10805,10 @@
             "Vancouver Velocity 3T"
         ]
     },
-    "Gold Trickster": {
+    {
+        "id": 584,
+        "name": "Gold Trickster",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9887,7 +10844,10 @@
             "Twilight House"
         ]
     },
-    "Gold Bruiser": {
+    {
+        "id": 585,
+        "name": "Gold Bruiser",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9937,7 +10897,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Black Sneeker": {
+    {
+        "id": 586,
+        "name": "Black Sneeker",
+        "type": "kart",
         "skill": "Dash Panel Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -9989,7 +10952,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Purple Dozer": {
+    {
+        "id": 587,
+        "name": "Purple Dozer",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10031,7 +10997,10 @@
             "Yoshi Desert T"
         ]
     },
-    "Blue Crawly Kart": {
+    {
+        "id": 588,
+        "name": "Blue Crawly Kart",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10079,7 +11048,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Rainbow Pipe Buggy": {
+    {
+        "id": 589,
+        "name": "Rainbow Pipe Buggy",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10126,7 +11098,10 @@
             "Yoshi Valley T"
         ]
     },
-    "Gold Hop Rod": {
+    {
+        "id": 590,
+        "name": "Gold Hop Rod",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10175,7 +11150,10 @@
             "Yoshi Desert"
         ]
     },
-    "Black Jingle Bell": {
+    {
+        "id": 591,
+        "name": "Black Jingle Bell",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10227,7 +11205,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Gold Sushi Racer": {
+    {
+        "id": 592,
+        "name": "Gold Sushi Racer",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10274,7 +11255,10 @@
             "Yoshi Circuit R"
         ]
     },
-    "Dry Bones Dasher": {
+    {
+        "id": 593,
+        "name": "Dry Bones Dasher",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10319,7 +11303,10 @@
             "Yoshi Desert R/T"
         ]
     },
-    "Waluigi Racer Mk. 2": {
+    {
+        "id": 594,
+        "name": "Waluigi Racer Mk. 2",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10367,7 +11354,10 @@
             "Yoshi Valley R"
         ]
     },
-    "Chain Chomp Chariot": {
+    {
+        "id": 595,
+        "name": "Chain Chomp Chariot",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10425,7 +11415,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Fish Bone Ferry": {
+    {
+        "id": 596,
+        "name": "Fish Bone Ferry",
+        "type": "kart",
         "skill": "Mini-turbo Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10482,7 +11475,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Gold Fish Bone Ferry": {
+    {
+        "id": 597,
+        "name": "Gold Fish Bone Ferry",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10529,7 +11525,10 @@
             "Wario Shipyard T"
         ]
     },
-    "Wiggler Egg": {
+    {
+        "id": 598,
+        "name": "Wiggler Egg",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10579,7 +11578,10 @@
             "Yoshi's Island R"
         ]
     },
-    "Boo Pipes": {
+    {
+        "id": 599,
+        "name": "Boo Pipes",
+        "type": "kart",
         "skill": "Slipstream Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10636,7 +11638,10 @@
             "Yoshi Valley R/T"
         ]
     },
-    "Gold Pipes": {
+    {
+        "id": 600,
+        "name": "Gold Pipes",
+        "type": "kart",
         "skill": "Rocket Start Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10694,7 +11699,10 @@
             "Yoshi's Island R/T"
         ]
     },
-    "Wild Wiggler": {
+    {
+        "id": 601,
+        "name": "Wild Wiggler",
+        "type": "kart",
         "skill": "Jump Boost Plus",
         "rarity": "High-End",
         "favorite_courses": [
@@ -10734,4 +11742,4 @@
             "Yoshi's Island"
         ]
     }
-}
+]
