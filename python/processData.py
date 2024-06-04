@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import os
 
 # Initialize dictionaries
 allDrivers = {}
@@ -13,6 +14,7 @@ dfDrivers = pd.read_csv("MKT-Drivers.csv")
 dfKarts = pd.read_csv("MKT-Karts.csv")
 dfGliders = pd.read_csv("MKT-Gliders.csv")
 dfCourses = pd.read_csv("MKT-Courses.csv")
+
 print(dfCourses.head(5))
 print(allCourses['courses'])
 
@@ -64,3 +66,42 @@ with open("gliders_data.json", "w") as outfile:
 
 with open("courses_data.json", "w") as outfile:
     json.dump(allCourses, outfile, indent=4)
+
+
+
+###############
+#The next code is for processingData of an account
+
+output_directory = "example"
+os.makedirs(output_directory, exist_ok=True)
+
+myData = {
+    'drivers' : {},
+    'karts': {},
+    'gliders': {}
+}
+
+dfMydata = pd.read_csv("example/MKT-MyData.csv")
+
+for _, row in dfMydata.iterrows():
+
+    itemName = row["item"]
+
+    if itemName in allDrivers:
+        myData['drivers'][itemName] = row["owned"]
+
+    elif itemName in allKarts:
+        myData['karts'][itemName] = row['owned']
+
+    else:
+        myData['gliders'][itemName] = row['owned']
+
+
+with open(os.path.join(output_directory, "MyDrivers.json"), "w") as outfile:
+    json.dump(myData['drivers'], outfile, indent=4)
+
+with open(os.path.join(output_directory, "MyKarts.json"), "w") as outfile:
+    json.dump(myData['karts'], outfile, indent=4)
+
+with open(os.path.join(output_directory, "MyGliders.json"), "w") as outfile:
+    json.dump(myData['gliders'], outfile, indent=4)
