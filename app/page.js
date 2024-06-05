@@ -19,7 +19,7 @@ export default function Home() {
     let coursesQTY = allCoursesList.length
     let notCovCoursesQTY = coveredCoursesList.length
     console.log("There are ", coursesQTY, " in total and your drivers cover ", notCovCoursesQTY)
-    console.log("You still have to cover ", coursesQTY - notCovCoursesQTY, " courses")
+    console.log("Your drivers still have to cover ", coursesQTY - notCovCoursesQTY, " courses")
     let coursesNotCov  = allCoursesList.filter( course => !coveredCoursesList.some( coveredCourse => coveredCourse === course))
     return coursesNotCov
   }
