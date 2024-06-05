@@ -10,15 +10,21 @@ import { useEffect, useState } from "react";
 export default function Home() {
 
   const [userDrivers, setUserDrivers] = useState([])
-  const [coveredCourses, setcoveredCourses] = useState([])
+  const [coveredCourses, setCoveredCourses] = useState([])
+  const [coursesNotCovered, setCoursesNotCovered] = useState([])
   const [allCourses, setAllCourses] = useState(courses)
   const [allDrivers, setAllDrivers] = useState(drivers)
 
-  const findCoursesWithoutCoverage = (allCoursesList, coveredCoursesList) => {
-
+  const findCoursesWithoutCoverage = async (allCoursesList, coveredCoursesList) => {
+    let coursesQTY = allCoursesList.length
+    let notCovCoursesQTY = coveredCoursesList.length
+    console.log("There are ", coursesQTY, " in total and your drivers cover ", notCovCoursesQTY)
+    console.log("You still have to cover ", coursesQTY - notCovCoursesQTY, " courses")
+    let coursesNotCov  = allCoursesList.filter( course => !coveredCoursesList.some( coveredCourse => coveredCourse === course))
+    return coursesNotCov
   }
 
-  const findCoursesWithCoverage = (allDrivers, allUserDrivers) => {
+  const findCoursesWithCoverage = async (allDrivers, allUserDrivers) => {
     let coveredCourses = new Set();
 
     //we iterate through all the drivers available
@@ -67,7 +73,14 @@ export default function Home() {
       console.log(Udrivers);
       console.log(courses)
       console.log(allDrivers)
-      console.log("Have coverage", findCoursesWithCoverage(allDrivers, Udrivers))
+
+      const covCourses = await findCoursesWithCoverage(allDrivers, Udrivers) 
+      setCoveredCourses(covCourses)
+      console.log("Covered courses", covCourses)
+
+      const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
+      setCoursesNotCovered(coursesNotCov)
+      console.log("Courses not covered", coursesNotCov)
     };
 
     fetchData();
