@@ -363,7 +363,7 @@
         "id": 326,
         "name": "Red Turbo Birdo",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 327,

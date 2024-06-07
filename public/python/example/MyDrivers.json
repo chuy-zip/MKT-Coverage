@@ -393,7 +393,7 @@
         "id": 66,
         "name": "Birdo (Red)",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 67,
@@ -609,7 +609,7 @@
         "id": 102,
         "name": "Toadette (Explorer)",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 103,
@@ -1437,7 +1437,7 @@
         "id": 240,
         "name": "Roaring Racer Mii Racing Suit",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 241,

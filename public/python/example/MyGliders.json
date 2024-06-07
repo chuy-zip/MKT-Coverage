@@ -339,7 +339,7 @@
         "id": 658,
         "name": "Silver Bells",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 659,
@@ -1167,7 +1167,7 @@
         "id": 796,
         "name": "Rainy Balloons",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 797,

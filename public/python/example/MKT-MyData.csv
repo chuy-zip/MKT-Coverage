@@ -64,7 +64,7 @@ Birdo (Orange),False
 White Shy Guy,False
 Koopa (Freerunning),False
 Orange Shy Guy,False
-Birdo (Red),False
+Birdo (Red),True
 Yellow Shy Guy,False
 Birdo (Green),True
 Metal Mario,True
@@ -100,7 +100,7 @@ Peach (Wedding),False
 Rosalina (Swimwear),False
 Mario (Swimwear),False
 Captain Toad,False
-Toadette (Explorer),False
+Toadette (Explorer),True
 Daisy (Yukata),False
 Mario (SNES),False
 Mario (Sunshine),False
@@ -238,7 +238,7 @@ Santa Mii Racing Suit,False
 Reindeer Mii Racing Suit,False
 Black Mii Racing Suit,False
 Purple Mii Racing Suit,False
-Roaring Racer Mii Racing Suit,False
+Roaring Racer Mii Racing Suit,True
 Brown Mii Racing Suit,False
 Para-Biddybud Mii Racing Suit,False
 Spike Mii Racing Suit,False
@@ -324,7 +324,7 @@ Bolt Buggy,True
 Rambi Rider,False
 Blue Turbo Birdo,False
 Orange Turbo Birdo,False
-Red Turbo Birdo,False
+Red Turbo Birdo,True
 Green Turbo Birdo,True
 B Dasher,True
 Black B Dasher,True
@@ -656,7 +656,7 @@ Chocolate Donut,True
 Gold Crane,False
 Chocolate Banana Crepe,False
 Strawberry Donut,False
-Silver Bells,False
+Silver Bells,True
 Silver-and-Gold Hearts,False
 Manta Glider,False
 Treasure Map,False
@@ -794,7 +794,7 @@ Gold Mario's Hat Balloon,True
 Swooper,True
 Bullet Bill Parachute,False
 Cloud Glider,True
-Rainy Balloons,False
+Rainy Balloons,True
 Wicked Wings,False
 Gold Swooper,False
 Banana Wingtip,True
