@@ -7,20 +7,59 @@ import drivers from "@public/python/drivers_data.json"
 
 import { useEffect, useState } from "react";
 
+
 export default function Home() {
 
   const [userDrivers, setUserDrivers] = useState([])
   const [coveredCourses, setCoveredCourses] = useState([])
   const [coursesNotCovered, setCoursesNotCovered] = useState([])
+  const [recommendedDrivers, setRecommendedDrivers] = useState([])
   const [allCourses, setAllCourses] = useState(courses)
   const [allDrivers, setAllDrivers] = useState(drivers)
+
+  const recommendDriversByCoverage = async (coursesMissingList, allDrivers, allUserDrivers) => {
+
+    let driverTrackCount = {}
+
+    // I iterate through every userDriver
+    allUserDrivers.forEach(userDriver => {
+
+      // I'm looking to recommend drivers that the user does not posses
+      if (!userDriver.owned) {
+        const driverNotOwned = allDrivers.find(driver => driver.id === userDriver.id)
+        const driverName = driverNotOwned.name
+
+        // Iterate through the favorite courses of the drivers that are not owned
+        driverNotOwned.favorite_courses.forEach(course => {
+
+          // Here I find and count each time a not owned driver has a missinCourse as a favorite course
+          if (coursesMissingList.some(missingCourse => missingCourse === course)) {
+
+            if (!driverTrackCount[driverName]) {
+              driverTrackCount[driverName] = 0
+            }
+            driverTrackCount[driverName] += 1
+          }
+        })
+      }
+    })
+
+    //sorting the results band converting the object into an array of objects
+    const sortedRecommendedDrivers = Object.entries(driverTrackCount)
+      .sort(([, a], [, b]) => b - a)
+      .map(([name, count]) => ({ name, count }));
+
+    // Returning a diciontary with the drivers and he count of courses that it covers from 
+    // the missing courses list
+    return sortedRecommendedDrivers
+  }
 
   const findCoursesWithoutCoverage = async (allCoursesList, coveredCoursesList) => {
     let coursesQTY = allCoursesList.length
     let notCovCoursesQTY = coveredCoursesList.length
     console.log("There are ", coursesQTY, " in total and your drivers cover ", notCovCoursesQTY)
     console.log("Your drivers still have to cover ", coursesQTY - notCovCoursesQTY, " courses")
-    let coursesNotCov  = allCoursesList.filter( course => !coveredCoursesList.some( coveredCourse => coveredCourse === course))
+    let coursesNotCov = allCoursesList.filter(course => !coveredCoursesList.some(coveredCourse => coveredCourse === course))
     return coursesNotCov
   }
 
@@ -66,6 +105,7 @@ export default function Home() {
 
 
 
+
   useEffect(() => {
     const fetchData = async () => {
       const Udrivers = await fetchUserDrivers();
@@ -74,13 +114,18 @@ export default function Home() {
       console.log(courses)
       console.log(allDrivers)
 
-      const covCourses = await findCoursesWithCoverage(allDrivers, Udrivers) 
+      const covCourses = await findCoursesWithCoverage(allDrivers, Udrivers)
       setCoveredCourses(covCourses)
       console.log("Covered courses", covCourses)
 
       const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
       setCoursesNotCovered(coursesNotCov)
       console.log("Courses not covered", coursesNotCov)
+
+      const recDrivers = await recommendDriversByCoverage(coursesNotCov, allDrivers, Udrivers)
+      setRecommendedDrivers(recDrivers)
+      console.log("Recommended drivers:", recDrivers)
+
     };
 
     fetchData();
