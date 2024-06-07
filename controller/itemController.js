@@ -39,7 +39,7 @@ export const recommendItemsByCoverage = async (coursesMissingList, items, userIt
 export const findCoursesWithoutCoverage = async (allCoursesList, coveredCoursesList) => {
     let coursesQTY = allCoursesList.length
     let notCovCoursesQTY = coveredCoursesList.length
-    console.log("There are ", coursesQTY, " in total and your drivers cover ", notCovCoursesQTY)
+    console.log("There are ", coursesQTY, " in total and you cover ", notCovCoursesQTY)
     console.log("You still have to cover ", coursesQTY - notCovCoursesQTY, " courses")
     let coursesNotCov = allCoursesList.filter(course => !coveredCoursesList.some(coveredCourse => coveredCourse === course))
     return coursesNotCov

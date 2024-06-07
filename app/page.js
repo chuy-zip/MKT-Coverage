@@ -2,17 +2,6 @@
 
 import styles from "./page.module.css";
 
-import { fetchUserDrivers, 
-         findCoursesWithCoverage, 
-         findCoursesWithoutCoverage,
-         recommendItemsByCoverage } from "@/controller/itemController";
-
-import courses from "@public/python/courses_data.json"
-import drivers from "@public/python/drivers_data.json"
-
-import { useEffect, useState } from "react";
-
-
 export default function Home() {
 
   return (
