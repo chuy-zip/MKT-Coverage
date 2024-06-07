@@ -3,7 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@public/*": ["public/*"]
+      "@public/*": ["public/*"],
+      "@controller/*":["controller/*"]
     }
   }
 }

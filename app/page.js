@@ -1,7 +1,12 @@
 "use client";
 
 import styles from "./page.module.css";
-import myDrivers from "@public/python/example/MyDrivers.json"
+
+import { fetchUserDrivers, 
+         findCoursesWithCoverage, 
+         findCoursesWithoutCoverage,
+         recommendItemsByCoverage } from "@/controller/itemController";
+
 import courses from "@public/python/courses_data.json"
 import drivers from "@public/python/drivers_data.json"
 
@@ -16,95 +21,6 @@ export default function Home() {
   const [recommendedDrivers, setRecommendedDrivers] = useState([])
   const [allCourses, setAllCourses] = useState(courses)
   const [allDrivers, setAllDrivers] = useState(drivers)
-
-  const recommendDriversByCoverage = async (coursesMissingList, allDrivers, allUserDrivers) => {
-
-    let driverTrackCount = {}
-
-    // I iterate through every userDriver
-    allUserDrivers.forEach(userDriver => {
-
-      // I'm looking to recommend drivers that the user does not posses
-      if (!userDriver.owned) {
-        const driverNotOwned = allDrivers.find(driver => driver.id === userDriver.id)
-        const driverName = driverNotOwned.name
-
-        // Iterate through the favorite courses of the drivers that are not owned
-        driverNotOwned.favorite_courses.forEach(course => {
-
-          // Here I find and count each time a not owned driver has a missinCourse as a favorite course
-          if (coursesMissingList.some(missingCourse => missingCourse === course)) {
-
-            if (!driverTrackCount[driverName]) {
-              driverTrackCount[driverName] = 0
-            }
-            driverTrackCount[driverName] += 1
-          }
-        })
-      }
-    })
-
-    //sorting the results band converting the object into an array of objects
-    const sortedRecommendedDrivers = Object.entries(driverTrackCount)
-      .sort(([, a], [, b]) => b - a)
-      .map(([name, count]) => ({ name, count }));
-
-    // Returning a diciontary with the drivers and he count of courses that it covers from 
-    // the missing courses list
-    return sortedRecommendedDrivers
-  }
-
-  const findCoursesWithoutCoverage = async (allCoursesList, coveredCoursesList) => {
-    let coursesQTY = allCoursesList.length
-    let notCovCoursesQTY = coveredCoursesList.length
-    console.log("There are ", coursesQTY, " in total and your drivers cover ", notCovCoursesQTY)
-    console.log("Your drivers still have to cover ", coursesQTY - notCovCoursesQTY, " courses")
-    let coursesNotCov = allCoursesList.filter(course => !coveredCoursesList.some(coveredCourse => coveredCourse === course))
-    return coursesNotCov
-  }
-
-  const findCoursesWithCoverage = async (allDrivers, allUserDrivers) => {
-    let coveredCourses = new Set();
-
-    //we iterate through all the drivers available
-    allUserDrivers.forEach(userDriver => {
-
-      //if the user has it
-      if (userDriver.owned) {
-
-        //Getting the driver with the corresponding id
-        const driver = allDrivers.find(d => d.id === userDriver.id);
-        // Iterate through the favorite courses and add them to the list
-        // as coveredCourses is a Set it wont accept repeated elemnts
-        if (driver) {
-          driver.favorite_courses.forEach(course => coveredCourses.add(course));
-        }
-
-      }
-    })
-    //Get the array from the set
-    return Array.from(coveredCourses);
-  }
-
-  const fetchUserDrivers = async () => {
-    try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      let driversList = await fetch('/python/example/MyDrivers.json')
-
-      if (!driversList.ok) {
-        throw new Error('failed to fetch drivers')
-      }
-
-      let json_drivers = await driversList.json()
-      return json_drivers
-
-    } catch (error) {
-      console.error("Error while fetching data:", error)
-    }
-  }
-
-
-
 
   useEffect(() => {
     const fetchData = async () => {
@@ -122,7 +38,7 @@ export default function Home() {
       setCoursesNotCovered(coursesNotCov)
       console.log("Courses not covered", coursesNotCov)
 
-      const recDrivers = await recommendDriversByCoverage(coursesNotCov, allDrivers, Udrivers)
+      const recDrivers = await recommendItemsByCoverage(coursesNotCov, allDrivers, Udrivers)
       setRecommendedDrivers(recDrivers)
       console.log("Recommended drivers:", recDrivers)
 
