@@ -4,7 +4,8 @@
     "paths": {
       "@/*": ["./*"],
       "@public/*": ["public/*"],
-      "@controller/*":["controller/*"]
+      "@controller/*":["controller/*"],
+      "@pages/*":["pages/*"]
     }
   }
 }
