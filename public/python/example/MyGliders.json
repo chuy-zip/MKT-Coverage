@@ -873,7 +873,7 @@
         "id": 747,
         "name": "Wonderful Garnet",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 748,
