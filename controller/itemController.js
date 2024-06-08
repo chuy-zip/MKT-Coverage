@@ -1,4 +1,21 @@
 
+export const countItemsFavoritesFromMissingCourses = async (itemName, itemList, coursesMissingList) => {
+    let itemTrackCount = {
+        name: itemName,
+        count: 0
+    }
+
+    const item = itemList.find(i => i.name == itemName)
+
+    item.favorite_courses.forEach(course => {
+        if(coursesMissingList.some(missingCourse => missingCourse === course)){
+            itemTrackCount.count += 1
+        }
+    })
+
+    return itemTrackCount
+}
+
 export const recommendItemsByCoverage = async (coursesMissingList, items, userItems) => {
 
     let itemTrackCount = {}
@@ -118,3 +135,4 @@ export const fetchUserGliders = async () => {
         console.error("Error while fetching data:", error)
     }
 }
+

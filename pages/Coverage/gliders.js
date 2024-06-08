@@ -4,7 +4,8 @@ import {
     fetchUserGliders,
     findCoursesWithCoverage,
     findCoursesWithoutCoverage,
-    recommendItemsByCoverage
+    recommendItemsByCoverage,
+    countItemsFavoritesFromMissingCourses
 } from "@/controller/itemController";
 
 import courses from "@public/python/courses_data.json"
@@ -40,6 +41,9 @@ export default function Gliders() {
             const recGliders = await recommendItemsByCoverage(coursesNotCov, allGliders, UGliders)
             setRecommendedGliders(recGliders)
             console.log("Recommended Gliders:", recGliders)
+
+            const gliderCount = await countItemsFavoritesFromMissingCourses("Wonderful Garnet", allGliders, coursesNotCov)
+            console.log("Your item covers ", gliderCount.count, "of your missing tracks")
         };
 
         fetchData();
