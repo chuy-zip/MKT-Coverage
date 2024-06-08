@@ -12,7 +12,6 @@ import drivers from "@public/python/drivers_data.json"
 
 import { useEffect, useState } from "react";
 
-
 export default function Drivers() {
 
     const [userDrivers, setUserDrivers] = useState([])

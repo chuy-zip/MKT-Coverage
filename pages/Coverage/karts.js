@@ -10,7 +10,6 @@ import {
 import courses from "@public/python/courses_data.json"
 import karts from "@public/python/karts_data.json"
 
-
 import { useEffect, useState } from "react";
 
 export default function Karts() {

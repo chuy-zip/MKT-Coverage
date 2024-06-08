@@ -1,7 +1,7 @@
 
 export const recommendItemsByCoverage = async (coursesMissingList, items, userItems) => {
 
-    let itmeTrackCount = {}
+    let itemTrackCount = {}
 
     // I iterate through every userItems m
     userItems.forEach(userItem => {
@@ -17,17 +17,17 @@ export const recommendItemsByCoverage = async (coursesMissingList, items, userIt
                 // Here I find and count each time a not owned driver has a missinCourse as a favorite course
                 if (coursesMissingList.some(missingCourse => missingCourse === course)) {
 
-                    if (!itmeTrackCount[itemName]) {
-                        itmeTrackCount[itemName] = 0
+                    if (!itemTrackCount[itemName]) {
+                        itemTrackCount[itemName] = 0
                     }
-                    itmeTrackCount[itemName] += 1
+                    itemTrackCount[itemName] += 1
                 }
             })
         }
     })
 
     //sorting the results band converting the object into an array of objects
-    const sortedRecommendedItems = Object.entries(itmeTrackCount)
+    const sortedRecommendedItems = Object.entries(itemTrackCount)
         .sort(([, a], [, b]) => b - a)
         .map(([name, count]) => ({ name, count }));
 
