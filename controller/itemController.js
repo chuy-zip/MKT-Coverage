@@ -2,17 +2,25 @@
 export const countItemsFavoritesFromMissingCourses = async (itemName, itemList, coursesMissingList) => {
     let itemTrackCount = {
         name: itemName,
-        count: 0
+        count: 0,
+        favorite_courses: []
     }
 
+    let coveredCourses = new Set();
     const item = itemList.find(i => i.name == itemName)
+
+    if(!item){
+        return undefined
+    }
 
     item.favorite_courses.forEach(course => {
         if(coursesMissingList.some(missingCourse => missingCourse === course)){
             itemTrackCount.count += 1
+            coveredCourses.add(course)
         }
     })
 
+    itemTrackCount.favorite_courses = Array.from(coveredCourses)
     return itemTrackCount
 }
 

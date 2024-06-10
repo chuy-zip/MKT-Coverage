@@ -4,7 +4,8 @@ import {
     fetchUserDrivers,
     findCoursesWithCoverage,
     findCoursesWithoutCoverage,
-    recommendItemsByCoverage
+    recommendItemsByCoverage,
+    countItemsFavoritesFromMissingCourses
 } from "@/controller/itemController";
 
 import courses from "@public/python/courses_data.json"
@@ -40,6 +41,10 @@ export default function Drivers() {
             const recDrivers = await recommendItemsByCoverage(coursesNotCov, allDrivers, Udrivers)
             setRecommendedDrivers(recDrivers)
             console.log("Recommended drivers:", recDrivers)
+
+            const driverCount = await countItemsFavoritesFromMissingCourses("Light-blue Toad (Pit Crew)", allDrivers, coursesNotCov)
+            console.log("Your item ", driverCount.name, " covers ", driverCount.count, "of your missing tracks")
+            console.log("The courses are the foLlowing ", driverCount.favorite_courses)
 
         };
 

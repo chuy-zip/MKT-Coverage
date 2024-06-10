@@ -4,7 +4,8 @@ import {
     fetchUserKarts,
     findCoursesWithCoverage,
     findCoursesWithoutCoverage,
-    recommendItemsByCoverage
+    recommendItemsByCoverage,
+    countItemsFavoritesFromMissingCourses
 } from "@/controller/itemController";
 
 import courses from "@public/python/courses_data.json"
@@ -40,6 +41,10 @@ export default function Karts() {
             const recKarts = await recommendItemsByCoverage(coursesNotCov, allKarts, UKarts)
             setRecommendedKarts(recKarts)
             console.log("Recommended Karts:", recKarts)
+
+            const kartCount = await countItemsFavoritesFromMissingCourses("Pink Speeder", allKarts, coursesNotCov)
+            console.log("Your item ", kartCount.name, " covers ", kartCount.count, "of your missing tracks")
+            console.log("The courses are the folowing ", kartCount.favorite_courses)
 
         };
 
