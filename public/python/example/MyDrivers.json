@@ -171,7 +171,7 @@
         "id": 29,
         "name": "Light-blue Toad (Pit Crew)",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 30,
@@ -987,7 +987,7 @@
         "id": 165,
         "name": "Shy Guy (Pastry Chef)",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 166,
@@ -1527,7 +1527,7 @@
         "id": 255,
         "name": "Pink Mii Racing Suit",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 256,

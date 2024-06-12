@@ -27,7 +27,7 @@ Red Yoshi,True
 Blue Yoshi,False
 Pink Yoshi,False
 Yellow Toad (Pit Crew),True
-Light-blue Toad (Pit Crew),False
+Light-blue Toad (Pit Crew),True
 Red Toad (Pit Crew),False
 Orange Yoshi,False
 Green Toad (Pit Crew),False
@@ -163,7 +163,7 @@ Mario (Black Suit),False
 Gold Mario,True
 Dry Bowser,True
 King Boo (Luigi's Mansion),False
-Shy Guy (Pastry Chef),False
+Shy Guy (Pastry Chef),True
 Waluigi (Bus Driver),True
 Gold Koopa (Freerunning),True
 Wario (Hiker),False
@@ -253,7 +253,7 @@ Morton Mii Racing Suit,False
 Roy Mii Racing Suit,False
 Wendy Mii Racing Suit,False
 Daisy Mii Racing Suit,False
-Pink Mii Racing Suit,False
+Pink Mii Racing Suit,True
 Monty Mole Mii Racing Suit,False
 Waluigi Mii Racing Suit,False
 Fish Bone Mii Racing Suit,False
@@ -429,7 +429,7 @@ Sports Coupe 2022,False
 Roaring Racer,False
 Jukebox Buggy,True
 Sneeker,True
-Green Lightning,False
+Green Lightning,True
 Cupid's Arrow,False
 Wild Slugger,False
 Prop Kart,True
@@ -512,7 +512,7 @@ Mach 8-R,False
 Gold Cupid's Arrow,False
 Silver Cupid's Arrow,False
 Silver Warrior Wagon,False
-Gold Warrior Wagon,False
+Gold Warrior Wagon,True
 Black Shielded Speedster,False
 Gold Shielded Speedster,False
 Yeehaw Wagon,False
@@ -547,7 +547,7 @@ Koopa King,False
 Brown Offroader,False
 Cact-X,False
 Pirate Sushi Racer,False
-Silver Bullet Blaster,False
+Silver Bullet Blaster,True
 Head Honcho,False
 DK Maximum,False
 Sushi Racer,True
@@ -657,21 +657,21 @@ Gold Crane,False
 Chocolate Banana Crepe,False
 Strawberry Donut,False
 Silver Bells,True
-Silver-and-Gold Hearts,False
+Silver-and-Gold Hearts,True
 Manta Glider,False
 Treasure Map,False
 Butterfly Wings,False
 Great Sail,False
 Festival Wings,False
-8-Bit Star,False
+8-Bit Star,True
 Super Mario Kart Glider,False
 Star-Spangled Glider,False
 Spider Glider,False
 Sunset Balloons,True
 Jolly Bells,False
-Silver Starchute,False
+Silver Starchute,True
 Butterfly Prism,False
-Planet Glider,False
+Planet Glider,True
 New Year's 2021,False
 Gold New Year's Kite,False
 Toe-Bean Balloons,False
@@ -772,7 +772,7 @@ Pink Checkered Glider,False
 Green Checkered Glider,False
 Gold Checkered Glider,False
 Gold Origami Glider,False
-Gold Bells,False
+Gold Bells,True
 Glittering Glider,False
 Red Emblem,False
 Green Emblem,False

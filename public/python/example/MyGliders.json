@@ -345,7 +345,7 @@
         "id": 659,
         "name": "Silver-and-Gold Hearts",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 660,
@@ -381,7 +381,7 @@
         "id": 665,
         "name": "8-Bit Star",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 666,
@@ -417,7 +417,7 @@
         "id": 671,
         "name": "Silver Starchute",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 672,
@@ -429,7 +429,7 @@
         "id": 673,
         "name": "Planet Glider",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 674,
@@ -1035,7 +1035,7 @@
         "id": 774,
         "name": "Gold Bells",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 775,

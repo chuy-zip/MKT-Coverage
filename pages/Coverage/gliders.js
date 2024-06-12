@@ -42,7 +42,7 @@ export default function Gliders() {
             setRecommendedGliders(recGliders)
             console.log("Recommended Gliders:", recGliders)
 
-            const gliderCount = await countItemsFavoritesFromMissingCourses("Mario's Hat Balloon", allGliders, coursesNotCov)
+            const gliderCount = await countItemsFavoritesFromMissingCourses("8-Bit Star", allGliders, coursesNotCov)
             console.log("Your item ", gliderCount.name, " covers ", gliderCount.count, "of your missing tracks")
             console.log("The courses are the following ", gliderCount.favorite_courses)
         };

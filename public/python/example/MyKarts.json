@@ -993,7 +993,7 @@
         "id": 431,
         "name": "Green Lightning",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 432,
@@ -1491,7 +1491,7 @@
         "id": 514,
         "name": "Gold Warrior Wagon",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 515,
@@ -1701,7 +1701,7 @@
         "id": 549,
         "name": "Silver Bullet Blaster",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 550,

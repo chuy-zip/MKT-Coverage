@@ -42,7 +42,7 @@ export default function Drivers() {
             setRecommendedDrivers(recDrivers)
             console.log("Recommended drivers:", recDrivers)
 
-            const driverCount = await countItemsFavoritesFromMissingCourses("Light-blue Toad (Pit Crew)", allDrivers, coursesNotCov)
+            const driverCount = await countItemsFavoritesFromMissingCourses("Mario (Samurai)", allDrivers, coursesNotCov)
             console.log("Your item ", driverCount.name, " covers ", driverCount.count, "of your missing tracks")
             console.log("The courses are the foLlowing ", driverCount.favorite_courses)
 
