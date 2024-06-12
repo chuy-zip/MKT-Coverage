@@ -11,7 +11,7 @@ export default function Home() {
       </h1>
 
       <h2>
-        Take a look to this pages and check the cnosole log to see the results
+        Take a look to this pages and check the console log to see the results
       </h2>
 
       <ul>
