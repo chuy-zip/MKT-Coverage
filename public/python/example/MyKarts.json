@@ -1563,7 +1563,7 @@
         "id": 526,
         "name": "Spicy Zucchini",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 527,

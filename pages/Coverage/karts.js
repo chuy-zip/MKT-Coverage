@@ -1,5 +1,8 @@
 "use client"
 
+import '../../app/globals.css'
+import styles from './coveragePage.module.css'
+
 import {
     fetchUserKarts,
     findCoursesWithCoverage,
@@ -11,7 +14,7 @@ import {
 import courses from "@public/python/courses_data.json"
 import karts from "@public/python/karts_data.json"
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 
 import ItemCoverageForm from "@components/ItemCoverageForm";
 
@@ -27,8 +30,6 @@ export default function Karts() {
         itemName: '',
     })
 
-
-
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -39,7 +40,7 @@ export default function Karts() {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        if(!formData.itemName){
+        if (!formData.itemName) {
             alert("Please enter an item")
             return
         }
@@ -48,10 +49,10 @@ export default function Karts() {
             const kartCount = await countItemsFavoritesFromMissingCourses(formData.itemName, allKarts, coursesNotCovered)
             console.log("Your item ", kartCount.name, " covers ", kartCount.count, "of your missing tracks")
             console.log("The courses are the folowing ", kartCount.favorite_courses)
-            
+
         } catch (error) {
             console.error("Something wen't wrong", error)
-            
+
         }
     }
 
@@ -81,12 +82,28 @@ export default function Karts() {
     }, [])
 
     return (
-        <>
+        <div className={styles.pageContainer}>
+
+
             <div>
                 This is the page for karts coverage
             </div>
 
-            <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData}/>
-        </>
+            <Suspense fallback={<div>Cargando...</div>}>
+                <div className={styles.gridItemContainer}>
+                    {userKarts.map((kart, index) => (
+
+                        <div key={index} className={kart.owned ? styles.gridItemOwned : styles.gridItemNotOwned}>
+                            {kart.name}
+                        </div>
+
+                    ))}
+
+                </div>
+
+            </Suspense>
+
+            <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
+        </div>
     )
 }

@@ -1,0 +1,38 @@
+.pageContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #004F95;
+    color: aliceblue;
+}
+
+.gridItemContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    background-color: #4985b9;
+    width: 80%;
+}
+
+.gridItemOwned {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color: #FFD700;
+    color: #213d55;
+}
+
+.gridItemNotOwned {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    background-color: #213d55;
+}
