@@ -6,7 +6,8 @@
       "@public/*": ["public/*"],
       "@controller/*":["controller/*"],
       "@pages/*":["pages/*"],
-      "@components/*":["components/*"]
+      "@components/*":["components/*"],
+      "@hooks/*":["hooks/*"]
     }
   }
 }

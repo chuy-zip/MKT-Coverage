@@ -1,61 +1,75 @@
-"use client";
+"use client"
+
+import '../../app/globals.css'
+import styles from './coveragePage.module.css'
+import useDrivers from '@/hooks/useDrivers';
 
 import {
-    fetchUserDrivers,
-    findCoursesWithCoverage,
-    findCoursesWithoutCoverage,
-    recommendItemsByCoverage,
     countItemsFavoritesFromMissingCourses
 } from "@/controller/itemController";
 
-import courses from "@public/python/courses_data.json"
-import drivers from "@public/python/drivers_data.json"
+import { useState, Suspense } from "react";
 
-import { useEffect, useState } from "react";
+import ItemCoverageForm from "@components/ItemCoverageForm";
 
 export default function Drivers() {
 
-    const [userDrivers, setUserDrivers] = useState([])
-    const [coveredCourses, setCoveredCourses] = useState([])
-    const [coursesNotCovered, setCoursesNotCovered] = useState([])
-    const [recommendedDrivers, setRecommendedDrivers] = useState([])
-    const [allCourses, setAllCourses] = useState(courses)
-    const [allDrivers, setAllDrivers] = useState(drivers)
+    const { userDrivers, coveredCourses, coursesNotCovered, recommendedDrivers, allDrivers } = useDrivers()
 
-    useEffect(() => {
-        const fetchData = async () => {
-            const Udrivers = await fetchUserDrivers();
-            setUserDrivers(Udrivers);
-            console.log(Udrivers);
-            console.log(courses)
-            console.log(allDrivers)
+    const [formData, setFormData] = useState({
+        itemName: '',
+    })
 
-            const covCourses = await findCoursesWithCoverage(allDrivers, Udrivers)
-            setCoveredCourses(covCourses)
-            console.log("Covered courses", covCourses)
+    const handleChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        })
+    }
 
-            const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
-            setCoursesNotCovered(coursesNotCov)
-            console.log("Courses not covered", coursesNotCov)
+    const handleSubmit = async (e) => {
+        e.preventDefault()
 
-            const recDrivers = await recommendItemsByCoverage(coursesNotCov, allDrivers, Udrivers)
-            setRecommendedDrivers(recDrivers)
-            console.log("Recommended drivers:", recDrivers)
+        if (!formData.itemName) {
+            alert("Please enter an item")
+            return
+        }
 
-            const driverCount = await countItemsFavoritesFromMissingCourses("Mario (Samurai)", allDrivers, coursesNotCov)
+        try {
+            const driverCount = await countItemsFavoritesFromMissingCourses(formData.itemName, allDrivers, coursesNotCovered)
             console.log("Your item ", driverCount.name, " covers ", driverCount.count, "of your missing tracks")
-            console.log("The courses are the foLlowing ", driverCount.favorite_courses)
+            console.log("The courses are the folowing ", driverCount.favorite_courses)
 
-        };
+        } catch (error) {
+            console.error("Something wen't wrong", error)
 
-        fetchData();
-    }, [])
+        }
+    }
 
     return (
-        <>
+        <div className={styles.pageContainer}>
+
+
             <div>
                 This is the page for Drivers coverage
             </div>
-        </>
+
+            
+            <ItemCoverageForm type="Driver" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
+
+            <Suspense fallback={<div>Cargando...</div>}>
+                <div className={styles.gridItemContainer}>
+                    {userDrivers.map((driver, index) => (
+
+                        <div key={index} className={driver.owned ? styles.gridItemOwned : styles.gridItemNotOwned}>
+                            {driver.name}
+                        </div>
+
+                    ))}
+
+                </div>
+
+            </Suspense>
+        </div>
     )
 }

@@ -2,30 +2,20 @@
 
 import '../../app/globals.css'
 import styles from './coveragePage.module.css'
+import useKarts from '@/hooks/useKarts';
 
 import {
-    fetchUserKarts,
-    findCoursesWithCoverage,
-    findCoursesWithoutCoverage,
-    recommendItemsByCoverage,
     countItemsFavoritesFromMissingCourses
 } from "@/controller/itemController";
 
-import courses from "@public/python/courses_data.json"
-import karts from "@public/python/karts_data.json"
-
-import { useEffect, useState, Suspense } from "react";
+import { useState, Suspense } from "react";
 
 import ItemCoverageForm from "@components/ItemCoverageForm";
 
 export default function Karts() {
 
-    const [userKarts, setUserkarts] = useState([])
-    const [coveredCourses, setCoveredCourses] = useState([])
-    const [coursesNotCovered, setCoursesNotCovered] = useState([])
-    const [recommendedKarts, setRecommendedKarts] = useState([])
-    const [allCourses, setAllCourses] = useState(courses)
-    const [allKarts, setAllKarts] = useState(karts)
+    const { userKarts, coveredCourses, coursesNotCovered, recommendedKarts, allKarts } = useKarts()
+
     const [formData, setFormData] = useState({
         itemName: '',
     })
@@ -56,31 +46,6 @@ export default function Karts() {
         }
     }
 
-    useEffect(() => {
-        const fetchData = async () => {
-            const UKarts = await fetchUserKarts();
-            setUserkarts(UKarts);
-            console.log(UKarts);
-            console.log(courses)
-            console.log(allKarts)
-
-            const covCourses = await findCoursesWithCoverage(allKarts, UKarts)
-            setCoveredCourses(covCourses)
-            console.log("Covered courses", covCourses)
-
-            const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
-            setCoursesNotCovered(coursesNotCov)
-            console.log("Courses not covered", coursesNotCov)
-
-            const recKarts = await recommendItemsByCoverage(coursesNotCov, allKarts, UKarts)
-            setRecommendedKarts(recKarts)
-            console.log("Recommended Karts:", recKarts)
-
-        };
-
-        fetchData();
-    }, [])
-
     return (
         <div className={styles.pageContainer}>
 
@@ -88,6 +53,9 @@ export default function Karts() {
             <div>
                 This is the page for karts coverage
             </div>
+
+            
+            <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
 
             <Suspense fallback={<div>Cargando...</div>}>
                 <div className={styles.gridItemContainer}>
@@ -102,8 +70,6 @@ export default function Karts() {
                 </div>
 
             </Suspense>
-
-            <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
         </div>
     )
 }

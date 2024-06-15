@@ -1,60 +1,75 @@
 "use client"
 
+import '../../app/globals.css'
+import styles from './coveragePage.module.css'
+import useGliders from '@/hooks/useGliders';
+
 import {
-    fetchUserGliders,
-    findCoursesWithCoverage,
-    findCoursesWithoutCoverage,
-    recommendItemsByCoverage,
     countItemsFavoritesFromMissingCourses
 } from "@/controller/itemController";
 
-import courses from "@public/python/courses_data.json"
-import gliders from "@public/python/gliders_data.json"
+import { useState, Suspense } from "react";
 
-import { useEffect, useState } from "react";
+import ItemCoverageForm from "@components/ItemCoverageForm";
 
 export default function Gliders() {
 
-    const [userGliders, setUserGliders] = useState([])
-    const [coveredCourses, setCoveredCourses] = useState([])
-    const [coursesNotCovered, setCoursesNotCovered] = useState([])
-    const [recommendedGliders, setRecommendedGliders] = useState([])
-    const [allCourses, setAllCourses] = useState(courses)
-    const [allGliders, setAllGliders] = useState(gliders)
+    const { userGliders, coveredCourses, coursesNotCovered, recommendedGliders, allGliders } = useGliders()
 
-    useEffect(() => {
-        const fetchData = async () => {
-            const UGliders = await fetchUserGliders();
-            setUserGliders(UGliders);
-            console.log(UGliders);
-            console.log(courses)
-            console.log(allGliders)
+    const [formData, setFormData] = useState({
+        itemName: '',
+    })
 
-            const covCourses = await findCoursesWithCoverage(allGliders, UGliders)
-            setCoveredCourses(covCourses)
-            console.log("Covered courses", covCourses)
+    const handleChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        })
+    }
 
-            const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
-            setCoursesNotCovered(coursesNotCov)
-            console.log("Courses not covered", coursesNotCov)
+    const handleSubmit = async (e) => {
+        e.preventDefault()
 
-            const recGliders = await recommendItemsByCoverage(coursesNotCov, allGliders, UGliders)
-            setRecommendedGliders(recGliders)
-            console.log("Recommended Gliders:", recGliders)
+        if (!formData.itemName) {
+            alert("Please enter an item")
+            return
+        }
 
-            const gliderCount = await countItemsFavoritesFromMissingCourses("8-Bit Star", allGliders, coursesNotCov)
+        try {
+            const gliderCount = await countItemsFavoritesFromMissingCourses(formData.itemName, allGliders, coursesNotCovered)
             console.log("Your item ", gliderCount.name, " covers ", gliderCount.count, "of your missing tracks")
-            console.log("The courses are the following ", gliderCount.favorite_courses)
-        };
+            console.log("The courses are the folowing ", gliderCount.favorite_courses)
 
-        fetchData();
-    }, [])
+        } catch (error) {
+            console.error("Something wen't wrong", error)
+
+        }
+    }
 
     return (
-        <>
+        <div className={styles.pageContainer}>
+
+
             <div>
                 This is the page for Gliders coverage
             </div>
-        </>
+
+            
+            <ItemCoverageForm type="Glider" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
+
+            <Suspense fallback={<div>Cargando...</div>}>
+                <div className={styles.gridItemContainer}>
+                    {userGliders.map((glider, index) => (
+
+                        <div key={index} className={glider.owned ? styles.gridItemOwned : styles.gridItemNotOwned}>
+                            {glider.name}
+                        </div>
+
+                    ))}
+
+                </div>
+
+            </Suspense>
+        </div>
     )
 }
