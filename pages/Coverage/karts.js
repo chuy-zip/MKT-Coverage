@@ -3,6 +3,7 @@
 import '../../app/globals.css'
 import styles from './coveragePage.module.css'
 import useKarts from '@/hooks/useKarts';
+import CoursesCoverageData from '@/components/CoursesCoverageData';
 
 import {
     countItemsFavoritesFromMissingCourses
@@ -49,14 +50,12 @@ export default function Karts() {
     return (
         <div className={styles.pageContainer}>
 
-
-            <div>
+            <h1>
                 This is the page for karts coverage
-            </div>
+            </h1>
 
-            
             <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
-
+            
             <Suspense fallback={<div>Cargando...</div>}>
                 <div className={styles.gridItemContainer}>
                     {userKarts.map((kart, index) => (
@@ -70,6 +69,9 @@ export default function Karts() {
                 </div>
 
             </Suspense>
+
+            <CoursesCoverageData type={"Karts"} coveredCourses={coveredCourses} coursesNotCovered={coursesNotCovered} />
+
         </div>
     )
 }

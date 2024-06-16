@@ -132,7 +132,7 @@ Penguin Toadette,False
 Cat Rosalina,False
 Luigi (Vacation),False
 Mario (Golf),False
-Luigi (Golf),False
+Luigi (Golf),True
 Mario (Aviator),True
 Mario (Samurai),False
 Peach (Yukata),False
@@ -142,7 +142,7 @@ Daisy (Farmer),True
 Dr. Mario,False
 Dr. Luigi,False
 Dr. Peach,False
-Cat Mario,False
+Cat Mario,True
 Cat Luigi,False
 Rosalina (Chef),False
 Daisy (Thai Dress),False

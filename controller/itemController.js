@@ -95,7 +95,7 @@ export const findCoursesWithCoverage = async (items, userItems) => {
 
 export const fetchUserDrivers = async () => {
     try {
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        
         let driversList = await fetch('/python/example/MyDrivers.json')
 
         if (!driversList.ok) {
@@ -112,7 +112,7 @@ export const fetchUserDrivers = async () => {
 
 export const fetchUserKarts = async () => {
     try {
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        
         let kartsList = await fetch('/python/example/MyKarts.json')
 
         if (!kartsList.ok) {
@@ -129,7 +129,7 @@ export const fetchUserKarts = async () => {
 
 export const fetchUserGliders = async () => {
     try {
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        
         let glidersList = await fetch('/python/example/MyGliders.json')
 
         if (!glidersList.ok) {

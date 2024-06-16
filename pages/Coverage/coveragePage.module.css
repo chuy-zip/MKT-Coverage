@@ -1,30 +1,34 @@
 .pageContainer {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     background-color: #004F95;
     color: aliceblue;
+    overflow-x: auto;
 }
 
 .gridItemContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    box-sizing: border-box;
     background-color: #4985b9;
-    width: 80%;
+    width: 55%;
+    margin: 30px 0 30px 0;
 }
+
 
 .gridItemOwned {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100px;
+    height: 250px;
     background-color: #FFD700;
     color: #213d55;
+    border-radius: 5px;
 }
 
 .gridItemNotOwned {
@@ -33,6 +37,62 @@
     align-items: center;
     text-align: center;
     align-items: center;
-    height: 100px;
+    height: 250px;
     background-color: #213d55;
+    border-radius: 5px;
 }
+
+@media (max-width: 1100px){
+    .gridItemContainer{
+        width: 80%;
+    }
+}
+
+@media (max-width: 812px){
+    .gridItemContainer{
+        width: 90%;
+    } 
+}
+
+@media (max-width: 712px){
+    .gridItemContainer{
+        width: 90%;
+    }
+    .gridItemOwned{
+        height: 200px;
+    }
+
+    .gridItemNotOwned{
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 550px){
+    .gridItemContainer{
+        width: 95%;
+    } 
+
+    .gridItemOwned{
+        height: 170px;
+    }
+
+    .gridItemNotOwned{
+        height: 170px;
+    }
+}
+
+@media (max-width: 391px){
+    .gridItemContainer{
+        grid-template-columns: repeat(4, 81.5px);
+    }
+
+    .gridItemOwned{
+        height: 150px;
+    }
+
+    .gridItemNotOwned{
+        height: 150px;
+    }
+}
+

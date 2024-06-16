@@ -801,7 +801,7 @@
         "id": 134,
         "name": "Luigi (Golf)",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 135,
@@ -861,7 +861,7 @@
         "id": 144,
         "name": "Cat Mario",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 145,
