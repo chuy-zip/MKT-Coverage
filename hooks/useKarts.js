@@ -26,9 +26,6 @@ const useKarts = () => {
         const fetchData = async () => {
             const UKarts = await fetchUserKarts();
             setUserkarts(UKarts);
-            console.log(UKarts);
-            console.log(courses)
-            console.log(allKarts)
         };
 
         fetchData();

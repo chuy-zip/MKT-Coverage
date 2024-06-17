@@ -1,64 +1,82 @@
 
 export const countItemsFavoritesFromMissingCourses = async (itemName, itemList, coursesMissingList) => {
+    //Initializing a new object
     let itemTrackCount = {
-        name: itemName,
+        name: "",
         count: 0,
         favorite_courses: []
     }
 
-    let coveredCourses = new Set();
-    const item = itemList.find(i => i.name == itemName)
+    // Creating a set to store non covered courses without repeats
+    let notCoveredCourses = new Set();
+    const item = itemList.find(i => i.name.toLowerCase() == itemName.toLowerCase())
 
+    // Case in which the requested item by the user is not found
     if(!item){
-        return undefined
+        return null
     }
 
+    // Saving the real name once the item is confirmed to exist
+    itemTrackCount.name = item.name
+
+    // Storing all the courses that the searched item covers form the missing courses list, inside the set
     item.favorite_courses.forEach(course => {
         if(coursesMissingList.some(missingCourse => missingCourse === course)){
             itemTrackCount.count += 1
-            coveredCourses.add(course)
+            notCoveredCourses.add(course)
         }
     })
 
-    itemTrackCount.favorite_courses = Array.from(coveredCourses)
+    // Changing the set into an array and then returning the final object
+    itemTrackCount.favorite_courses = Array.from(notCoveredCourses)
     return itemTrackCount
 }
 
 export const recommendItemsByCoverage = async (coursesMissingList, items, userItems) => {
 
-    let itemTrackCount = {}
+    let itemTrackCount = []
 
-    // I iterate through every userItems m
+    // I iterate through every userItems
     userItems.forEach(userItem => {
 
         // I'm looking to recommend drivers that the user does not posses
         if (!userItem.owned) {
             const itemNotOwned = items.find(item => item.id === userItem.id)
-            const itemName = itemNotOwned.name
 
             // Iterate through the favorite courses of the drivers that are not owned
             itemNotOwned.favorite_courses.forEach(course => {
 
+                let itemFound = itemTrackCount.find(savedItem => savedItem.name === itemNotOwned.name)
+
                 // Here I find and count each time a not owned driver has a missinCourse as a favorite course
                 if (coursesMissingList.some(missingCourse => missingCourse === course)) {
 
-                    if (!itemTrackCount[itemName]) {
-                        itemTrackCount[itemName] = 0
+                    if (!itemFound) {
+                        itemTrackCount.push({ 
+                            name: itemNotOwned.name, 
+                            rarity: itemNotOwned.rarity, 
+                            count: 1})
+
+                    } else {
+                        itemFound.count += 1
                     }
-                    itemTrackCount[itemName] += 1
                 }
             })
         }
     })
 
-    //sorting the results band converting the object into an array of objects
-    const sortedRecommendedItems = Object.entries(itemTrackCount)
-        .sort(([, a], [, b]) => b - a)
-        .map(([name, count]) => ({ name, count }));
+    //sorting the array of objects
+    itemTrackCount.sort((a, b) => {
+        if (a.count < b.count){
+            return 1
+        }
+        if (a.count > b.count){
+            return -1
+        }
+        return 0
+    })
 
-    // Returning a diciontary with the drivers and he count of courses that it covers from 
-    // the missing courses list
-    return sortedRecommendedItems
+    return itemTrackCount
 }
 
 export const findCoursesWithoutCoverage = async (allCoursesList, coveredCoursesList) => {
