@@ -4,6 +4,7 @@ import '../../app/globals.css'
 import styles from './coveragePage.module.css'
 import useKarts from '@/hooks/useKarts';
 import CoursesCoverageData from '@/components/CoursesCoverageData';
+import SearchedItemCoverage from '@/components/SearchedItemCoverage';
 
 import {
     countItemsFavoritesFromMissingCourses
@@ -16,10 +17,10 @@ import ItemCoverageForm from "@components/ItemCoverageForm";
 export default function Karts() {
 
     const { userKarts, coveredCourses, coursesNotCovered, recommendedKarts, allKarts } = useKarts()
-
     const [formData, setFormData] = useState({
         itemName: '',
     })
+    const [searchedKart, setSearchedKart] = useState()
 
     const handleChange = (e) => {
         setFormData({
@@ -38,8 +39,11 @@ export default function Karts() {
 
         try {
             const kartCount = await countItemsFavoritesFromMissingCourses(formData.itemName, allKarts, coursesNotCovered)
-            console.log("Your item ", kartCount.name, " covers ", kartCount.count, "of your missing tracks")
-            console.log("The courses are the folowing ", kartCount.favorite_courses)
+            if(!kartCount){
+                alert("Kart not found")
+            }
+
+            setSearchedKart(kartCount)
 
         } catch (error) {
             console.error("Something wen't wrong", error)
@@ -56,6 +60,8 @@ export default function Karts() {
 
             <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
             
+            { searchedKart && <SearchedItemCoverage searchedItem={searchedKart}/>}
+
             <Suspense fallback={<div>Cargando...</div>}>
                 <div className={styles.gridItemContainer}>
                     {userKarts.map((kart, index) => (

@@ -14,7 +14,7 @@ export default function CoursesCoverageData({ type, coveredCourses, coursesNotCo
 
             <ul>
                 {coursesNotCovered.map((course, index) => (
-                    <li id={index}>{course}</li>
+                    <li key={index}>{course}</li>
                 ))}
             </ul>
             

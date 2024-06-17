@@ -1,10 +1,11 @@
 "use client"
 
+import Styles from './ItemCoverageForm.module.css'
 
 export default function ItemCoverageForm({ type, handleChange, handleSubmit, formData}){
 
     return (
-        <div>
+        <div className={Styles.formContainer}>
             <form onSubmit={handleSubmit}>
                 <h2>{type} coverage on missing courses</h2>
 
@@ -20,7 +21,9 @@ export default function ItemCoverageForm({ type, handleChange, handleSubmit, for
                 </input>
 
                 <br/>
-                <button type="submit">Submit</button>
+                <br/>
+
+                <button type="submit">Search</button>
             </form>
 
         </div>

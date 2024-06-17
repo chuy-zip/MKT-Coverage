@@ -55,9 +55,6 @@
 }
 
 @media (max-width: 712px){
-    .gridItemContainer{
-        width: 90%;
-    }
     .gridItemOwned{
         height: 200px;
     }
