@@ -5,6 +5,7 @@ import styles from './coveragePage.module.css'
 import useKarts from '@/hooks/useKarts';
 import CoursesCoverageData from '@/components/CoursesCoverageData';
 import SearchedItemCoverage from '@/components/SearchedItemCoverage';
+import RecommendedItemsTable from '@/components/RecommendedItemsTable';
 
 import {
     countItemsFavoritesFromMissingCourses
@@ -78,6 +79,7 @@ export default function Karts() {
 
             <CoursesCoverageData type={"Karts"} coveredCourses={coveredCourses} coursesNotCovered={coursesNotCovered} />
 
+            <RecommendedItemsTable recommendedItems={recommendedKarts} type={"Karts"}/>
         </div>
     )
 }
