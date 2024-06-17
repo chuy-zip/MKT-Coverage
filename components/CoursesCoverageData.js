@@ -5,19 +5,19 @@ export default function CoursesCoverageData({ type, coveredCourses, coursesNotCo
     let totalCourses = coveredCourses.length + coursesNotCovered.length
 
     return (
-        <div>
-            <div className={Styles.dataContainer}>
-                <h2> There are {totalCourses} in total and your {type} cover {coveredCourses.length} of them</h2>
-                <h3> You still have to cover {coursesNotCovered.length}: </h3>
+        <div className={Styles.dataContainer}>
+            <h2> There are {totalCourses} in total and your {type} cover {coveredCourses.length} of them</h2>
+            <h3> You still have to cover {coursesNotCovered.length}: </h3>
+
+            <div className={Styles.missingCourses}>
+
+                <ol>
+                    {coursesNotCovered.map((course, index) => (
+                        <li key={index}>{course}</li>
+                    ))}
+                </ol>
 
             </div>
-
-            <ul>
-                {coursesNotCovered.map((course, index) => (
-                    <li key={index}>{course}</li>
-                ))}
-            </ul>
-            
         </div>
 
     )

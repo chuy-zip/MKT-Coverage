@@ -9,7 +9,7 @@ export const countItemsFavoritesFromMissingCourses = async (itemName, itemList, 
 
     // Creating a set to store non covered courses without repeats
     let notCoveredCourses = new Set();
-    const item = itemList.find(i => i.name.toLowerCase() == itemName.toLowerCase())
+    const item = itemList.find(i => i.name.toLowerCase() == itemName.toLowerCase().trim())
 
     // Case in which the requested item by the user is not found
     if(!item){

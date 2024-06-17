@@ -7,7 +7,7 @@ export default function ItemCoverageForm({ type, handleChange, handleSubmit, for
     return (
         <div className={Styles.formContainer}>
             <form onSubmit={handleSubmit}>
-                <h2>{type} coverage on missing courses</h2>
+                <h2>{type} coverage search on missing courses</h2>
 
                 <label htmlFor="itemName">{type} name to be searched:</label>
                 <br/>

@@ -58,10 +58,9 @@ export default function Karts() {
             <h1>
                 This is the page for karts coverage
             </h1>
-
-            <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
-            
-            { searchedKart && <SearchedItemCoverage searchedItem={searchedKart}/>}
+            <h2>
+                Select the karts you own and then press the button to get the recommended items
+            </h2>
 
             <Suspense fallback={<div>Cargando...</div>}>
                 <div className={styles.gridItemContainer}>
@@ -76,6 +75,10 @@ export default function Karts() {
                 </div>
 
             </Suspense>
+
+            <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
+            
+            { searchedKart && <SearchedItemCoverage searchedItem={searchedKart}/>}
 
             <CoursesCoverageData type={"Karts"} coveredCourses={coveredCourses} coursesNotCovered={coursesNotCovered} />
 
