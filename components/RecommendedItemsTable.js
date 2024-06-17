@@ -11,14 +11,14 @@ export default function RecommendedItemsTable({ recommendedItems, type }) {
                         <th> No. </th>
                         <th style={{ textAlign: 'left' }}>{type.substring(0, type.length - 1)} name</th>
                         <th >Rarity</th>
-                        <th >Missing Courses It Covers</th>
+                        <th >Missing Courses it Covers</th>
                     </tr>
                 </thead>
 
-                <tbody>
+                <tbody className={Styles.tableData}>
 
                     {recommendedItems.map((item, index) => (
-                        <tr key={index} className={Styles.tableData}>
+                        <tr key={index} >
                             <td> {index + 1}</td>
                             <td >{item.name}</td>
                             <td >{item.rarity}</td>

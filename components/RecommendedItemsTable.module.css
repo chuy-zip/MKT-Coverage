@@ -7,11 +7,12 @@
 
 .table {
     border-collapse: collapse;
+    border: 1px solid black;
 }
 
 .tableHeader th {
-    border: 1px solid black;
     width: 25%;
+    background-color: #333;
 }
 
 .tableHeader th:nth-child(1) {
@@ -19,23 +20,27 @@
     width: 5%;
 }
 
-.tableData {
-    border: 1px solid black;
+.tableData{
+    background-color: azure;
+    color: #333;
 }
 
-.tableData > td {
-    border: 1px solid black;
+.tableData tr:nth-child(even){
+    background-color: #eee;
+    color: #333;
 }
 
-.tableData > td:nth-child(1) {
+.tableData td:nth-child(1) {
+    text-align: center;
+    background-color: #36c;
+    color: azure;
+}
+
+.tableData td:nth-child(3) {
     text-align: center;
 }
 
-.tableData > td:nth-child(3) {
-    text-align: center;
-}
-
-.tableData > td:nth-child(4) {
+.tableData td:nth-child(4) {
     text-align: center;
 }
 
