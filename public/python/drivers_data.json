@@ -673,6 +673,7 @@
             "Madrid Drive 2R/T",
             "Madrid Drive R",
             "Maple Treeway R/T",
+            "Mario Raceway R",
             "New York Minute R",
             "RMX Choco Island 2R",
             "RMX Vanilla Lake 2R",
@@ -5322,6 +5323,7 @@
             "Sydney Sprint 2R",
             "Sydney Sprint R",
             "Twilight House",
+            "Waluigi Stadium R/T",
             "Yoshi Desert R",
             "Yoshi Valley",
             "Yoshi Valley R/T",
@@ -5357,6 +5359,7 @@
             "Madrid Drive T",
             "Mario Circuit 1",
             "Mario Circuit 1R/T",
+            "Mario Raceway T",
             "Merry Mountain R",
             "Moonview Highway",
             "Mushroom Bridge",
@@ -6939,6 +6942,7 @@
             "Maple Treeway",
             "Maple Treeway R",
             "Maple Treeway R/T",
+            "Mario Raceway R",
             "Moonview Highway",
             "Mushroom Bridge R",
             "Ninja Hideaway",
@@ -6963,6 +6967,7 @@
             "Vancouver Velocity",
             "Vancouver Velocity T",
             "Vanilla Lake 2R/T",
+            "Waluigi Stadium R/T",
             "Yoshi Valley",
             "Yoshi's Island R/T"
         ]
@@ -7023,6 +7028,7 @@
             "SNES Rainbow Road T",
             "Tokyo Blur 4",
             "Waluigi Pinball R",
+            "Waluigi Stadium",
             "Wii Rainbow Road T",
             "Yoshi Desert R",
             "Yoshi Valley",
@@ -9199,6 +9205,7 @@
             "Squeaky Clean Sprint R",
             "Tokyo Blur 4T",
             "Waluigi Pinball R",
+            "Waluigi Stadium",
             "Yoshi Circuit T",
             "Yoshi's Island T"
         ]
@@ -9579,6 +9586,7 @@
             "Madrid Drive 2",
             "Madrid Drive 3T",
             "Mario Circuit 3R",
+            "Mario Raceway T",
             "Merry Mountain T",
             "Moonview Highway R",
             "Mushroom Bridge R",
@@ -9685,6 +9693,8 @@
             "Madrid Drive",
             "Madrid Drive 3R/T",
             "Maple Treeway R",
+            "Mario Raceway R",
+            "Mario Raceway R/T",
             "Merry Mountain R/T",
             "Moonview Highway R/T",
             "Mushroom Bridge R/T",
@@ -9704,6 +9714,7 @@
             "Sunset Wilds T",
             "Tokyo Blur 3R",
             "Vanilla Lake 2T",
+            "Waluigi Stadium R",
             "Yoshi Valley R/T"
         ]
     },

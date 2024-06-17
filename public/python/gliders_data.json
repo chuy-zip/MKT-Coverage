@@ -6776,6 +6776,7 @@
             "Vancouver Velocity R",
             "Vancouver Velocity T",
             "Waluigi Pinball T",
+            "Waluigi Stadium T",
             "Wario Shipyard R",
             "Wii Rainbow Road R/T",
             "Yoshi Circuit T",
@@ -6871,6 +6872,7 @@
             "Los Angeles Laps R",
             "Luigi Raceway R/T",
             "Madrid Drive 2R/T",
+            "Mario Raceway T",
             "Moonview Highway",
             "Mushroom Bridge R/T",
             "Neo Bowser City",
@@ -6922,6 +6924,8 @@
             "Los Angeles Laps T",
             "Madrid Drive",
             "Madrid Drive 3R/T",
+            "Mario Raceway",
+            "Mario Raceway T",
             "Piranha Plant Cove 3R/T",
             "Piranha Plant Slide",
             "Riverside Park T",
@@ -6969,6 +6973,7 @@
             "Los Angeles Laps 3",
             "Luigi Raceway T",
             "Madrid Drive T",
+            "Mario Raceway R",
             "Mushroom Gorge R/T",
             "Paris Promenade 3",
             "Paris Promenade R/T",
@@ -7139,6 +7144,7 @@
             "Madrid Drive 3R",
             "Madrid Drive R",
             "Mario Circuit 2R",
+            "Mario Raceway",
             "Merry Mountain R",
             "New York Minute 3R",
             "New York Minute 4R/T",
@@ -7253,6 +7259,7 @@
             "Vancouver Velocity 3",
             "Vanilla Lake 2R/T",
             "Waluigi Pinball T",
+            "Waluigi Stadium T",
             "Wii Rainbow Road",
             "Yoshi Valley T"
         ]
@@ -7297,7 +7304,8 @@
             "Tokyo Blur 4R",
             "Vancouver Velocity 2",
             "Vancouver Velocity R",
-            "Vanilla Lake 1T"
+            "Vanilla Lake 1T",
+            "Waluigi Stadium R/T"
         ]
     },
     {
@@ -7325,6 +7333,7 @@
             "Frappe Snowland T",
             "Ghost Valley 1",
             "London Loop T",
+            "Luigi Circuit T",
             "Madrid Drive 3R",
             "Maple Treeway R/T",
             "Mario Circuit 3R",
@@ -7354,6 +7363,7 @@
             "Tokyo Blur 4T",
             "Vanilla Lake 2",
             "Waluigi Pinball R/T",
+            "Waluigi Stadium R",
             "Wario Shipyard R",
             "Wii Rainbow Road R",
             "Yoshi's Island"
@@ -7383,8 +7393,11 @@
             "London Loop 3T",
             "London Loop R/T",
             "Los Angeles Laps 3R/T",
+            "Luigi Circuit",
+            "Luigi Circuit R/T",
             "Madrid Drive 3",
             "Maple Treeway",
+            "Mario Raceway",
             "Ninja Hideaway",
             "Paris Promenade B",
             "Peach Gardens",
@@ -7442,6 +7455,7 @@
             "London Loop",
             "Los Angeles Laps 2T",
             "Mario Circuit 2R/T",
+            "Mario Raceway T",
             "Mushroom Bridge",
             "New York Minute 3",
             "New York Minute 3R",
@@ -8743,6 +8757,7 @@
             "Madrid Drive 2R",
             "Madrid Drive R",
             "Mario Circuit 2T",
+            "Mario Raceway R",
             "Merry Mountain R",
             "Mushroom Gorge",
             "New York Minute 2R",
@@ -8803,6 +8818,7 @@
             "Madrid Drive T",
             "Maple Treeway",
             "Maple Treeway R",
+            "Mario Raceway T",
             "Moonview Highway",
             "Mushroom Bridge",
             "Piranha Plant Pipeline T",
@@ -8871,6 +8887,7 @@
             "Sydney Sprint 2R/T",
             "Sydney Sprint R",
             "Vanilla Lake 1R",
+            "Waluigi Stadium R/T",
             "Yoshi Desert T"
         ]
     },
