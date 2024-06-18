@@ -1,0 +1,35 @@
+.navContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.navContainer nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+
+.nav a {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #004F95;
+    width: 20%;
+    padding: 5px 15px 5px 15px;
+    transition-duration: 0.12s;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid white;
+}
+
+.selected {
+    border-bottom: 4px solid white;
+}

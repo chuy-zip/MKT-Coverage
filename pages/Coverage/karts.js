@@ -2,11 +2,14 @@
 
 import '../../app/globals.css'
 import styles from './coveragePage.module.css'
+
 import useKarts from '@/hooks/useKarts';
+
 import CoursesCoverageData from '@/components/CoursesCoverageData';
 import SearchedItemCoverage from '@/components/SearchedItemCoverage';
 import RecommendedItemsTable from '@/components/RecommendedItemsTable';
 import Items from '@/components/Items';
+import ItemTypeBar from '@/components/itemTypeBar';
 
 import {
     countItemsFavoritesFromMissingCourses
@@ -23,6 +26,7 @@ export default function Karts() {
         itemName: '',
     })
     const [searchedKart, setSearchedKart] = useState()
+    const [selectedItemType, setSelectedItemType] = useState("Drivers")
 
     const handleChange = (e) => {
         setFormData({
@@ -57,15 +61,18 @@ export default function Karts() {
         <div className={styles.pageContainer}>
 
             <h1>
-                This is the page for karts coverage
+                This is the page for {selectedItemType} coverage
             </h1>
+
+            <ItemTypeBar selectedItemType={selectedItemType} setSelectedItemType={setSelectedItemType}/>
+
             <h2>
-                Select the karts you own and then press the button to get the recommended items
+                Select the {selectedItemType} you own and then press the button to get the recommended items
             </h2>
 
             <Items itemList={userKarts} />
 
-            <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
+            <ItemCoverageForm type="Karts" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
             
             { searchedKart && <SearchedItemCoverage searchedItem={searchedKart}/>}
 
