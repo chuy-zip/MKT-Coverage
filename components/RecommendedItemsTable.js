@@ -24,7 +24,15 @@ export default function RecommendedItemsTable({ recommendedItems, type }) {
                                 <td>{index + 1}</td>
                                 <td>{item.name}</td>
                                 <td>{item.skill}</td>
-                                <td>{item.rarity}</td>
+
+                                <td className={
+                                    (item.rarity === 'High-End' || item.rarity === 'Super') ?
+                                        ((item.rarity === 'Super' )  ? Styles.super : Styles.highEnd) 
+                                        :
+                                        Styles.normal
+                                }>
+                                    {item.rarity}
+                                </td>
                                 <td>{item.count}</td>
                             </tr>
                         ))}
@@ -33,7 +41,7 @@ export default function RecommendedItemsTable({ recommendedItems, type }) {
                 </table>
             </div>
 
-        </div>
+        </div >
     )
 
 }

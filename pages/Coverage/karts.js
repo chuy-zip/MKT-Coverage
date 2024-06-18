@@ -6,12 +6,13 @@ import useKarts from '@/hooks/useKarts';
 import CoursesCoverageData from '@/components/CoursesCoverageData';
 import SearchedItemCoverage from '@/components/SearchedItemCoverage';
 import RecommendedItemsTable from '@/components/RecommendedItemsTable';
+import Items from '@/components/Items';
 
 import {
     countItemsFavoritesFromMissingCourses
 } from "@/controller/itemController";
 
-import { useState, Suspense } from "react";
+import { useState } from "react";
 
 import ItemCoverageForm from "@components/ItemCoverageForm";
 
@@ -62,19 +63,7 @@ export default function Karts() {
                 Select the karts you own and then press the button to get the recommended items
             </h2>
 
-            <Suspense fallback={<div>Cargando...</div>}>
-                <div className={styles.gridItemContainer}>
-                    {userKarts.map((kart, index) => (
-
-                        <div key={index} className={kart.owned ? styles.gridItemOwned : styles.gridItemNotOwned}>
-                            {kart.name}
-                        </div>
-
-                    ))}
-
-                </div>
-
-            </Suspense>
+            <Items itemList={userKarts} />
 
             <ItemCoverageForm type="Kart" handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
             

@@ -11,4 +11,5 @@
     max-height: 50vh;
     overflow-y: auto;
     align-items: start;
+    text-align: start;
 }
