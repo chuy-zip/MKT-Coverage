@@ -15,8 +15,8 @@ import { useEffect, useState } from "react";
 const useKarts = () => {
 
     const [userKarts, setUserkarts] = useState([])
-    const [coveredCourses, setCoveredCourses] = useState([])
-    const [coursesNotCovered, setCoursesNotCovered] = useState([])
+    const [kartsCoveredCourses, setKartsCoveredCourses] = useState([])
+    const [kartsNotCoveredCourses, setKartsNotCoveredCourses] = useState([])
     const [recommendedKarts, setRecommendedKarts] = useState([])
     const [allCourses, setAllCourses] = useState(courses)
     const [allKarts, setAllKarts] = useState(karts)
@@ -35,11 +35,11 @@ const useKarts = () => {
         const fetchData = async () => {
             if (userKarts){
                 const covCourses = await findCoursesWithCoverage(allKarts, userKarts)
-                setCoveredCourses(covCourses)
+                setKartsCoveredCourses(covCourses)
                 console.log("Covered courses", covCourses)
     
                 const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
-                setCoursesNotCovered(coursesNotCov)
+                setKartsNotCoveredCourses(coursesNotCov)
                 console.log("Courses not covered", coursesNotCov)
     
                 const recKarts = await recommendItemsByCoverage(coursesNotCov, allKarts, userKarts)
@@ -52,7 +52,7 @@ const useKarts = () => {
 
     }, [userKarts])
 
-    return {userKarts, coveredCourses, coursesNotCovered, recommendedKarts, allKarts}
+    return {userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts}
 }
 
 export default useKarts

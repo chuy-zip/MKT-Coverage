@@ -15,8 +15,8 @@ import { useEffect, useState } from "react";
 const useGliders = () => {
 
     const [userGliders, setUserGliders] = useState([])
-    const [coveredCourses, setCoveredCourses] = useState([])
-    const [coursesNotCovered, setCoursesNotCovered] = useState([])
+    const [glidersCoveredCourses, setGlidersCoveredCourses] = useState([])
+    const [glidersNotCoveredCourses, setGlidersNotCoveredCourses] = useState([])
     const [recommendedGliders, setRecommendedGliders] = useState([])
     const [allCourses, setAllCourses] = useState(courses)
     const [allGliders, setAllGliders] = useState(Gliders)
@@ -38,11 +38,11 @@ const useGliders = () => {
         const fetchData = async () => {
             if (userGliders){
                 const covCourses = await findCoursesWithCoverage(allGliders, userGliders)
-                setCoveredCourses(covCourses)
+                setGlidersCoveredCourses(covCourses)
                 console.log("Covered courses", covCourses)
     
                 const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
-                setCoursesNotCovered(coursesNotCov)
+                setGlidersNotCoveredCourses(coursesNotCov)
                 console.log("Courses not covered", coursesNotCov)
     
                 const recGliders = await recommendItemsByCoverage(coursesNotCov, allGliders, userGliders)
@@ -55,7 +55,7 @@ const useGliders = () => {
 
     }, [userGliders])
 
-    return {userGliders, coveredCourses, coursesNotCovered, recommendedGliders, allGliders}
+    return {userGliders, glidersCoveredCourses, glidersNotCoveredCourses, recommendedGliders, allGliders}
 }
 
 export default useGliders

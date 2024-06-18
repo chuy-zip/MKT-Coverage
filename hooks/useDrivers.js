@@ -15,8 +15,8 @@ import { useEffect, useState } from "react";
 const useDrivers = () => {
 
     const [userDrivers, setUserDrivers] = useState([])
-    const [coveredCourses, setCoveredCourses] = useState([])
-    const [coursesNotCovered, setCoursesNotCovered] = useState([])
+    const [driversCoveredCourses, setDriversCoveredCourses] = useState([])
+    const [driversNotCoveredCourses, setDriversNotCoveredCourses] = useState([])
     const [recommendedDrivers, setRecommendedDrivers] = useState([])
     const [allCourses, setAllCourses] = useState(courses)
     const [allDrivers, setAllDrivers] = useState(Drivers)
@@ -38,11 +38,11 @@ const useDrivers = () => {
         const fetchData = async () => {
             if (userDrivers){
                 const covCourses = await findCoursesWithCoverage(allDrivers, userDrivers)
-                setCoveredCourses(covCourses)
+                setDriversCoveredCourses(covCourses)
                 console.log("Covered courses", covCourses)
     
                 const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
-                setCoursesNotCovered(coursesNotCov)
+                setDriversNotCoveredCourses(coursesNotCov)
                 console.log("Courses not covered", coursesNotCov)
     
                 const recDrivers = await recommendItemsByCoverage(coursesNotCov, allDrivers, userDrivers)
@@ -55,7 +55,7 @@ const useDrivers = () => {
 
     }, [userDrivers])
 
-    return {userDrivers, coveredCourses, coursesNotCovered, recommendedDrivers, allDrivers}
+    return {userDrivers, driversCoveredCourses, driversNotCoveredCourses, recommendedDrivers, allDrivers}
 }
 
 export default useDrivers
