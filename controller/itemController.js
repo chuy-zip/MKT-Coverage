@@ -55,6 +55,7 @@ export const recommendItemsByCoverage = async (coursesMissingList, items, userIt
                         itemTrackCount.push({ 
                             name: itemNotOwned.name, 
                             rarity: itemNotOwned.rarity, 
+                            skill: itemNotOwned.skill,
                             count: 1})
 
                     } else {

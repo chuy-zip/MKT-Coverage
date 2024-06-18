@@ -11,8 +11,9 @@ export default function RecommendedItemsTable({ recommendedItems, type }) {
                         <tr className={Styles.tableHeader}>
                             <th> No. </th>
                             <th style={{ textAlign: 'left' }}>{type.substring(0, type.length - 1)} name</th>
-                            <th >Rarity</th>
-                            <th >Missing Courses it Covers</th>
+                            <th>Skill</th>
+                            <th>Rarity</th>
+                            <th>Missing Courses it Covers</th>
                         </tr>
                     </thead>
 
@@ -20,10 +21,11 @@ export default function RecommendedItemsTable({ recommendedItems, type }) {
 
                         {recommendedItems.map((item, index) => (
                             <tr key={index} >
-                                <td> {index + 1}</td>
-                                <td >{item.name}</td>
-                                <td >{item.rarity}</td>
-                                <td >{item.count}</td>
+                                <td>{index + 1}</td>
+                                <td>{item.name}</td>
+                                <td>{item.skill}</td>
+                                <td>{item.rarity}</td>
+                                <td>{item.count}</td>
                             </tr>
                         ))}
 
