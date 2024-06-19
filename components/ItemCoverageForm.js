@@ -9,7 +9,7 @@ export default function ItemCoverageForm({ type, handleChange, handleSubmit, for
             <form onSubmit={handleSubmit}>
                 <h2>{type} coverage search on missing courses</h2>
 
-                <label htmlFor="itemName">{type} name to be searched:</label>
+                <label htmlFor="itemName">Item name to be searched on {type}: </label>
                 <br/>
 
                 <input

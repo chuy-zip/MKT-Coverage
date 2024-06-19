@@ -1,7 +1,7 @@
 "use client"
 
-import '../../app/globals.css'
-import styles from './coveragePage.module.css'
+import '../app/globals.css'
+import styles from './Coverage.module.css'
 
 import useDrivers from '@/hooks/useDrivers';
 import useKarts from '@/hooks/useKarts';
@@ -46,7 +46,7 @@ export default function Karts() {
             setSelectedCoveredCourses(kartsCoveredCourses)
             setSelectedNotCoveredCourses(kartsNotCoveredCourses)
             setSelectedRecommendedItems(recommendedKarts)
-            setAllSelectedItems(allDrivers)
+            setAllSelectedItems(allKarts)
         } else if (selectedItemType === 'Gliders') {
             setSelectedUserItems(userGliders)
             setSelectedCoveredCourses(glidersCoveredCourses)
@@ -75,14 +75,14 @@ export default function Karts() {
         e.preventDefault()
 
         if (!formData.itemName) {
-            alert("Please enter an item")
+            alert("Please enter an item to search")
             return
         }
 
         try {
             const itemCount = await countItemsFavoritesFromMissingCourses(formData.itemName, allSelectedItems, selectedNotCoveredCourses)
             if (!itemCount) {
-                alert("Kart not found")
+                alert(`Unable to find the searched item on ${selectedItemType}`)
             }
 
             setSearchedItem(itemCount)
@@ -108,11 +108,11 @@ export default function Karts() {
 
             <Items itemList={selectedUserItems} />
 
+            <CoursesCoverageData type={selectedItemType} coveredCourses={selectedCoveredCourses} coursesNotCovered={selectedNotCoveredCourses} />
+
             <ItemCoverageForm type={selectedItemType} handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
 
             {searchedItem && <SearchedItemCoverage searchedItem={searchedItem} />}
-
-            <CoursesCoverageData type={selectedItemType} coveredCourses={selectedCoveredCourses} coursesNotCovered={selectedNotCoveredCourses} />
 
             <RecommendedItemsTable recommendedItems={selectedRecommendedItems} type={selectedItemType} />
         </div>
