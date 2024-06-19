@@ -1041,7 +1041,7 @@
         "id": 174,
         "name": "Nabbit",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 175,
