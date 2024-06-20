@@ -417,7 +417,7 @@
         "id": 335,
         "name": "Bumble V",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 336,
@@ -1971,7 +1971,7 @@
         "id": 594,
         "name": "Waluigi Racer Mk. 2",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 595,

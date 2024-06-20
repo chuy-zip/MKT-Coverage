@@ -32,7 +32,7 @@ export default function Coverage() {
     const [formData, setFormData] = useState({
         itemName: '',
     })
-    const [recommendationFormData, setRecommendationFormData] = useState({ rarity: [], selectedSkill: ''})
+    const [recommendationFormData, setRecommendationFormData] = useState({ rarity: [], selectedSkill: 'All'})
     const [selectedItemsSkills, setSelectedItemsSkills] = useState()
 
     const [searchedItem, setSearchedItem] = useState()
@@ -167,11 +167,11 @@ export default function Coverage() {
                 handleSubmit={recommendationHandleSubmit}
             />}
 
-            <RecommendedItemsTable
+            {recommendationFormData.selectedSkill && <RecommendedItemsTable
                 selectedItemsSkills={selectedItemsSkills}
                 recommendationFormData={recommendationFormData}
                 recommendedItems={selectedRecommendedItems}
-                type={selectedItemType} />
+                type={selectedItemType} />}
         </div>
     )
 }

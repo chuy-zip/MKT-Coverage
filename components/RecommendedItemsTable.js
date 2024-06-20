@@ -14,7 +14,7 @@ export default function RecommendedItemsTable({ selectedItemsSkills, recommendat
 
     return (
         <div className={Styles.resultContainer}>
-            <h2> This are your recommended missing {type} based on your missing courses</h2>
+            <h2> These are your recommended missing {type} based on your missing courses</h2>
             <div className={Styles.bodyContainer}>
                 <table className={Styles.table}>
                     <thead className={Styles.tableHeader}>
@@ -28,34 +28,28 @@ export default function RecommendedItemsTable({ selectedItemsSkills, recommendat
                     </thead>
 
                     <tbody className={Styles.tableData}>
+                        {recommendedItems.filter(item => 
+                            rarityFilter.includes(item.rarity) && skillList.includes(item.skill)
+                        ).map((item, index) => (
+                            <tr key={item.name}>
+                                <td>{index + 1}</td>
+                                <td>{item.name}</td>
+                                <td>{item.skill}</td>
 
-                        {recommendedItems.map((item, index) => (
-
-                            (rarityFilter.some(rarity => rarity === item.rarity) && skillList.some(skill => skill === item.skill)) ?
-                                <tr key={index} >
-                                    <td>{index + 1}</td>
-                                    <td>{item.name}</td>
-                                    <td>{item.skill}</td>
-
-                                    <td className={
-                                        (item.rarity === 'High-End' || item.rarity === 'Super') ?
-                                            ((item.rarity === 'Super') ? Styles.super : Styles.highEnd)
-                                            :
-                                            Styles.normal
-                                    }>
-                                        {item.rarity}
-                                    </td>
-                                    <td>{item.count}</td>
-                                </tr>
-                                :
-                                <></>
+                                <td className={
+                                    (item.rarity === 'High-End' || item.rarity === 'Super') ?
+                                        ((item.rarity === 'Super') ? Styles.super : Styles.highEnd)
+                                        :
+                                        Styles.normal
+                                }>
+                                    {item.rarity}
+                                </td>
+                                <td>{item.count}</td>
+                            </tr>
                         ))}
-
                     </tbody>
                 </table>
             </div>
-
-        </div >
+        </div>
     )
-
 }
