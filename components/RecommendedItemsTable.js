@@ -1,10 +1,20 @@
 import Styles from './RecommendedItemsTable.module.css'
 
-export default function RecommendedItemsTable({ recommendedItems, type }) {
+export default function RecommendedItemsTable({ selectedItemsSkills, recommendationFormData, recommendedItems, type }) {
+
+    const rarityFilter = recommendationFormData.rarity
+    const skillFilter = recommendationFormData.selectedSkill
+    let skillList = []
+
+    if (skillFilter === 'All'){
+        skillList = selectedItemsSkills
+    } else{
+        skillList.push(skillFilter)
+    }
 
     return (
         <div className={Styles.resultContainer}>
-            <h2> This are your recomended {type} based on your missing courses</h2>
+            <h2> This are your recommended missing {type} based on your missing courses</h2>
             <div className={Styles.bodyContainer}>
                 <table className={Styles.table}>
                     <thead className={Styles.tableHeader}>
@@ -20,21 +30,25 @@ export default function RecommendedItemsTable({ recommendedItems, type }) {
                     <tbody className={Styles.tableData}>
 
                         {recommendedItems.map((item, index) => (
-                            <tr key={index} >
-                                <td>{index + 1}</td>
-                                <td>{item.name}</td>
-                                <td>{item.skill}</td>
 
-                                <td className={
-                                    (item.rarity === 'High-End' || item.rarity === 'Super') ?
-                                        ((item.rarity === 'Super' )  ? Styles.super : Styles.highEnd) 
-                                        :
-                                        Styles.normal
-                                }>
-                                    {item.rarity}
-                                </td>
-                                <td>{item.count}</td>
-                            </tr>
+                            (rarityFilter.some(rarity => rarity === item.rarity) && skillList.some(skill => skill === item.skill)) ?
+                                <tr key={index} >
+                                    <td>{index + 1}</td>
+                                    <td>{item.name}</td>
+                                    <td>{item.skill}</td>
+
+                                    <td className={
+                                        (item.rarity === 'High-End' || item.rarity === 'Super') ?
+                                            ((item.rarity === 'Super') ? Styles.super : Styles.highEnd)
+                                            :
+                                            Styles.normal
+                                    }>
+                                        {item.rarity}
+                                    </td>
+                                    <td>{item.count}</td>
+                                </tr>
+                                :
+                                <></>
                         ))}
 
                     </tbody>

@@ -32,10 +32,8 @@ export default function Coverage() {
     const [formData, setFormData] = useState({
         itemName: '',
     })
-    const [recommendationFormData, setRecommendationFormData] = useState({ rarity: [] })
+    const [recommendationFormData, setRecommendationFormData] = useState({ rarity: [], selectedSkill: ''})
     const [selectedItemsSkills, setSelectedItemsSkills] = useState()
-
-    const [selectedSkill, setSelectedSkill] = useState()
 
     const [searchedItem, setSearchedItem] = useState()
     const [selectedItemType, setSelectedItemType] = useState("Drivers")
@@ -111,31 +109,33 @@ export default function Coverage() {
     }
 
     const recommendationHandleChange = (e) => {
-        const { name, value, checked } = e.target
+        const { name, value, checked, type } = e.target;
 
-        setRecommendationFormData(prevState => {
-            if (checked) {
-                // Add value to the array if checked
-                return {
-                    ...prevState,
-                    [name]: [...prevState[name], value]
+        if (type === 'checkbox') {
+            setRecommendationFormData(prevState => {
+                if (checked) {
+                    return {
+                        ...prevState,
+                        [name]: [...prevState[name], value]
+                    }
+                } else {
+                    return {
+                        ...prevState,
+                        [name]: prevState[name].filter(item => item !== value)
+                    }
                 }
-            } else {
-                // Remove value from the array if unchecked
-                return {
-                    ...prevState,
-                    [name]: prevState[name].filter(item => item !== value)
-                }
-            }
-        })
+            });
+        } else {
+            setRecommendationFormData(prevState => ({
+                ...prevState,
+                [name]: value
+            }));
+        }
     }
 
-    const handleSelectionChange = (e) => {
-        setSelectedSkill(e.target.value)
-    }
     const recommendationHandleSubmit = (e) => {
         e.preventDefault()
-        console.log("Form submitted with data: ", recommendationFormData, selectedSkill)
+        console.log("Form submitted with data: ", recommendationFormData)
         // Handle form submission logic here
     }
 
@@ -165,10 +165,13 @@ export default function Coverage() {
                 formData={recommendationFormData}
                 handleChange={recommendationHandleChange}
                 handleSubmit={recommendationHandleSubmit}
-                selectedSkill={selectedSkill}
-                handleSelectionChange={handleSelectionChange}
             />}
-            <RecommendedItemsTable recommendedItems={selectedRecommendedItems} type={selectedItemType} />
+
+            <RecommendedItemsTable
+                selectedItemsSkills={selectedItemsSkills}
+                recommendationFormData={recommendationFormData}
+                recommendedItems={selectedRecommendedItems}
+                type={selectedItemType} />
         </div>
     )
 }

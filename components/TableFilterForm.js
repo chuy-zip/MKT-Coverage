@@ -2,7 +2,7 @@
 
 import Styles from './TableFilterForm.module.css'
 
-export default function TableFilterForm({ skillList, formData, handleChange, handleSubmit, selectedSkill, handleSelectionChange }) {
+export default function TableFilterForm({ skillList, formData, handleChange, handleSubmit }) {
 
     return (
         <div className={Styles.formContainer}>
@@ -39,15 +39,12 @@ export default function TableFilterForm({ skillList, formData, handleChange, han
                 />
                 <label htmlFor="Normal">Normal</label>
 
-                <br/>
-                <br/>
-
                 <label htmlFor="skillSelection"> Select Skill: </label>
                 <select 
                     id="skillSelection"
-                    name="skillSelection"
-                    value={selectedSkill}
-                    onChange={handleSelectionChange}>
+                    name="selectedSkill"
+                    value={formData.selectedSkill}
+                    onChange={handleChange}>
                         <option 
                             value="All"
                             key={0}>
@@ -61,13 +58,9 @@ export default function TableFilterForm({ skillList, formData, handleChange, han
                                     {skill}
                             </option>
                         ))}
-
                 </select>
 
 
-                <br />
-                <br />
-                <input type="submit" value="Get recommended items" />
             </form>
         </div>
     )
