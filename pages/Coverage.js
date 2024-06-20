@@ -11,17 +11,19 @@ import CoursesCoverageData from '@/components/CoursesCoverageData';
 import SearchedItemCoverage from '@/components/SearchedItemCoverage';
 import RecommendedItemsTable from '@/components/RecommendedItemsTable';
 import Items from '@/components/Items';
-import ItemTypeBar from '@/components/itemTypeBar';
+import ItemTypeBar from '@/components/ItemTypeBar';
 
 import {
-    countItemsFavoritesFromMissingCourses
+    countItemsFavoritesFromMissingCourses,
+    getAllAbilitiesFromItems
 } from "@/controller/itemController";
 
 import { useState, useEffect } from "react";
 
 import ItemCoverageForm from "@components/ItemCoverageForm";
+import TableFilterForm from '@/components/TableFilterForm';
 
-export default function Karts() {
+export default function Coverage() {
 
     const { userDrivers, driversCoveredCourses, driversNotCoveredCourses, recommendedDrivers, allDrivers } = useDrivers()
     const { userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts } = useKarts()
@@ -30,6 +32,10 @@ export default function Karts() {
     const [formData, setFormData] = useState({
         itemName: '',
     })
+    const [recommendationFormData, setRecommendationFormData] = useState({ rarity: [] })
+    const [selectedItemsSkills, setSelectedItemsSkills] = useState()
+
+    const [selectedSkill, setSelectedSkill] = useState()
 
     const [searchedItem, setSearchedItem] = useState()
     const [selectedItemType, setSelectedItemType] = useState("Drivers")
@@ -41,26 +47,37 @@ export default function Karts() {
 
     useEffect(() => {
 
-        if (selectedItemType === 'Karts') {
-            setSelectedUserItems(userKarts)
-            setSelectedCoveredCourses(kartsCoveredCourses)
-            setSelectedNotCoveredCourses(kartsNotCoveredCourses)
-            setSelectedRecommendedItems(recommendedKarts)
-            setAllSelectedItems(allKarts)
-        } else if (selectedItemType === 'Gliders') {
-            setSelectedUserItems(userGliders)
-            setSelectedCoveredCourses(glidersCoveredCourses)
-            setSelectedNotCoveredCourses(glidersNotCoveredCourses)
-            setSelectedRecommendedItems(recommendedGliders)
-            setAllSelectedItems(allGliders)
-        } else {
-            setSelectedUserItems(userDrivers)
-            setSelectedCoveredCourses(driversCoveredCourses)
-            setSelectedNotCoveredCourses(driversNotCoveredCourses)
-            setSelectedRecommendedItems(recommendedDrivers)
-            setAllSelectedItems(allDrivers)
+        const initializeData = async () => {
+
+            if (selectedItemType === 'Karts') {
+                setSelectedUserItems(userKarts)
+                setSelectedCoveredCourses(kartsCoveredCourses)
+                setSelectedNotCoveredCourses(kartsNotCoveredCourses)
+                setSelectedRecommendedItems(recommendedKarts)
+                setAllSelectedItems(allKarts)
+                const skillList = await getAllAbilitiesFromItems(allKarts)
+                setSelectedItemsSkills(skillList)
+            } else if (selectedItemType === 'Gliders') {
+                setSelectedUserItems(userGliders)
+                setSelectedCoveredCourses(glidersCoveredCourses)
+                setSelectedNotCoveredCourses(glidersNotCoveredCourses)
+                setSelectedRecommendedItems(recommendedGliders)
+                setAllSelectedItems(allGliders)
+                const skillList = await getAllAbilitiesFromItems(allGliders)
+                setSelectedItemsSkills(skillList)
+            } else {
+                setSelectedUserItems(userDrivers)
+                setSelectedCoveredCourses(driversCoveredCourses)
+                setSelectedNotCoveredCourses(driversNotCoveredCourses)
+                setSelectedRecommendedItems(recommendedDrivers)
+                setAllSelectedItems(allDrivers)
+                const skillList = await getAllAbilitiesFromItems(allDrivers)
+                setSelectedItemsSkills(skillList)
+            }
         }
 
+
+        initializeData()
 
     }, [selectedItemType])
 
@@ -93,6 +110,35 @@ export default function Karts() {
         }
     }
 
+    const recommendationHandleChange = (e) => {
+        const { name, value, checked } = e.target
+
+        setRecommendationFormData(prevState => {
+            if (checked) {
+                // Add value to the array if checked
+                return {
+                    ...prevState,
+                    [name]: [...prevState[name], value]
+                }
+            } else {
+                // Remove value from the array if unchecked
+                return {
+                    ...prevState,
+                    [name]: prevState[name].filter(item => item !== value)
+                }
+            }
+        })
+    }
+
+    const handleSelectionChange = (e) => {
+        setSelectedSkill(e.target.value)
+    }
+    const recommendationHandleSubmit = (e) => {
+        e.preventDefault()
+        console.log("Form submitted with data: ", recommendationFormData, selectedSkill)
+        // Handle form submission logic here
+    }
+
     return (
         <div className={styles.pageContainer}>
 
@@ -114,6 +160,14 @@ export default function Karts() {
 
             {searchedItem && <SearchedItemCoverage searchedItem={searchedItem} />}
 
+            {selectedItemsSkills && <TableFilterForm
+                skillList={selectedItemsSkills}
+                formData={recommendationFormData}
+                handleChange={recommendationHandleChange}
+                handleSubmit={recommendationHandleSubmit}
+                selectedSkill={selectedSkill}
+                handleSelectionChange={handleSelectionChange}
+            />}
             <RecommendedItemsTable recommendedItems={selectedRecommendedItems} type={selectedItemType} />
         </div>
     )

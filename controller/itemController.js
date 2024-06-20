@@ -1,3 +1,13 @@
+export const getAllAbilitiesFromItems = async (itemList) => {
+
+    let allAbilites = new Set()
+
+    itemList.forEach( item => {
+        allAbilites.add(item.skill)
+    })
+
+    return Array.from(allAbilites)
+}
 
 export const countItemsFavoritesFromMissingCourses = async (itemName, itemList, coursesMissingList) => {
     //Initializing a new object
