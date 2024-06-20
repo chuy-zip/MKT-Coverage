@@ -52,7 +52,7 @@ const useKarts = () => {
 
     }, [userKarts])
 
-    return {userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts}
+    return {userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts, setUserkarts}
 }
 
 export default useKarts

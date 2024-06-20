@@ -77,7 +77,7 @@ export default function Coverage() {
 
         initializeData()
 
-    }, [selectedItemType])
+    }, [selectedItemType, userDrivers, userKarts, userGliders])
 
     const handleChange = (e) => {
         setFormData({
