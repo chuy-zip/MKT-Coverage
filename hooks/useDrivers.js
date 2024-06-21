@@ -55,7 +55,7 @@ const useDrivers = () => {
 
     }, [userDrivers])
 
-    return {userDrivers, driversCoveredCourses, driversNotCoveredCourses, recommendedDrivers, allDrivers}
+    return {userDrivers, driversCoveredCourses, driversNotCoveredCourses, recommendedDrivers, allDrivers, setUserDrivers}
 }
 
 export default useDrivers

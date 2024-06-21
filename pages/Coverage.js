@@ -26,7 +26,7 @@ import TableFilterForm from '@/components/TableFilterForm';
 export default function Coverage() {
 
     const { userDrivers, driversCoveredCourses, driversNotCoveredCourses, recommendedDrivers, allDrivers } = useDrivers()
-    const { userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts } = useKarts()
+    const { setUserkarts, userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts } = useKarts()
     const { userGliders, glidersCoveredCourses, glidersNotCoveredCourses, recommendedGliders, allGliders } = useGliders()
 
     const [formData, setFormData] = useState({
@@ -48,6 +48,7 @@ export default function Coverage() {
         const initializeData = async () => {
 
             if (selectedItemType === 'Karts') {
+                console.log("Aqui")
                 setSelectedUserItems(userKarts)
                 setSelectedCoveredCourses(kartsCoveredCourses)
                 setSelectedNotCoveredCourses(kartsNotCoveredCourses)
@@ -56,6 +57,7 @@ export default function Coverage() {
                 const skillList = await getAllAbilitiesFromItems(allKarts)
                 setSelectedItemsSkills(skillList)
             } else if (selectedItemType === 'Gliders') {
+                console.log("Aqui2")
                 setSelectedUserItems(userGliders)
                 setSelectedCoveredCourses(glidersCoveredCourses)
                 setSelectedNotCoveredCourses(glidersNotCoveredCourses)
@@ -64,6 +66,7 @@ export default function Coverage() {
                 const skillList = await getAllAbilitiesFromItems(allGliders)
                 setSelectedItemsSkills(skillList)
             } else {
+                console.log("Aqui3")
                 setSelectedUserItems(userDrivers)
                 setSelectedCoveredCourses(driversCoveredCourses)
                 setSelectedNotCoveredCourses(driversNotCoveredCourses)
@@ -77,7 +80,7 @@ export default function Coverage() {
 
         initializeData()
 
-    }, [selectedItemType, userDrivers, userKarts, userGliders])
+    }, [selectedItemType, userDrivers, userKarts, userGliders, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts])
 
     const handleChange = (e) => {
         setFormData({
@@ -152,9 +155,9 @@ export default function Coverage() {
                 Select the {selectedItemType} you own and then press the button to get the recommended items
             </h2>
 
-            <Items itemList={selectedUserItems} />
+            <Items itemList={selectedUserItems} setItems={setUserkarts}/>
 
-            <CoursesCoverageData type={selectedItemType} coveredCourses={selectedCoveredCourses} coursesNotCovered={selectedNotCoveredCourses} />
+            <CoursesCoverageData type={selectedItemType} coveredCourses={kartsCoveredCourses} coursesNotCovered={selectedNotCoveredCourses} />
 
             <ItemCoverageForm type={selectedItemType} handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
 

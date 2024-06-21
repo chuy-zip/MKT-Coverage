@@ -1,12 +1,16 @@
-import Styles from './Item.module.css'
-import useDrivers from '@/hooks/useDrivers';
-import useKarts from '@/hooks/useKarts';
-import useGliders from '@/hooks/useGliders';
+"use client"
 
-export default function Item({ index, item }) {
+import Styles from './Item.module.css'
+
+export default function Item({ index, item, setItems }) {
 
     const changeOwnedStatus = () => {
-        console.log("El nuevo estatus seria: ", !item.owned)
+        console.log("inputTest")
+        setItems(prevState => {
+            return prevState.map(listItem =>
+                listItem.name === item.name ? { ...listItem, owned: !listItem.owned } : listItem
+            );
+        });
     };
 
     return (

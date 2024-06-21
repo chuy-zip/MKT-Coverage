@@ -55,7 +55,7 @@ const useGliders = () => {
 
     }, [userGliders])
 
-    return {userGliders, glidersCoveredCourses, glidersNotCoveredCourses, recommendedGliders, allGliders}
+    return {userGliders, glidersCoveredCourses, glidersNotCoveredCourses, recommendedGliders, allGliders, setUserGliders}
 }
 
 export default useGliders
