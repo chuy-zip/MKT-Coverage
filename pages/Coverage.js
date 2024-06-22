@@ -2,6 +2,7 @@
 
 import '../app/globals.css'
 import styles from './Coverage.module.css'
+import { Providers } from "../app/providers";
 
 import useDrivers from '@/hooks/useDrivers';
 import useKarts from '@/hooks/useKarts';
@@ -26,13 +27,13 @@ import TableFilterForm from '@/components/TableFilterForm';
 export default function Coverage() {
 
     const { userDrivers, driversCoveredCourses, driversNotCoveredCourses, recommendedDrivers, allDrivers } = useDrivers()
-    const { setUserkarts, userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts } = useKarts()
+    const { userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts } = useKarts()
     const { userGliders, glidersCoveredCourses, glidersNotCoveredCourses, recommendedGliders, allGliders } = useGliders()
 
     const [formData, setFormData] = useState({
         itemName: '',
     })
-    const [recommendationFormData, setRecommendationFormData] = useState({ rarity: [], selectedSkill: 'All'})
+    const [recommendationFormData, setRecommendationFormData] = useState({ rarity: [], selectedSkill: 'All' })
     const [selectedItemsSkills, setSelectedItemsSkills] = useState()
 
     const [searchedItem, setSearchedItem] = useState()
@@ -47,7 +48,7 @@ export default function Coverage() {
 
         const initializeData = async () => {
 
-            if (selectedItemType === 'Karts') {
+            if (selectedItemType === 'Karts' && allKarts) {
                 console.log("Aqui")
                 setSelectedUserItems(userKarts)
                 setSelectedCoveredCourses(kartsCoveredCourses)
@@ -56,7 +57,7 @@ export default function Coverage() {
                 setAllSelectedItems(allKarts)
                 const skillList = await getAllAbilitiesFromItems(allKarts)
                 setSelectedItemsSkills(skillList)
-            } else if (selectedItemType === 'Gliders') {
+            } else if (selectedItemType === 'Gliders' && allGliders) {
                 console.log("Aqui2")
                 setSelectedUserItems(userGliders)
                 setSelectedCoveredCourses(glidersCoveredCourses)
@@ -65,7 +66,7 @@ export default function Coverage() {
                 setAllSelectedItems(allGliders)
                 const skillList = await getAllAbilitiesFromItems(allGliders)
                 setSelectedItemsSkills(skillList)
-            } else {
+            } else if (selectedItemType === "Drivers" && allDrivers){
                 console.log("Aqui3")
                 setSelectedUserItems(userDrivers)
                 setSelectedCoveredCourses(driversCoveredCourses)
@@ -80,7 +81,9 @@ export default function Coverage() {
 
         initializeData()
 
-    }, [selectedItemType, userDrivers, userKarts, userGliders, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts])
+    }, [selectedItemType, userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts,
+        userDrivers, driversCoveredCourses, driversNotCoveredCourses, recommendedDrivers,
+        userGliders, glidersCoveredCourses, glidersNotCoveredCourses, recommendedGliders])
 
     const handleChange = (e) => {
         setFormData({
@@ -143,38 +146,41 @@ export default function Coverage() {
     }
 
     return (
-        <div className={styles.pageContainer}>
+        <Providers>
 
-            <h1>
-                This is the page for {selectedItemType} coverage
-            </h1>
+            <div className={styles.pageContainer}>
 
-            <ItemTypeBar selectedItemType={selectedItemType} setSelectedItemType={setSelectedItemType} />
+                <h1>
+                    This is the page for {selectedItemType} coverage
+                </h1>
 
-            <h2>
-                Select the {selectedItemType} you own and then press the button to get the recommended items
-            </h2>
+                <ItemTypeBar selectedItemType={selectedItemType} setSelectedItemType={setSelectedItemType} />
 
-            <Items itemList={selectedUserItems} setItems={setUserkarts}/>
+                <h2>
+                    Select the {selectedItemType} you own and then press the button to get the recommended items
+                </h2>
 
-            <CoursesCoverageData type={selectedItemType} coveredCourses={kartsCoveredCourses} coursesNotCovered={selectedNotCoveredCourses} />
+                <Items type={selectedItemType} />
 
-            <ItemCoverageForm type={selectedItemType} handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
+                <CoursesCoverageData type={selectedItemType}/>
 
-            {searchedItem && <SearchedItemCoverage searchedItem={searchedItem} />}
+                <ItemCoverageForm type={selectedItemType} handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
 
-            {selectedItemsSkills && <TableFilterForm
-                skillList={selectedItemsSkills}
-                formData={recommendationFormData}
-                handleChange={recommendationHandleChange}
-                handleSubmit={recommendationHandleSubmit}
-            />}
+                {searchedItem && <SearchedItemCoverage searchedItem={searchedItem} />}
 
-            {recommendationFormData.selectedSkill && <RecommendedItemsTable
-                selectedItemsSkills={selectedItemsSkills}
-                recommendationFormData={recommendationFormData}
-                recommendedItems={selectedRecommendedItems}
-                type={selectedItemType} />}
-        </div>
+                {selectedItemsSkills && <TableFilterForm
+                    skillList={selectedItemsSkills}
+                    formData={recommendationFormData}
+                    handleChange={recommendationHandleChange}
+                    handleSubmit={recommendationHandleSubmit}
+                />}
+
+                {recommendationFormData.selectedSkill && selectedRecommendedItems && selectedItemsSkills && <RecommendedItemsTable
+                    selectedItemsSkills={selectedItemsSkills}
+                    recommendationFormData={recommendationFormData}
+                    recommendedItems={selectedRecommendedItems}
+                    type={selectedItemType} />}
+            </div>
+        </Providers>
     )
 }

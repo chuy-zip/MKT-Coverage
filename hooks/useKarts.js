@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import {
     fetchUserKarts,
@@ -10,22 +10,28 @@ import {
 import courses from "@public/python/courses_data.json"
 import karts from "@public/python/karts_data.json"
 
-import { useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
-const useKarts = () => {
+const KartsContext = createContext({})
+
+const KartsProvider = ({ children }) => {
 
     const [userKarts, setUserkarts] = useState([])
     const [kartsCoveredCourses, setKartsCoveredCourses] = useState([])
     const [kartsNotCoveredCourses, setKartsNotCoveredCourses] = useState([])
     const [recommendedKarts, setRecommendedKarts] = useState([])
-    const [allCourses, setAllCourses] = useState(courses)
-    const [allKarts, setAllKarts] = useState(karts)
-    
+    const [allCourses] = useState(courses)
+    const [allKarts] = useState(karts)
 
     useEffect(() => {
         const fetchData = async () => {
-            const UKarts = await fetchUserKarts();
-            setUserkarts(UKarts);
+            try {
+                const UKarts = await fetchUserKarts();
+                setUserkarts(UKarts);
+                console.log("Fetched Drivers:", UDrivers); 
+            } catch (error) {
+                console.error("Error fetching user karts:", error);
+            }
         };
 
         fetchData();
@@ -33,18 +39,22 @@ const useKarts = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            if (userKarts){
-                const covCourses = await findCoursesWithCoverage(allKarts, userKarts)
-                setKartsCoveredCourses(covCourses)
-                console.log("Covered courses", covCourses)
-    
-                const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
-                setKartsNotCoveredCourses(coursesNotCov)
-                console.log("Courses not covered", coursesNotCov)
-    
-                const recKarts = await recommendItemsByCoverage(coursesNotCov, allKarts, userKarts)
-                setRecommendedKarts(recKarts)
-                console.log("Recommended Karts:", recKarts)
+            if (userKarts.length > 0) {
+                try {
+                    const covCourses = await findCoursesWithCoverage(allKarts, userKarts)
+                    setKartsCoveredCourses(covCourses)
+                    console.log("Covered courses", covCourses)
+
+                    const coursesNotCov = await findCoursesWithoutCoverage(allCourses, covCourses)
+                    setKartsNotCoveredCourses(coursesNotCov)
+                    console.log("Courses not covered", coursesNotCov)
+
+                    const recKarts = await recommendItemsByCoverage(coursesNotCov, allKarts, userKarts)
+                    setRecommendedKarts(recKarts)
+                    console.log("Recommended Karts:", recKarts)
+                } catch (error) {
+                    console.error("Error fetching karts data:", error);
+                }
             }
         };
 
@@ -52,7 +62,23 @@ const useKarts = () => {
 
     }, [userKarts])
 
-    return {userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts, setUserkarts}
+    return (
+        <KartsContext.Provider value={{
+            userKarts,
+            kartsCoveredCourses,
+            kartsNotCoveredCourses,
+            recommendedKarts,
+            allKarts,
+            setUserkarts
+        }}>
+            {children}
+        </KartsContext.Provider>
+    )
+}
+
+const useKarts = () => {
+    return useContext(KartsContext)
 }
 
 export default useKarts
+export { KartsProvider }

@@ -1,175 +1,170 @@
 export const getAllAbilitiesFromItems = async (itemList) => {
+    try {
+        let allAbilities = new Set();
 
-    let allAbilites = new Set()
+        itemList.forEach(item => {
+            allAbilities.add(item.skill);
+        });
 
-    itemList.forEach( item => {
-        allAbilites.add(item.skill)
-    })
-
-    return Array.from(allAbilites)
+        return Array.from(allAbilities);
+    } catch (error) {
+        console.error("Error in getAllAbilitiesFromItems:", error);
+        throw new Error("Failed to get all abilities from items");
+    }
 }
+
 
 export const countItemsFavoritesFromMissingCourses = async (itemName, itemList, coursesMissingList) => {
-    //Initializing a new object
-    let itemTrackCount = {
-        name: "",
-        count: 0,
-        favorite_courses: []
-    }
+    try {
+        let itemTrackCount = {
+            name: "",
+            count: 0,
+            favorite_courses: []
+        };
 
-    // Creating a set to store non covered courses without repeats
-    let notCoveredCourses = new Set();
-    const item = itemList.find(i => i.name.toLowerCase() == itemName.toLowerCase().trim())
+        let notCoveredCourses = new Set();
+        const item = itemList.find(i => i.name.toLowerCase() == itemName.toLowerCase().trim());
 
-    // Case in which the requested item by the user is not found
-    if(!item){
-        return null
-    }
-
-    // Saving the real name once the item is confirmed to exist
-    itemTrackCount.name = item.name
-
-    // Storing all the courses that the searched item covers form the missing courses list, inside the set
-    item.favorite_courses.forEach(course => {
-        if(coursesMissingList.some(missingCourse => missingCourse === course)){
-            itemTrackCount.count += 1
-            notCoveredCourses.add(course)
+        if (!item) {
+            return null;
         }
-    })
 
-    // Changing the set into an array and then returning the final object
-    itemTrackCount.favorite_courses = Array.from(notCoveredCourses)
-    return itemTrackCount
+        itemTrackCount.name = item.name;
+
+        item.favorite_courses.forEach(course => {
+            if (coursesMissingList.some(missingCourse => missingCourse === course)) {
+                itemTrackCount.count += 1;
+                notCoveredCourses.add(course);
+            }
+        });
+
+        itemTrackCount.favorite_courses = Array.from(notCoveredCourses);
+        return itemTrackCount;
+    } catch (error) {
+        console.error("Error in countItemsFavoritesFromMissingCourses:", error);
+        throw new Error("Failed to count item favorites from missing courses");
+    }
 }
+
 
 export const recommendItemsByCoverage = async (coursesMissingList, items, userItems) => {
+    try {
+        let itemTrackCount = [];
 
-    let itemTrackCount = []
+        userItems.forEach(userItem => {
+            if (!userItem.owned) {
+                const itemNotOwned = items.find(item => item.id === userItem.id);
 
-    // I iterate through every userItems
-    userItems.forEach(userItem => {
+                itemNotOwned.favorite_courses.forEach(course => {
+                    let itemFound = itemTrackCount.find(savedItem => savedItem.name === itemNotOwned.name);
 
-        // I'm looking to recommend drivers that the user does not posses
-        if (!userItem.owned) {
-            const itemNotOwned = items.find(item => item.id === userItem.id)
-
-            // Iterate through the favorite courses of the drivers that are not owned
-            itemNotOwned.favorite_courses.forEach(course => {
-
-                let itemFound = itemTrackCount.find(savedItem => savedItem.name === itemNotOwned.name)
-
-                // Here I find and count each time a not owned driver has a missinCourse as a favorite course
-                if (coursesMissingList.some(missingCourse => missingCourse === course)) {
-
-                    if (!itemFound) {
-                        itemTrackCount.push({ 
-                            name: itemNotOwned.name, 
-                            rarity: itemNotOwned.rarity, 
-                            skill: itemNotOwned.skill,
-                            count: 1})
-
-                    } else {
-                        itemFound.count += 1
+                    if (coursesMissingList.some(missingCourse => missingCourse === course)) {
+                        if (!itemFound) {
+                            itemTrackCount.push({ 
+                                name: itemNotOwned.name, 
+                                rarity: itemNotOwned.rarity, 
+                                skill: itemNotOwned.skill,
+                                count: 1
+                            });
+                        } else {
+                            itemFound.count += 1;
+                        }
                     }
-                }
-            })
-        }
-    })
+                });
+            }
+        });
 
-    //sorting the array of objects
-    itemTrackCount.sort((a, b) => {
-        if (a.count < b.count){
-            return 1
-        }
-        if (a.count > b.count){
-            return -1
-        }
-        return 0
-    })
+        itemTrackCount.sort((a, b) => b.count - a.count);
 
-    return itemTrackCount
+        return itemTrackCount;
+    } catch (error) {
+        console.error("Error in recommendItemsByCoverage:", error);
+        throw new Error("Failed to recommend items by coverage");
+    }
 }
+
 
 export const findCoursesWithoutCoverage = async (allCoursesList, coveredCoursesList) => {
-    let coursesQTY = allCoursesList.length
-    let notCovCoursesQTY = coveredCoursesList.length
-    console.log("There are ", coursesQTY, " in total and you cover ", notCovCoursesQTY)
-    console.log("You still have to cover ", coursesQTY - notCovCoursesQTY, " courses")
-    let coursesNotCov = allCoursesList.filter(course => !coveredCoursesList.some(coveredCourse => coveredCourse === course))
-    return coursesNotCov
+    try {
+        let coursesQTY = allCoursesList.length;
+        let notCovCoursesQTY = coveredCoursesList.length;
+        console.log("There are ", coursesQTY, " in total and you cover ", notCovCoursesQTY);
+        console.log("You still have to cover ", coursesQTY - notCovCoursesQTY, " courses");
+        let coursesNotCov = allCoursesList.filter(course => !coveredCoursesList.some(coveredCourse => coveredCourse === course));
+        return coursesNotCov;
+    } catch (error) {
+        console.error("Error in findCoursesWithoutCoverage:", error);
+        throw new Error("Failed to find courses without coverage");
+    }
 }
 
+
 export const findCoursesWithCoverage = async (items, userItems) => {
-    let coveredCourses = new Set();
+    try {
+        let coveredCourses = new Set();
 
-    //we iterate through all the drivers available
-    userItems.forEach(userItem => {
-
-        //if the user has it
-        if (userItem.owned) {
-
-            //Getting the driver with the corresponding id
-            const driver = items.find(i => i.id === userItem.id);
-            // Iterate through the favorite courses and add them to the list
-            // as coveredCourses is a Set it wont accept repeated elemnts
-            if (driver) {
-                driver.favorite_courses.forEach(course => coveredCourses.add(course));
+        userItems.forEach(userItem => {
+            if (userItem.owned) {
+                const driver = items.find(i => i.id === userItem.id);
+                if (driver) {
+                    driver.favorite_courses.forEach(course => coveredCourses.add(course));
+                }
             }
+        });
 
-        }
-    })
-    //Get the array from the set
-    return Array.from(coveredCourses);
+        return Array.from(coveredCourses);
+    } catch (error) {
+        console.error("Error in findCoursesWithCoverage:", error);
+        throw new Error("Failed to find courses with coverage");
+    }
 }
 
 export const fetchUserDrivers = async () => {
     try {
-        
-        let driversList = await fetch('/python/example/MyDrivers.json')
+        let driversList = await fetch('/python/example/MyDrivers.json');
 
         if (!driversList.ok) {
-            throw new Error('failed to fetch drivers')
+            throw new Error('Failed to fetch drivers');
         }
 
-        let json_drivers = await driversList.json()
-        return json_drivers
-
+        let json_drivers = await driversList.json();
+        return json_drivers;
     } catch (error) {
-        console.error("Error while fetching data:", error)
+        console.error("Error while fetching drivers:", error);
+        throw new Error("Failed to fetch user drivers");
     }
 }
 
 export const fetchUserKarts = async () => {
     try {
-        
-        let kartsList = await fetch('/python/example/MyKarts.json')
+        let kartsList = await fetch('/python/example/MyKarts.json');
 
         if (!kartsList.ok) {
-            throw new Error('failed to fetch drivers')
+            throw new Error('Failed to fetch karts');
         }
 
-        let json_karts = await kartsList.json()
-        return json_karts
-
+        let json_karts = await kartsList.json();
+        return json_karts;
     } catch (error) {
-        console.error("Error while fetching data:", error)
+        console.error("Error while fetching karts:", error);
+        throw new Error("Failed to fetch user karts");
     }
 }
 
 export const fetchUserGliders = async () => {
     try {
-        
-        let glidersList = await fetch('/python/example/MyGliders.json')
+        let glidersList = await fetch('/python/example/MyGliders.json');
 
         if (!glidersList.ok) {
-            throw new Error('failed to fetch drivers')
+            throw new Error('Failed to fetch gliders');
         }
 
-        let json_gliders = await glidersList.json()
-        return json_gliders
-
+        let json_gliders = await glidersList.json();
+        return json_gliders;
     } catch (error) {
-        console.error("Error while fetching data:", error)
+        console.error("Error while fetching gliders:", error);
+        throw new Error("Failed to fetch user gliders");
     }
 }
+
 
