@@ -5,6 +5,7 @@ import {
     findCoursesWithCoverage,
     findCoursesWithoutCoverage,
     recommendItemsByCoverage,
+    getAllAbilitiesFromItems
 } from "@/controller/itemController";
 
 import courses from "@public/python/courses_data.json"
@@ -22,6 +23,7 @@ const GlidersProvider = ({ children }) => {
     const [recommendedGliders, setRecommendedGliders] = useState([])
     const [allCourses, setAllCourses] = useState(courses)
     const [allGliders, setAllGliders] = useState(Gliders)
+    const [glidersSkillList, setGlidersSkillList] = useState([])
     
 
     useEffect(() => {
@@ -29,6 +31,9 @@ const GlidersProvider = ({ children }) => {
             try {
                 const UGliders = await fetchUserGliders();
                 setUserGliders(UGliders);
+
+                const skills = await getAllAbilitiesFromItems(allGliders)
+                setGlidersSkillList(skills)
             } catch (error) {
                 console.error("Error fetching user gliders:", error);
             }
@@ -52,6 +57,7 @@ const GlidersProvider = ({ children }) => {
                     const recGliders = await recommendItemsByCoverage(coursesNotCov, allGliders, userGliders);
                     setRecommendedGliders(recGliders);
                     console.log("Recommended Gliders:", recGliders);
+
                 } catch (error) {
                     console.error("Error fetching gliders data:", error);
                 }
@@ -68,7 +74,8 @@ const GlidersProvider = ({ children }) => {
             glidersCoveredCourses, 
             glidersNotCoveredCourses, 
             recommendedGliders, 
-            allGliders, 
+            allGliders,
+            glidersSkillList,
             setUserGliders}}>
                 {children}
             </GlidersContext.Provider>

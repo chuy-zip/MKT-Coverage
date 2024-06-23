@@ -32,7 +32,7 @@ export default function CoursesCoverageData({ type }) {
             <div className={Styles.missingCourses}>
 
                 <ol>
-                    {currentCoveredCourses.map((course, index) => (
+                    {currentNotCoveredCourses.map((course, index) => (
                         <li key={index}>{course}</li>
                     ))}
                 </ol>

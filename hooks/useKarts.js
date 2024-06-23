@@ -5,6 +5,7 @@ import {
     findCoursesWithCoverage,
     findCoursesWithoutCoverage,
     recommendItemsByCoverage,
+    getAllAbilitiesFromItems
 } from "@/controller/itemController";
 
 import courses from "@public/python/courses_data.json"
@@ -22,12 +23,17 @@ const KartsProvider = ({ children }) => {
     const [recommendedKarts, setRecommendedKarts] = useState([])
     const [allCourses] = useState(courses)
     const [allKarts] = useState(karts)
+    const [kartsSkillList, setKartsSkillList] = useState([])
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const UKarts = await fetchUserKarts();
                 setUserkarts(UKarts);
+
+                const skills = await getAllAbilitiesFromItems(allKarts)
+                setKartsSkillList(skills)
+
             } catch (error) {
                 console.error("Error fetching user karts:", error);
             }
@@ -68,6 +74,7 @@ const KartsProvider = ({ children }) => {
             kartsNotCoveredCourses,
             recommendedKarts,
             allKarts,
+            kartsSkillList,
             setUserkarts
         }}>
             {children}
