@@ -30,19 +30,13 @@ export default function Coverage() {
     const { userKarts, kartsCoveredCourses, kartsNotCoveredCourses, recommendedKarts, allKarts } = useKarts()
     const { userGliders, glidersCoveredCourses, glidersNotCoveredCourses, recommendedGliders, allGliders } = useGliders()
 
-    const [formData, setFormData] = useState({
-        itemName: '',
-    })
     const [recommendationFormData, setRecommendationFormData] = useState({ rarity: [], selectedSkill: 'All' })
     const [selectedItemsSkills, setSelectedItemsSkills] = useState()
 
     const [searchedItem, setSearchedItem] = useState()
     const [selectedItemType, setSelectedItemType] = useState("Drivers")
-    const [selectedUserItems, setSelectedUserItems] = useState(userDrivers)
-    const [selectedCoveredCourses, setSelectedCoveredCourses] = useState(driversCoveredCourses)
-    const [selectedNotCoveredCourses, setSelectedNotCoveredCourses] = useState(driversNotCoveredCourses)
     const [selectedRecommendedItems, setSelectedRecommendedItems] = useState(recommendedDrivers)
-    const [allSelectedItems, setAllSelectedItems] = useState(allDrivers)
+
 
     useEffect(() => {
 
@@ -50,29 +44,19 @@ export default function Coverage() {
 
             if (selectedItemType === 'Karts' && allKarts) {
                 console.log("Aqui")
-                setSelectedUserItems(userKarts)
-                setSelectedCoveredCourses(kartsCoveredCourses)
-                setSelectedNotCoveredCourses(kartsNotCoveredCourses)
                 setSelectedRecommendedItems(recommendedKarts)
-                setAllSelectedItems(allKarts)
                 const skillList = await getAllAbilitiesFromItems(allKarts)
                 setSelectedItemsSkills(skillList)
+
             } else if (selectedItemType === 'Gliders' && allGliders) {
                 console.log("Aqui2")
-                setSelectedUserItems(userGliders)
-                setSelectedCoveredCourses(glidersCoveredCourses)
-                setSelectedNotCoveredCourses(glidersNotCoveredCourses)
                 setSelectedRecommendedItems(recommendedGliders)
-                setAllSelectedItems(allGliders)
                 const skillList = await getAllAbilitiesFromItems(allGliders)
                 setSelectedItemsSkills(skillList)
-            } else if (selectedItemType === "Drivers" && allDrivers){
+
+            } else if (selectedItemType === "Drivers" && allDrivers) {
                 console.log("Aqui3")
-                setSelectedUserItems(userDrivers)
-                setSelectedCoveredCourses(driversCoveredCourses)
-                setSelectedNotCoveredCourses(driversNotCoveredCourses)
                 setSelectedRecommendedItems(recommendedDrivers)
-                setAllSelectedItems(allDrivers)
                 const skillList = await getAllAbilitiesFromItems(allDrivers)
                 setSelectedItemsSkills(skillList)
             }
@@ -85,34 +69,6 @@ export default function Coverage() {
         userDrivers, driversCoveredCourses, driversNotCoveredCourses, recommendedDrivers,
         userGliders, glidersCoveredCourses, glidersNotCoveredCourses, recommendedGliders])
 
-    const handleChange = (e) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value
-        })
-    }
-
-    const handleSubmit = async (e) => {
-        e.preventDefault()
-
-        if (!formData.itemName) {
-            alert("Please enter an item to search")
-            return
-        }
-
-        try {
-            const itemCount = await countItemsFavoritesFromMissingCourses(formData.itemName, allSelectedItems, selectedNotCoveredCourses)
-            if (!itemCount) {
-                alert(`Unable to find the searched item on ${selectedItemType}`)
-            }
-
-            setSearchedItem(itemCount)
-
-        } catch (error) {
-            console.error("Something wen't wrong", error)
-
-        }
-    }
 
     const recommendationHandleChange = (e) => {
         const { name, value, checked, type } = e.target;
@@ -162,9 +118,9 @@ export default function Coverage() {
 
                 <Items type={selectedItemType} />
 
-                <CoursesCoverageData type={selectedItemType}/>
+                <CoursesCoverageData type={selectedItemType} />
 
-                <ItemCoverageForm type={selectedItemType} handleChange={handleChange} handleSubmit={handleSubmit} formData={formData} />
+                <ItemCoverageForm type={selectedItemType} setSearchedItem={setSearchedItem} />
 
                 {searchedItem && <SearchedItemCoverage searchedItem={searchedItem} />}
 

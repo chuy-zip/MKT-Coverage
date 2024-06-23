@@ -28,7 +28,6 @@ const KartsProvider = ({ children }) => {
             try {
                 const UKarts = await fetchUserKarts();
                 setUserkarts(UKarts);
-                console.log("Fetched Drivers:", UDrivers); 
             } catch (error) {
                 console.error("Error fetching user karts:", error);
             }
