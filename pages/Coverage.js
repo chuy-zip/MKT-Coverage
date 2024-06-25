@@ -9,6 +9,7 @@ import SearchedItemCoverage from '@/components/SearchedItemCoverage';
 import RecommendedItemsTable from '@/components/RecommendedItemsTable';
 import Items from '@/components/Items';
 import ItemTypeBar from '@/components/ItemTypeBar';
+import ModifyDataButton from '@/components/ModifyDataButton';
 
 import { useState } from "react";
 
@@ -32,6 +33,11 @@ export default function Coverage() {
                 <h2>
                     Select the {selectedItemType} you own and then press the button to get the recommended items
                 </h2>
+
+                <div className={styles.buttonContainer}>
+                    <ModifyDataButton type={selectedItemType} ItemsOwnership={true} />
+                    <ModifyDataButton type={selectedItemType} ItemsOwnership={false} />
+                </div>
 
                 <Items type={selectedItemType} />
 

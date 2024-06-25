@@ -4,7 +4,7 @@ import Item from "@components/Item";
 import useDrivers from '@/hooks/useDrivers';
 import useGliders from '@/hooks/useGliders';
 import useKarts from '@/hooks/useKarts';
-import { useEffect, useState, useMemo } from 'react';
+import { useMemo } from 'react';
 
 export default function Items({ type }) {
     const { userDrivers, setUserDrivers } = useDrivers();

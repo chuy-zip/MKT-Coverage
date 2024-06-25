@@ -7,17 +7,16 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>
-        Hi from the initial version for MKT-Coverage :o
+        Hi from the initial beta version for MKT-Coverage :o
       </h1>
 
       <h2>
-        Take a look to this pages and check the console log to see the results
+        Take a look to this page and try the item coverage online tool for Mario Kart Tour
       </h2>
 
       <ul>
-        <li> <a href="http://localhost:3000/Coverage/drivers"> Drivers Coverage </a></li>
-        <li> <a href="http://localhost:3000/Coverage/karts">Karts Coverage </a></li>
-        <li> <a href="http://localhost:3000/Coverage/gliders">Gliders Coverage</a></li>
+        <li> <a href="http://localhost:3000/Coverage"> Item Coverage page</a></li>
+
       </ul>
     </main>
   );
