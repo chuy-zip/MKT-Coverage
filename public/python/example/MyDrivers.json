@@ -399,7 +399,7 @@
         "id": 67,
         "name": "Yellow Shy Guy",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 68,
@@ -951,7 +951,7 @@
         "id": 159,
         "name": "Luigi (Gold Knight)",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 160,
@@ -1545,7 +1545,7 @@
         "id": 258,
         "name": "Fish Bone Mii Racing Suit",
         "type": "driver",
-        "owned": false
+        "owned": true
     },
     {
         "id": 259,

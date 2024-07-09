@@ -65,7 +65,7 @@ White Shy Guy,False
 Koopa (Freerunning),False
 Orange Shy Guy,False
 Birdo (Red),True
-Yellow Shy Guy,False
+Yellow Shy Guy,True
 Birdo (Green),True
 Metal Mario,True
 Peachette,True
@@ -157,7 +157,7 @@ Toad (Astronaut),False
 Toadette (Astronaut),False
 Poochy,False
 Toad (Tourist),False
-Luigi (Gold Knight),False
+Luigi (Gold Knight),True
 Pauline (Cowgirl),False
 Mario (Black Suit),False
 Gold Mario,True
@@ -256,7 +256,7 @@ Daisy Mii Racing Suit,False
 Pink Mii Racing Suit,True
 Monty Mole Mii Racing Suit,False
 Waluigi Mii Racing Suit,True
-Fish Bone Mii Racing Suit,False
+Fish Bone Mii Racing Suit,True
 Light Green Mii Racing Suit,False
 Wiggler Mii Racing Suit,False
 Toadette Mii Racing Suit,True
@@ -513,7 +513,7 @@ Gold Cupid's Arrow,False
 Silver Cupid's Arrow,False
 Silver Warrior Wagon,False
 Gold Warrior Wagon,True
-Black Shielded Speedster,False
+Black Shielded Speedster,True
 Gold Shielded Speedster,False
 Yeehaw Wagon,False
 Desert Rose Wagon,False
@@ -525,7 +525,7 @@ Purple Rattle Buggy,False
 Goo-Goo Gold,False
 Gold Wild Slugger,True
 Spicy Zucchini,True
-Chocolate Mint Soft Swerve,False
+Chocolate Mint Soft Swerve,True
 Gold Soft Swerve,False
 Monarch Kart,True
 Gold Monarch Kart,False
@@ -595,7 +595,7 @@ Dry Bones Dasher,False
 Waluigi Racer Mk. 2,True
 Chain Chomp Chariot,False
 Fish Bone Ferry,False
-Gold Fish Bone Ferry,False
+Gold Fish Bone Ferry,True
 Wiggler Egg,True
 Boo Pipes,False
 Gold Pipes,False
@@ -678,7 +678,7 @@ Toe-Bean Balloons,False
 Calico Parafoil,False
 Black Great Sail,False
 Silver Manta Glider,False
-Rose Parasol,False
+Rose Parasol,True
 Snow Crystals,False
 8-Bit Fire Flower,False
 Surf Master,False
@@ -710,7 +710,7 @@ Black Cat Parafoil,False
 Cat Parafoil,False
 Gold Toe-Bean Balloons,False
 Glittering Parasol,False
-Luigi Parafoil,False
+Luigi Parafoil,True
 Sky-High Flyer,False
 Record Setter,False
 Mario's Mustache,False
@@ -792,7 +792,7 @@ Royal Flush,False
 Rainbow Bells,False
 Gold Mario's Hat Balloon,True
 Swooper,True
-Bullet Bill Parachute,False
+Bullet Bill Parachute,True
 Cloud Glider,True
 Rainy Balloons,True
 Wicked Wings,False
@@ -814,10 +814,10 @@ Wario's Mustache,False
 Waluigi's Mustache,False
 Wonderful Wings,False
 Wicked Topaz,False
-Piranha Plant Balloons,False
+Piranha Plant Balloons,True
 Secret Scroll,False
 Lava Rocks,False
-Black Starchute,False
+Black Starchute,True
 Boo Masks,False
 Nabbit Parachute,False
 Gold Boo Masks,False

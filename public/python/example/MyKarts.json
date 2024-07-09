@@ -1497,7 +1497,7 @@
         "id": 515,
         "name": "Black Shielded Speedster",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 516,
@@ -1569,7 +1569,7 @@
         "id": 527,
         "name": "Chocolate Mint Soft Swerve",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 528,
@@ -1989,7 +1989,7 @@
         "id": 597,
         "name": "Gold Fish Bone Ferry",
         "type": "kart",
-        "owned": false
+        "owned": true
     },
     {
         "id": 598,

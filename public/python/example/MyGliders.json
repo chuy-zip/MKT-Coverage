@@ -471,7 +471,7 @@
         "id": 680,
         "name": "Rose Parasol",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 681,
@@ -663,7 +663,7 @@
         "id": 712,
         "name": "Luigi Parafoil",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 713,
@@ -1155,7 +1155,7 @@
         "id": 794,
         "name": "Bullet Bill Parachute",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 795,
@@ -1287,7 +1287,7 @@
         "id": 816,
         "name": "Piranha Plant Balloons",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 817,
@@ -1305,7 +1305,7 @@
         "id": 819,
         "name": "Black Starchute",
         "type": "glider",
-        "owned": false
+        "owned": true
     },
     {
         "id": 820,
