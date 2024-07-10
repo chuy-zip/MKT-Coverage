@@ -1,0 +1,8 @@
+.InputBoxesContainer{
+    display: grid;
+    margin: auto;
+    grid-gap: 10px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: aqua;
+}
